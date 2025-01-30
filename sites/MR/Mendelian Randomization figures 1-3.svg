@@ -1,0 +1,2905 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="Mendelian Randomization figures 1-3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.72776573"
+     inkscape:cx="304.35618"
+     inkscape:cy="423.21311"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86986"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="ExperimentalArrow"
+       refX="5.0"
+       refY="3.0"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="m 10,3 -10,3 0,-6 z"
+         id="path86343" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Tail"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Tail"
+       inkscape:isstock="true">
+      <g
+         transform="scale(-1.2)"
+         id="g86138">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.8;stroke-linecap:round"
+           d="M -3.8048674,-3.9585227 L 0.54352094,0"
+           id="path86126" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.8;stroke-linecap:round"
+           d="M -1.2866832,-3.9585227 L 3.0617053,0"
+           id="path86128" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.8;stroke-linecap:round"
+           d="M 1.3053582,-3.9585227 L 5.6537466,0"
+           id="path86130" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.8;stroke-linecap:round"
+           d="M -3.8048674,4.1775838 L 0.54352094,0.21974226"
+           id="path86132" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.8;stroke-linecap:round"
+           d="M -1.2866832,4.1775838 L 3.0617053,0.21974226"
+           id="path86134" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.8;stroke-linecap:round"
+           d="M 1.3053582,4.1775838 L 5.6537466,0.21974226"
+           id="path86136" />
+      </g>
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path86099" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path86232" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect86514"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path86090" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path86093" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-22"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-9" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-23"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-2" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-3"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-91" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-9"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-35" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-1"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-4" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-0"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-96" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-7"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-23" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-1"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-4" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-3"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-05" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-8"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-9" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-5"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-0" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883-3"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="ExperimentalArrow-03"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-05" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883-9"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="ExperimentalArrow-03-9"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-05-1" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883-9-2"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="ExperimentalArrow-03-9-0"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-05-1-8" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883-9-2-4"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="ExperimentalArrow-03-9-0-8"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-05-1-8-0" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883-9-2-4-4"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="ExperimentalArrow-03-9-0-6"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-05-1-8-5" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883-9-2-4-1"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="ExperimentalArrow-2-2-4"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-2" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-04"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-98" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883-6"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="ExperimentalArrow-2-2-4-9"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-2-0" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-4-9-6"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-2-0-9" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-04-3"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-98-2" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883-6-0"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="ExperimentalArrow-2-2-4-9-6-6"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-2-0-9-9" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-04-3-6"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-98-2-0" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883-6-0-6"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="ExperimentalArrow-04-3-6-5"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-98-2-0-8" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883-6-0-6-8"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="ExperimentalArrow-04-3-6-8"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-98-2-0-2" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883-6-0-6-3"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="ExperimentalArrow-7-8"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-23-4" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-05"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-1" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0-1"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9-3" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-05-7"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-1-1" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0-1-8"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9-3-0" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-05-7-0"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-1-1-1" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0-1-8-6"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9-3-0-6" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-05-7-0-4"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-1-1-1-3" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0-1-8-6-8"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9-3-0-6-6" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0-1-8-6-8-9"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9-3-0-6-6-9" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-7-8-3"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-23-4-8" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-7-8-3-2"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-23-4-8-6" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-7-8-3-2-3"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-23-4-8-6-7" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0-1-8-6-8-99"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9-3-0-6-6-3" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-7-8-3-4"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-23-4-8-4" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0-1-8-6-8-1"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9-3-0-6-6-2" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0-1-8-6-8-9-2"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9-3-0-6-6-9-1" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-7-8-3-0"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-23-4-8-3" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-7-8-3-2-36"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-23-4-8-6-2" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0-1-8-6-8-99-3"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9-3-0-6-6-3-3" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-7-8-3-4-2"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-23-4-8-4-0" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0-1-8-6-8-1-1"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9-3-0-6-6-2-7" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0-1-8-6-8-9-2-5"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9-3-0-6-6-9-1-0" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-7-8-3-0-5"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-23-4-8-3-7" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-7-8-3-2-36-2"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-23-4-8-6-2-3" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-2-2-0-1-8-6-8-99-3-8"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-3-0-9-3-0-6-6-3-3-0" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-7-8-3-4-2-3"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-23-4-8-4-0-8" />
+    </marker>
+    <marker
+       id="ExperimentalArrow-37"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path86343-6" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect86883-1"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="Lag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g116627"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#c83737;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.39261;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426"
+         width="9.8913898"
+         height="6.6073904"
+         x="104.27597"
+         y="40.855907"
+         ry="1.251" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="106.51428"
+         y="45.483551"
+         id="text51477"><tspan
+           sodipodi:role="line"
+           id="tspan51475"
+           style="stroke-width:0.264583"
+           x="106.51428"
+           y="45.483551">Yes</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+       x="76.657768"
+       y="17.107309"
+       id="text6931"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000"><tspan
+         sodipodi:role="line"
+         id="tspan6929"
+         style="font-weight:bold;font-size:6.35px;stroke-width:0.264583"
+         x="76.657768"
+         y="17.107309">Two-Sample MR analysis</tspan></text>
+    <g
+       id="g116330"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#f36d16;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.363754;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821-5"
+         width="55.626247"
+         height="6.6362462"
+         x="81.408546"
+         y="28.31819"
+         ry="0.94803518" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="83.371071"
+         y="32.69878"
+         id="text20771"><tspan
+           sodipodi:role="line"
+           id="tspan20769"
+           style="stroke-width:0.264583"
+           x="83.371071"
+           y="32.69878">Multiple genetic instruments?</tspan></text>
+    </g>
+    <g
+       id="g116335"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#f36d16;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.274614;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821"
+         width="31.283386"
+         height="6.7253866"
+         x="93.579979"
+         y="53.315029"
+         ry="0.96076953" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="95.796143"
+         y="57.737087"
+         id="text22623"><tspan
+           sodipodi:role="line"
+           id="tspan22621"
+           style="stroke-width:0.264583"
+           x="95.796143"
+           y="57.737087">Summary data?</tspan></text>
+    </g>
+    <g
+       id="g116340"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000"
+       transform="translate(-2.4919987)">
+      <rect
+         style="fill:#f36d16;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.37496;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821-55"
+         width="59.206039"
+         height="6.625041"
+         x="82.110649"
+         y="78.406601"
+         ry="0.94643444" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="84.351021"
+         y="82.781586"
+         id="text26329"><tspan
+           sodipodi:role="line"
+           id="tspan26327"
+           style="stroke-width:0.264583"
+           x="84.351021"
+           y="82.781586">Are all gentic instruments valid?</tspan></text>
+    </g>
+    <g
+       id="g116345"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000"
+       transform="translate(-1.562685)">
+      <rect
+         style="fill:#f36d16;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.428716;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821-55-9"
+         width="78.032288"
+         height="6.5712848"
+         x="71.768211"
+         y="103.47384"
+         ry="0.93875498" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="73.69828"
+         y="107.82195"
+         id="text33863"><tspan
+           sodipodi:role="line"
+           id="tspan33861"
+           style="stroke-width:0.264583"
+           x="73.69828"
+           y="107.82195">How many genetic instruments are invalid?</tspan></text>
+    </g>
+    <g
+       id="g116350"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#f36d16;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.358315;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821-55-1"
+         width="53.930687"
+         height="6.6416864"
+         x="82.256325"
+         y="128.23097"
+         ry="0.94881237" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="84.221664"
+         y="132.97188"
+         id="text36633"><tspan
+           sodipodi:role="line"
+           id="tspan36631"
+           style="stroke-width:0.264583"
+           x="84.221664"
+           y="132.97188">Is the InSIDE assumtion met?</tspan></text>
+    </g>
+    <g
+       id="g116632"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#c83737;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.39261;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-7"
+         width="9.8913898"
+         height="6.6073904"
+         x="104.27597"
+         y="65.892143"
+         ry="1.2508073" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="106.51428"
+         y="70.519791"
+         id="text52723"><tspan
+           sodipodi:role="line"
+           id="tspan52721"
+           style="stroke-width:0.264583"
+           x="106.51428"
+           y="70.519791">Yes</tspan></text>
+    </g>
+    <g
+       id="g116564"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#deaa87;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.366066;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116374-43"
+         width="9.0569344"
+         height="6.633934"
+         x="104.6932"
+         y="90.922333"
+         ry="1.3104336" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="106.65438"
+         y="95.56015"
+         id="text53989"><tspan
+           sodipodi:role="line"
+           id="tspan53987"
+           style="stroke-width:0.264583"
+           x="106.65438"
+           y="95.56015">No</tspan></text>
+    </g>
+    <g
+       id="g116999"
+       transform="translate(7.1525574e-6,-0.52916667)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#deaa87;fill-opacity:0.701961;stroke:#f7f7f7;stroke-width:0.356317;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116666"
+         width="14.668683"
+         height="6.643683"
+         x="101.88732"
+         y="116.54176"
+         ry="1.2375952" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="104.00028"
+         y="121.20409"
+         id="text56765"><tspan
+           sodipodi:role="line"
+           id="tspan56763"
+           style="stroke-width:0.264583"
+           x="104.00028"
+           y="121.20409">&gt; 50%</tspan></text>
+    </g>
+    <g
+       id="g116559"
+       transform="translate(3.8146973e-6,0.49961784)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#deaa87;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.366066;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116374-5"
+         width="9.0569344"
+         height="6.633934"
+         x="104.6932"
+         y="140.39742"
+         ry="1.3104336" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="106.65438"
+         y="145.03523"
+         id="text59715"><tspan
+           sodipodi:role="line"
+           id="tspan59713"
+           style="stroke-width:0.264583"
+           x="106.65438"
+           y="145.03523">No</tspan></text>
+    </g>
+    <g
+       id="g116574"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#deaa87;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.366066;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116374"
+         width="9.0569344"
+         height="6.633934"
+         x="83.311562"
+         y="40.842632"
+         ry="1.3104336" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="85.272743"
+         y="45.48045"
+         id="text63261"><tspan
+           sodipodi:role="line"
+           id="tspan63259"
+           style="stroke-width:0.264583"
+           x="85.272743"
+           y="45.48045">No</tspan></text>
+    </g>
+    <g
+       id="g1039"
+       transform="translate(13.229169,4.4440754)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#fbc98c;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.282;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect88204"
+         width="32.642334"
+         height="9.7183332"
+         x="17.40509"
+         y="49.491146"
+         ry="2" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="22.138344"
+         y="55.770378"
+         id="text64783"><tspan
+           sodipodi:role="line"
+           id="tspan64781"
+           style="stroke-width:0.264583;font-weight:bold"
+           x="22.138344"
+           y="55.770378">Wald method</tspan></text>
+    </g>
+    <g
+       id="g116569"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#deaa87;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.366066;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116374-4"
+         width="9.0569344"
+         height="6.633934"
+         x="83.311562"
+         y="65.878876"
+         ry="1.3104336" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="85.272743"
+         y="70.516693"
+         id="text68065"><tspan
+           sodipodi:role="line"
+           id="tspan68063"
+           style="stroke-width:0.264583"
+           x="85.272743"
+           y="70.516693">No</tspan></text>
+    </g>
+    <g
+       id="g116637"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#c83737;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.39261;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-1"
+         width="9.8913898"
+         height="6.6073904"
+         x="82.894333"
+         y="90.9356"
+         ry="1.2508073" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="85.132645"
+         y="95.563248"
+         id="text69557"><tspan
+           sodipodi:role="line"
+           id="tspan69555"
+           style="stroke-width:0.264583"
+           x="85.132645"
+           y="95.563248">Yes</tspan></text>
+    </g>
+    <g
+       id="g117004"
+       transform="translate(0,-0.52916667)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#c83737;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.356317;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116666-7"
+         width="14.668683"
+         height="6.643683"
+         x="80.505684"
+         y="116.54176"
+         ry="1.2375952" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="82.651718"
+         y="121.20409"
+         id="text72747"><tspan
+           sodipodi:role="line"
+           id="tspan72745"
+           style="stroke-width:0.264583"
+           x="82.651718"
+           y="121.20409">&lt; 50%</tspan></text>
+    </g>
+    <g
+       id="g116642"
+       transform="translate(0,0.49961784)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#c83737;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.39261;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4"
+         width="9.8913898"
+         height="6.6073904"
+         x="82.894333"
+         y="140.41069"
+         ry="1.2508073" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="85.132645"
+         y="145.03833"
+         id="text76013"><tspan
+           sodipodi:role="line"
+           id="tspan76011"
+           style="stroke-width:0.264583"
+           x="85.132645"
+           y="145.03833">Yes</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow)"
+       d="m 109.22167,34.877 v 4.644"
+       id="path86086"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ExperimentalArrow)"
+       d="M 87.419,47.273671 V 48.965 H 47.593 v 3.612"
+       id="path86881"
+       inkscape:path-effect="#path-effect86883"
+       inkscape:original-d="M 87.419,47.273671 V 48.965 H 47.593 v 3.612"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-2)"
+       d="m 109.22167,47.376 v 4.214136"
+       id="path86086-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-23)"
+       d="m 109.22167,72.412 v 4.214374"
+       id="path86086-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-9)"
+       d="m 109.22167,97.452 v 4.21474"
+       id="path86086-2"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-0)"
+       d="m 109.22167,122.602 v 4.21465"
+       id="path86086-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-2-2)"
+       d="M 103.92997,34.877 92.288303,40.321"
+       id="path86086-8-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <g
+       id="g108306"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <g
+         id="g1044"
+         transform="translate(0,7.5591435)">
+        <rect
+           style="fill:#fbc98c;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.297499;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+           id="rect88228"
+           width="54.796501"
+           height="9.7025013"
+           x="11.792768"
+           y="95.936592"
+           ry="2" />
+        <text
+           xml:space="preserve"
+           style="font-size:4.23347px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264591"
+           x="16.288319"
+           y="101.85034"
+           id="text70521"><tspan
+             sodipodi:role="line"
+             id="tspan70519"
+             style="stroke-width:0.264591;font-weight:bold"
+             x="16.288319"
+             y="101.85034">Inverse variance weighting</tspan></text>
+      </g>
+      <g
+         id="g83077"
+         transform="translate(2.6478987,1.3386021)">
+        <rect
+           style="fill:#ffeeaa;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.326154;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+           id="rect82741"
+           width="51.786846"
+           height="13.673846"
+           x="9.1448689"
+           y="110.27213"
+           ry="2" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+           x="11.421287"
+           y="115.79044"
+           id="text13333"><tspan
+             sodipodi:role="line"
+             id="tspan13331"
+             style="font-size:3.52778px;stroke-width:0.264583"
+             x="11.421287"
+             y="115.79044"><tspan
+   style="font-weight:bold"
+   id="tspan128601">Breakdown level:</tspan> 0%</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:3.52778px;stroke-width:0.264583"
+             x="11.421287"
+             y="120.20016"
+             id="tspan18933"><tspan
+   style="font-weight:bold"
+   id="tspan140011">Assumption 2</tspan> and <tspan
+   style="font-weight:bold"
+   id="tspan141657">3</tspan> must be met</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g83110"
+       transform="translate(0,17.462505)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <g
+         id="g1049"
+         transform="translate(0,8.8774268)">
+        <rect
+           style="fill:#fbc98c;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.308353;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+           id="rect88230"
+           width="57.461647"
+           height="9.6916485"
+           x="12.343084"
+           y="117.82856"
+           ry="2" />
+        <text
+           xml:space="preserve"
+           style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+           x="17.06299"
+           y="123.73685"
+           id="text74371"><tspan
+             sodipodi:role="line"
+             id="tspan74369"
+             style="stroke-width:0.264583;font-weight:bold"
+             x="17.06299"
+             y="123.73685">Weigthed median estimator</tspan></text>
+      </g>
+      <g
+         id="g83060"
+         transform="translate(0.00736904,-1.5801218)">
+        <rect
+           style="fill:#ffeeaa;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.267262;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+           id="rect82739"
+           width="51.389736"
+           height="8.7327366"
+           x="12.335715"
+           y="136.39026"
+           ry="2" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+           x="14.405825"
+           y="141.68164"
+           id="text20497"><tspan
+             sodipodi:role="line"
+             id="tspan20495"
+             style="font-size:3.52778px;stroke-width:0.264583"
+             x="14.405825"
+             y="141.68164"><tspan
+   style="font-weight:bold"
+   id="tspan130889">Breakdown level:</tspan> 50% (exclusive)</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g83120"
+       transform="translate(21.394965,19.934738)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <g
+         id="g1054"
+         transform="translate(-6.8544765,10.054167)">
+        <rect
+           style="fill:#fbc98c;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.377894;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+           id="rect88232"
+           width="26.047106"
+           height="9.6221056"
+           x="26.714956"
+           y="143.17558"
+           ry="2" />
+        <text
+           xml:space="preserve"
+           style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+           x="31.170565"
+           y="148.94678"
+           id="text76821"><tspan
+             sodipodi:role="line"
+             id="tspan76819"
+             style="stroke-width:0.264583;font-weight:bold"
+             x="31.170565"
+             y="148.94678">MR-Egger</tspan></text>
+      </g>
+      <g
+         id="g83065"
+         transform="translate(2.7181057,-1.423012)">
+        <rect
+           style="fill:#ffeeaa;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.259624;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+           id="rect82737"
+           width="37.546375"
+           height="8.7403765"
+           x="17.142374"
+           y="162.68736"
+           ry="2" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+           x="19.216312"
+           y="168.2263"
+           id="text22459"><tspan
+             sodipodi:role="line"
+             id="tspan22457"
+             style="font-size:3.52778px;stroke-width:0.264583"
+             x="19.216312"
+             y="168.2263"><tspan
+   style="font-weight:bold"
+   id="tspan157373">Breakdown level:</tspan> 100%</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g83131"
+       transform="translate(1.0583331)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <g
+         id="g1059"
+         transform="translate(0,11.112501)"
+         inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+         inkscape:export-xdpi="2000"
+         inkscape:export-ydpi="2000">
+        <rect
+           style="fill:#fbc98c;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.303772;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+           id="rect88234"
+           width="31.849228"
+           height="9.6962271"
+           x="90.053864"
+           y="145.99327"
+           ry="2" />
+        <text
+           xml:space="preserve"
+           style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+           x="94.755402"
+           y="151.90489"
+           id="text79321"><tspan
+             sodipodi:role="line"
+             id="tspan79319"
+             style="stroke-width:0.264583;font-weight:bold"
+             x="94.755402"
+             y="151.90489">Simple mode</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="247.67369"
+         y="225.70511"
+         id="text50441"><tspan
+           sodipodi:role="line"
+           id="tspan50439"
+           style="stroke-width:0.264583" /></text>
+      <g
+         id="g88553"
+         transform="translate(-0.32083122,0.17703771)"
+         inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+         inkscape:export-xdpi="2000"
+         inkscape:export-ydpi="2000">
+        <rect
+           style="fill:#ffeeaa;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.363385;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+           id="rect82735"
+           width="56.722614"
+           height="25.508615"
+           x="90.403191"
+           y="165.05865"
+           ry="2.8106632"
+           inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+           inkscape:export-xdpi="2000"
+           inkscape:export-ydpi="2000" />
+        <g
+           id="g88366">
+          <text
+             xml:space="preserve"
+             style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+             x="92.127861"
+             y="170.78864"
+             id="text25961"
+             inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+             inkscape:export-xdpi="2000"
+             inkscape:export-ydpi="2000"><tspan
+               sodipodi:role="line"
+               id="tspan25959"
+               style="font-size:3.52778px;stroke-width:0.264583"
+               x="92.127861"
+               y="170.78864"><tspan
+   style="font-weight:bold"
+   id="tspan135099">Breakdown level: </tspan>Ranges from </tspan><tspan
+               sodipodi:role="line"
+               style="font-size:3.52778px;stroke-width:0.264583"
+               x="92.127861"
+               y="175.19836"
+               id="tspan37273" /><tspan
+               sodipodi:role="line"
+               style="font-size:3.52778px;stroke-width:0.264583"
+               x="92.127861"
+               y="179.60808"
+               id="tspan94471" /></text>
+          <text
+             xml:space="preserve"
+             style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+             x="92.28289"
+             y="186.62358"
+             id="text58982"
+             inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+             inkscape:export-xdpi="2000"
+             inkscape:export-ydpi="2000"><tspan
+               sodipodi:role="line"
+               id="tspan58980"
+               style="font-size:3.52778px;stroke-width:0.264583"
+               x="92.28289"
+               y="186.62358"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:'Calibri Bold'"
+   id="tspan68494">ZEMPA assumption</tspan> must be satisfied</tspan></text>
+          <g
+             id="g88305">
+            <g
+               id="g88253"
+               inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+               inkscape:export-xdpi="2000"
+               inkscape:export-ydpi="2000">
+              <text
+                 xml:space="preserve"
+                 style="font-size:6.87729px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.42983"
+                 x="158.69553"
+                 y="111.0927"
+                 id="text16226"
+                 transform="scale(0.61555242,1.624557)"><tspan
+                   sodipodi:role="line"
+                   id="tspan16224"
+                   style="stroke-width:0.42983"
+                   x="158.69553"
+                   y="111.0927">(</tspan></text>
+              <text
+                 xml:space="preserve"
+                 style="font-size:6.87721px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.429825"
+                 x="177.57938"
+                 y="111.09396"
+                 id="text16944"
+                 transform="scale(0.61555962,1.624538)"><tspan
+                   sodipodi:role="line"
+                   id="tspan16942"
+                   style="stroke-width:0.429825"
+                   x="177.57938"
+                   y="111.09396">)</tspan></text>
+              <text
+                 xml:space="preserve"
+                 style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+                 x="92.071014"
+                 y="179.41579"
+                 id="text9130"><tspan
+                   sodipodi:role="line"
+                   id="tspan9128"
+                   style="font-size:3.52778px;stroke-width:0.264583"
+                   x="92.071014"
+                   y="179.41579">100</tspan></text>
+              <g
+                 id="g87850"
+                 transform="translate(0.05993903,0.5315051)">
+                <g
+                   id="g87784"
+                   transform="translate(0.559266)">
+                  <text
+                     xml:space="preserve"
+                     style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+                     x="103.23058"
+                     y="176.87093"
+                     id="text12916"><tspan
+                       sodipodi:role="line"
+                       id="tspan12914"
+                       style="font-size:3.52778px;stroke-width:0.264583"
+                       x="103.23058"
+                       y="176.87093">+</tspan></text>
+                  <text
+                     xml:space="preserve"
+                     style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+                     x="106.3642"
+                     y="177.02493"
+                     id="text14066"><tspan
+                       sodipodi:role="line"
+                       id="tspan14064"
+                       style="font-size:3.52778px;stroke-width:0.264583"
+                       x="106.3642"
+                       y="177.02493">1</tspan></text>
+                  <g
+                     id="g45439"
+                     transform="translate(-128.41522,-28.089063)">
+                    <text
+                       xml:space="preserve"
+                       style="font-size:2.68175px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.167609"
+                       x="228.12708"
+                       y="202.12833"
+                       id="text10970"><tspan
+                         sodipodi:role="line"
+                         id="tspan10968"
+                         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';stroke-width:0.167609"
+                         x="228.12708"
+                         y="202.12833">L</tspan></text>
+                    <text
+                       xml:space="preserve"
+                       style="font-size:2.68175px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.167609"
+                       x="228.11205"
+                       y="205.42604"
+                       id="text11790"><tspan
+                         sodipodi:role="line"
+                         id="tspan11788"
+                         style="stroke-width:0.167609"
+                         x="228.11205"
+                         y="205.42604">2</tspan></text>
+                    <text
+                       xml:space="preserve"
+                       style="font-size:2.68175px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.167609"
+                       x="202.39882"
+                       y="-228.09172"
+                       id="text17410"
+                       transform="rotate(90)"><tspan
+                         sodipodi:role="line"
+                         id="tspan17408"
+                         style="stroke-width:0.167609"
+                         x="202.39882"
+                         y="-228.09172">|</tspan></text>
+                  </g>
+                </g>
+                <text
+                   xml:space="preserve"
+                   style="font-size:5.94485px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.371555"
+                   x="340.47934"
+                   y="-52.830582"
+                   id="text17410-1"
+                   transform="matrix(0,0.52220671,-1.9149505,0,0,0)"><tspan
+                     sodipodi:role="line"
+                     id="tspan17408-4"
+                     style="stroke-width:0.371555"
+                     x="340.47934"
+                     y="-52.830582">|</tspan></text>
+                <text
+                   xml:space="preserve"
+                   style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+                   x="103.39931"
+                   y="182.22766"
+                   id="text18392"><tspan
+                     sodipodi:role="line"
+                     id="tspan18390"
+                     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';stroke-width:0.264583"
+                     x="103.39931"
+                     y="182.22766">L</tspan></text>
+              </g>
+              <text
+                 xml:space="preserve"
+                 style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+                 x="110.94603"
+                 y="179.38651"
+                 id="text19320"><tspan
+                   sodipodi:role="line"
+                   id="tspan19318"
+                   style="font-size:3.52778px;stroke-width:0.264583"
+                   x="110.94603"
+                   y="179.38651">%</tspan></text>
+            </g>
+            <g
+               id="g87940"
+               transform="translate(-1.0583277,0.5315051)">
+              <text
+                 xml:space="preserve"
+                 style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+                 x="123.61118"
+                 y="178.88428"
+                 id="text9130-5"
+                 inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+                 inkscape:export-xdpi="2000"
+                 inkscape:export-ydpi="2000"><tspan
+                   sodipodi:role="line"
+                   id="tspan9128-4"
+                   style="font-size:3.52778px;stroke-width:0.264583"
+                   x="123.61118"
+                   y="178.88428">100</tspan></text>
+              <g
+                 id="g87917">
+                <text
+                   xml:space="preserve"
+                   style="font-size:6.87729px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.42983"
+                   x="210.03166"
+                   y="110.97011"
+                   id="text16226-3"
+                   transform="scale(0.61555242,1.624557)"
+                   inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+                   inkscape:export-xdpi="2000"
+                   inkscape:export-ydpi="2000"><tspan
+                     sodipodi:role="line"
+                     id="tspan16224-3"
+                     style="stroke-width:0.42983"
+                     x="210.03166"
+                     y="110.97011">(</tspan></text>
+                <text
+                   xml:space="preserve"
+                   style="font-size:6.87721px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.429825"
+                   x="228.91492"
+                   y="110.97137"
+                   id="text16944-3"
+                   transform="scale(0.61555962,1.624538)"
+                   inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+                   inkscape:export-xdpi="2000"
+                   inkscape:export-ydpi="2000"><tspan
+                     sodipodi:role="line"
+                     id="tspan16942-9"
+                     style="stroke-width:0.429825"
+                     x="228.91492"
+                     y="110.97137">)</tspan></text>
+                <g
+                   id="g87876"
+                   transform="translate(0.23539171)">
+                  <text
+                     xml:space="preserve"
+                     style="font-size:5.94485px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.371555"
+                     x="340.0983"
+                     y="-69.209389"
+                     id="text17410-1-1"
+                     transform="matrix(0,0.52220632,-1.9149519,0,0,0)"
+                     inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+                     inkscape:export-xdpi="2000"
+                     inkscape:export-ydpi="2000"><tspan
+                       sodipodi:role="line"
+                       id="tspan17408-4-3"
+                       style="stroke-width:0.371555"
+                       x="340.0983"
+                       y="-69.209389">|</tspan></text>
+                  <text
+                     xml:space="preserve"
+                     style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+                     x="134.76402"
+                     y="182.02852"
+                     id="text18392-5"
+                     inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+                     inkscape:export-xdpi="2000"
+                     inkscape:export-ydpi="2000"><tspan
+                       sodipodi:role="line"
+                       id="tspan18390-0"
+                       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';stroke-width:0.264583"
+                       x="134.76402"
+                       y="182.02852">L</tspan></text>
+                  <g
+                     id="g87816"
+                     transform="translate(0.20432697)">
+                    <text
+                       xml:space="preserve"
+                       style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+                       x="134.3573"
+                       y="176.68541"
+                       id="text12916-0"
+                       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+                       inkscape:export-xdpi="2000"
+                       inkscape:export-ydpi="2000"><tspan
+                         sodipodi:role="line"
+                         id="tspan12914-4"
+                         style="font-size:3.52778px;stroke-width:0.264583"
+                         x="134.3573"
+                         y="176.68541">−</tspan></text>
+                    <text
+                       xml:space="preserve"
+                       style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+                       x="137.5247"
+                       y="176.82579"
+                       id="text14066-0"
+                       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+                       inkscape:export-xdpi="2000"
+                       inkscape:export-ydpi="2000"><tspan
+                         sodipodi:role="line"
+                         id="tspan14064-2"
+                         style="font-size:3.52778px;stroke-width:0.264583"
+                         x="137.5247"
+                         y="176.82579">2</tspan></text>
+                    <text
+                       xml:space="preserve"
+                       style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+                       x="131.32253"
+                       y="176.82579"
+                       id="text18392-5-7"
+                       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+                       inkscape:export-xdpi="2000"
+                       inkscape:export-ydpi="2000"><tspan
+                         sodipodi:role="line"
+                         id="tspan18390-0-4"
+                         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';stroke-width:0.264583"
+                         x="131.32253"
+                         y="176.82579">L</tspan></text>
+                  </g>
+                </g>
+              </g>
+              <text
+                 xml:space="preserve"
+                 style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+                 x="142.48622"
+                 y="178.855"
+                 id="text19320-2"
+                 inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+                 inkscape:export-xdpi="2000"
+                 inkscape:export-ydpi="2000"><tspan
+                   sodipodi:role="line"
+                   id="tspan19318-4"
+                   style="font-size:3.52778px;stroke-width:0.264583"
+                   x="142.48622"
+                   y="178.855">%</tspan></text>
+            </g>
+            <text
+               xml:space="preserve"
+               style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+               x="116.61354"
+               y="179.41579"
+               id="text53599"
+               inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+               inkscape:export-xdpi="2000"
+               inkscape:export-ydpi="2000"><tspan
+                 sodipodi:role="line"
+                 id="tspan53597"
+                 style="font-size:3.52778px;stroke-width:0.264583"
+                 x="116.61354"
+                 y="179.41579">to</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g83142"
+       transform="translate(11.861838,0.00536358)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <g
+         id="g1064"
+         transform="translate(-15.894035,10.922155)">
+        <rect
+           style="fill:#fbc98c;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.314499;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+           id="rect88236"
+           width="36.828999"
+           height="9.6855011"
+           x="155.63628"
+           y="146.18898"
+           ry="2" />
+        <text
+           xml:space="preserve"
+           style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+           x="160.35318"
+           y="152.09419"
+           id="text81359"><tspan
+             sodipodi:role="line"
+             id="tspan81357"
+             style="stroke-width:0.264583;font-weight:bold"
+             x="160.35318"
+             y="152.09419">Weighted mode</tspan></text>
+      </g>
+      <g
+         id="g83089"
+         transform="translate(2.034325,-1.6250313)">
+        <rect
+           style="fill:#ffeeaa;fill-opacity:0.702918;stroke:#f7f7f7;stroke-width:0.368582;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+           id="rect80995"
+           width="57.085999"
+           height="18.089418"
+           x="137.73187"
+           y="166.85812"
+           ry="2" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+           x="139.87354"
+           y="172.37762"
+           id="text42055"><tspan
+             sodipodi:role="line"
+             id="tspan42053"
+             style="font-size:3.52778px;stroke-width:0.264583"
+             x="139.87354"
+             y="172.37762"><tspan
+   style="font-weight:bold"
+   id="tspan144269">Breakdown level:</tspan> Ranges from </tspan><tspan
+             sodipodi:role="line"
+             style="font-size:3.52778px;stroke-width:0.264583"
+             x="139.87354"
+             y="176.78735"
+             id="tspan46833">50% (exclusive) to 100% (exclusive)</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:3.52778px;stroke-width:0.264583"
+             x="139.87354"
+             y="181.19707"
+             id="tspan101505"><tspan
+   style="font-weight:bold"
+   id="tspan146769">ZEMPA assumption </tspan>must be satisfied</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ExperimentalArrow-04)"
+       d="m 87.419,97.452 v 1.02966 H 33.283 v 3.65334"
+       id="path86881-4"
+       inkscape:path-effect="#path-effect86883-6"
+       inkscape:original-d="m 87.419,97.452 v 1.02966 H 33.283 v 3.65334"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ExperimentalArrow-04-3)"
+       d="m 87.419,122.602 v 4.723 H 33.283 v 15.453"
+       id="path86881-4-9"
+       inkscape:path-effect="#path-effect86883-6-0"
+       inkscape:original-d="m 87.419,122.602 v 4.723 H 33.283 v 15.453"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ExperimentalArrow-04-3-6)"
+       d="m 86.89,147.608 v 18.621 H 51.753833 v 5.653"
+       id="path86881-4-9-3"
+       inkscape:path-effect="#path-effect86883-6-0-6"
+       inkscape:original-d="m 86.89,147.608 v 18.621 H 51.753833 v 5.653"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ExperimentalArrow-04-3-6-8)"
+       d="m 110.72,147.608 v 3.933 h 60.364 v 4.281"
+       id="path86881-4-9-3-7"
+       inkscape:path-effect="#path-effect86883-6-0-6-3"
+       inkscape:original-d="m 110.72,147.608 v 3.933 h 60.364 v 4.281"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-7-8)"
+       d="m 108.2784,147.608 v 8.214"
+       id="path86086-5-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-05)"
+       d="m 109.22172,59.989836 v 4.644"
+       id="path86086-31"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-2-2-0)"
+       d="m 103.93002,59.989836 -11.64166,5.444"
+       id="path86086-8-7-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-05-7)"
+       d="m 109.22172,84.975836 v 4.644"
+       id="path86086-31-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-2-2-0-1)"
+       d="m 103.93002,84.975836 -11.64166,5.444"
+       id="path86086-8-7-8-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-05-7-0)"
+       d="m 109.22172,109.97784 v 4.644"
+       id="path86086-31-6-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-2-2-0-1-8)"
+       d="m 103.93002,109.97784 -11.64166,5.444"
+       id="path86086-8-7-8-8-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-05-7-0-4)"
+       d="m 109.22172,134.8312 v 4.644"
+       id="path86086-31-6-7-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-2-2-0-1-8-6)"
+       d="m 103.93002,134.8312 -11.64166,5.444"
+       id="path86086-8-7-8-8-3-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <g
+       id="g9791"
+       transform="translate(-34.306228,123.01968)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ec7d00;fill-opacity:0.701961;stroke:#f7f7f7;stroke-width:0.306641;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821-55-9-4"
+         width="39.19236"
+         height="6.6933599"
+         x="71.707184"
+         y="103.4128"
+         ry="0.95619422" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="73.865685"
+         y="107.98835"
+         id="text33863-1"><tspan
+           sodipodi:role="line"
+           id="tspan33861-3"
+           style="stroke-width:0.264583"
+           x="73.865685"
+           y="107.98835">Genetic instruments</tspan></text>
+    </g>
+    <g
+       id="g9796"
+       transform="translate(-36.559429,120.72932)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ec7d00;fill-opacity:0.701961;stroke:#f7f7f7;stroke-width:0.220373;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821-55-9-4-0"
+         width="19.984627"
+         height="6.7796278"
+         x="131.32887"
+         y="105.66003"
+         ry="0.96851826" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="133.36302"
+         y="110.01102"
+         id="text33863-1-0"><tspan
+           sodipodi:role="line"
+           id="tspan33861-3-8"
+           style="stroke-width:0.264583"
+           x="133.36302"
+           y="110.01102">Exposure</tspan></text>
+    </g>
+    <g
+       id="g9817"
+       transform="translate(-73.593808,111.56787)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ec7d00;fill-opacity:0.701961;stroke:#f7f7f7;stroke-width:0.221755;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821-55-9-4-3"
+         width="20.240244"
+         height="6.7782454"
+         x="215.30948"
+         y="114.82217"
+         ry="0.96832079" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="217.49417"
+         y="119.54868"
+         id="text33863-1-4"><tspan
+           sodipodi:role="line"
+           id="tspan33861-3-2"
+           style="stroke-width:0.264583"
+           x="217.49417"
+           y="119.54868">Outcome</tspan></text>
+    </g>
+    <g
+       id="g9801"
+       transform="translate(-64.525278,112.33133)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ec7d00;fill-opacity:0.701961;stroke:#f7f7f7;stroke-width:0.305752;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821-55-9-4-07"
+         width="38.960247"
+         height="6.6942487"
+         x="172.34357"
+         y="88.14328"
+         ry="0.95632124" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="174.4904"
+         y="92.552872"
+         id="text33863-1-3"><tspan
+           sodipodi:role="line"
+           id="tspan33861-3-1"
+           style="stroke-width:0.264583"
+           x="174.4904"
+           y="92.552872">Confounding factors</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-2-2-0-1-8-6-8)"
+       d="m 126.25423,207.49606 -11.88876,17.29306"
+       id="path86086-8-7-8-8-3-6-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-2-2-0-1-8-6-8-9)"
+       d="m 129.8269,207.49675 11.88876,17.29237"
+       id="path86086-8-7-8-8-3-6-8-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-7-8-3)"
+       d="m 115.36587,229.63398 h 24.41439"
+       id="path86086-5-4-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-7-8-3-2)"
+       d="M 76.62,229.63398 H 92.834737"
+       id="path86086-5-4-6-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-2-2-0-1-8-6-8-99)"
+       d="m 76.62,226.07728 31.19829,-17.80816"
+       id="path86086-8-7-8-8-3-6-8-1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-7-8-3-4)"
+       d="m 57.678955,234.46986 c 30.760457,8.6701 61.220525,12.65414 90.614045,0"
+       id="path86086-5-4-6-5"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;fill:#d40000;stroke-width:0.264583"
+       x="90.586014"
+       y="218.78305"
+       id="text12007"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000"><tspan
+         sodipodi:role="line"
+         id="tspan12005"
+         style="font-weight:bold;fill:#d40000;stroke-width:0.264583"
+         x="90.586014"
+         y="218.78305">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;fill:#d40000;stroke-width:0.264583"
+       x="103.33009"
+       y="243.67014"
+       id="text12007-6"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000"><tspan
+         sodipodi:role="line"
+         id="tspan12005-4"
+         style="font-weight:bold;fill:#d40000;stroke-width:0.264583"
+         x="103.33009"
+         y="243.67014">X</tspan></text>
+    <g
+       id="g25191"
+       transform="translate(-1.5922214,87.876129)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ee4f2d;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.313747;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4-3"
+         width="6.2422528"
+         height="6.6862531"
+         x="83.149429"
+         y="140.34851"
+         ry="1.2657363" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="85.132645"
+         y="145.03833"
+         id="text76013-6"><tspan
+           sodipodi:role="line"
+           id="tspan76011-8"
+           style="stroke-width:0.264583"
+           x="85.132645"
+           y="145.03833">1</tspan></text>
+    </g>
+    <g
+       id="g25101"
+       transform="translate(12.920151,82.582499)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ee4f2d;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.316562;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4-3-2"
+         width="6.3574381"
+         height="6.6834383"
+         x="80.134583"
+         y="126.39533"
+         ry="1.2652035" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="82.240501"
+         y="131.09407"
+         id="text76013-6-0"><tspan
+           sodipodi:role="line"
+           id="tspan76011-8-2"
+           style="stroke-width:0.264583"
+           x="82.240501"
+           y="131.09407">2</tspan></text>
+    </g>
+    <g
+       id="g25186"
+       transform="translate(13.436664,120.61885)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ee4f2d;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.316609;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4-3-5"
+         width="6.3593907"
+         height="6.6833911"
+         x="93.229828"
+         y="120.734"
+         ry="1.2651945"
+         inkscape:export-filename="C:\Users\sarar\OneDrive\Skrivebord\Virksomhedspraktik\MR_analysis_assumptions.png"
+         inkscape:export-xdpi="2000"
+         inkscape:export-ydpi="2000" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="95.358429"
+         y="125.41308"
+         id="text76013-6-9"
+         inkscape:export-filename="C:\Users\sarar\OneDrive\Skrivebord\Virksomhedspraktik\MR_analysis_assumptions.png"
+         inkscape:export-xdpi="2000"
+         inkscape:export-ydpi="2000"><tspan
+           sodipodi:role="line"
+           id="tspan76011-8-7"
+           style="stroke-width:0.264583"
+           x="95.358429"
+           y="125.41308">3</tspan></text>
+    </g>
+    <g
+       id="g9791-2"
+       transform="translate(-34.305863,182.75708)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ec7d00;fill-opacity:0.701961;stroke:#f7f7f7;stroke-width:0.306641;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821-55-9-4-5"
+         width="39.19236"
+         height="6.6933594"
+         x="71.707184"
+         y="103.41281"
+         ry="0.95619428" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="73.865685"
+         y="107.98835"
+         id="text33863-1-2"><tspan
+           sodipodi:role="line"
+           id="tspan33861-3-15"
+           style="stroke-width:0.264583"
+           x="73.865685"
+           y="107.98835">Genetic instruments</tspan></text>
+    </g>
+    <g
+       id="g9796-1"
+       transform="translate(-36.802936,180.46672)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ec7d00;fill-opacity:0.701961;stroke:#f7f7f7;stroke-width:0.220373;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821-55-9-4-0-0"
+         width="19.984627"
+         height="6.7796278"
+         x="131.32887"
+         y="105.66003"
+         ry="0.96851826" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="133.36302"
+         y="110.01102"
+         id="text33863-1-0-4"><tspan
+           sodipodi:role="line"
+           id="tspan33861-3-8-1"
+           style="stroke-width:0.264583"
+           x="133.36302"
+           y="110.01102">Exposure</tspan></text>
+    </g>
+    <g
+       id="g50114"
+       transform="translate(17.576308,142.79717)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#e3db55;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.313747;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4-3-9-8-3"
+         width="6.2422528"
+         height="6.6862531"
+         x="83.820816"
+         y="149.58003"
+         ry="1.2657363" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="85.845055"
+         y="154.26054"
+         id="text76013-6-2-4-71"><tspan
+           sodipodi:role="line"
+           id="tspan76011-8-26-3-3"
+           style="stroke-width:0.264583"
+           x="85.845055"
+           y="154.26054">X</tspan></text>
+    </g>
+    <g
+       id="g9817-0"
+       transform="translate(-73.837315,171.30527)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ec7d00;fill-opacity:0.701961;stroke:#f7f7f7;stroke-width:0.221755;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821-55-9-4-3-1"
+         width="20.240244"
+         height="6.7782454"
+         x="215.30948"
+         y="114.82217"
+         ry="0.96832079" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="217.49417"
+         y="119.54868"
+         id="text33863-1-4-8"><tspan
+           sodipodi:role="line"
+           id="tspan33861-3-2-3"
+           style="stroke-width:0.264583"
+           x="217.49417"
+           y="119.54868">Outcome</tspan></text>
+    </g>
+    <g
+       id="g50104"
+       transform="translate(86.470335,143.30071)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#e3db55;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.313747;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4-3-9-8-3-8"
+         width="6.2422528"
+         height="6.6862531"
+         x="62.000824"
+         y="149.07649"
+         ry="1.2657363" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="64.092171"
+         y="153.757"
+         id="text76013-6-2-4-71-5"><tspan
+           sodipodi:role="line"
+           id="tspan76011-8-26-3-3-5"
+           style="stroke-width:0.264583"
+           x="64.092171"
+           y="153.757">Y</tspan></text>
+    </g>
+    <g
+       id="g9801-1"
+       transform="translate(-64.768785,172.06873)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ec7d00;fill-opacity:0.701961;stroke:#f7f7f7;stroke-width:0.305752;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect110821-55-9-4-07-6"
+         width="38.960247"
+         height="6.6942487"
+         x="172.34357"
+         y="88.14328"
+         ry="0.95632124" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="174.4904"
+         y="92.552872"
+         id="text33863-1-3-0"><tspan
+           sodipodi:role="line"
+           id="tspan33861-3-1-8"
+           style="stroke-width:0.264583"
+           x="174.4904"
+           y="92.552872">Confounding factors</tspan></text>
+    </g>
+    <g
+       id="g50109"
+       transform="translate(49.512339,115.75654)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#e3db55;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.313747;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4-3-9-8-3-0"
+         width="6.2422528"
+         height="6.6862531"
+         x="74.42144"
+         y="150.41927"
+         ry="1.2657363" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="76.183479"
+         y="155.08633"
+         id="text76013-6-2-4-71-4"><tspan
+           sodipodi:role="line"
+           id="tspan76011-8-26-3-3-0"
+           style="stroke-width:0.264583"
+           x="76.183479"
+           y="155.08633">U</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-2-2-0-1-8-6-8-1)"
+       d="m 122.8357,267.23346 -11.88876,17.29306"
+       id="path86086-8-7-8-8-3-6-8-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-2-2-0-1-8-6-8-9-2)"
+       d="m 131.1709,267.23415 11.88876,17.29237"
+       id="path86086-8-7-8-8-3-6-8-0-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-7-8-3-0)"
+       d="m 115.12236,289.37138 h 24.41439"
+       id="path86086-5-4-6-88"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <g
+       id="g19018"
+       transform="translate(40.78435,145.82492)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#e3db55;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.313747;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4-3-9-8"
+         width="6.2422528"
+         height="6.6862531"
+         x="83.149429"
+         y="140.34851"
+         ry="1.2657363" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="85.089233"
+         y="144.76341"
+         id="text76013-6-2-4"><tspan
+           sodipodi:role="line"
+           id="tspan76011-8-26-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
+           x="85.089233"
+           y="144.76341">β</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-7-8-3-2-36)"
+       d="M 76.376493,289.37138 H 92.59123"
+       id="path86086-5-4-6-8-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-2-2-0-1-8-6-8-99-3)"
+       d="M 76.376493,285.81468 107.57478,268.00652"
+       id="path86086-8-7-8-8-3-6-8-1-5"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.247571px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ExperimentalArrow-7-8-3-4-2)"
+       d="m 68.581906,294.20726 c 26.931889,8.6701 52.674164,12.65414 78.409254,0"
+       id="path86086-5-4-6-5-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;fill:#d40000;stroke-width:0.264583"
+       x="90.342506"
+       y="278.51978"
+       id="text12007-1"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000"><tspan
+         sodipodi:role="line"
+         id="tspan12005-6"
+         style="font-weight:bold;fill:#d40000;stroke-width:0.264583"
+         x="90.342506"
+         y="278.51978">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;fill:#d40000;stroke-width:0.264583"
+       x="108.45766"
+       y="303.40747"
+       id="text12007-6-0"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000"><tspan
+         sodipodi:role="line"
+         id="tspan12005-4-1"
+         style="font-weight:bold;fill:#d40000;stroke-width:0.264583"
+         x="108.45766"
+         y="303.40747">X</tspan></text>
+    <g
+       id="g25191-0"
+       transform="translate(-1.8357281,145.82492)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ee4f2d;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.313747;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4-3-9"
+         width="6.2422528"
+         height="6.6862531"
+         x="83.149429"
+         y="140.34851"
+         ry="1.2657363" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="85.132645"
+         y="145.03833"
+         id="text76013-6-2"><tspan
+           sodipodi:role="line"
+           id="tspan76011-8-26"
+           style="stroke-width:0.264583"
+           x="85.132645"
+           y="145.03833">1</tspan></text>
+    </g>
+    <g
+       id="g25101-3"
+       transform="translate(13.205811,143.37814)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ee4f2d;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.316562;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4-3-2-0"
+         width="6.3574381"
+         height="6.6834383"
+         x="80.134583"
+         y="126.39533"
+         ry="1.2652035" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="82.240501"
+         y="131.09407"
+         id="text76013-6-0-2"><tspan
+           sodipodi:role="line"
+           id="tspan76011-8-2-4"
+           style="stroke-width:0.264583"
+           x="82.240501"
+           y="131.09407">2</tspan></text>
+    </g>
+    <g
+       id="g25186-6"
+       transform="translate(30.645382,176.12289)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#ee4f2d;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.316609;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4-3-5-5"
+         width="6.3593907"
+         height="6.6833911"
+         x="93.229828"
+         y="120.734"
+         ry="1.2651945" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="95.358429"
+         y="125.41308"
+         id="text76013-6-9-7"><tspan
+           sodipodi:role="line"
+           id="tspan76011-8-7-8"
+           style="stroke-width:0.264583"
+           x="95.358429"
+           y="125.41308">3</tspan></text>
+    </g>
+    <g
+       id="g19028"
+       transform="translate(27.20245,162.94703)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#e3db55;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.313747;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4-3-9-8-9"
+         width="6.2422528"
+         height="6.6862531"
+         x="101.44465"
+         y="139.00574"
+         ry="1.2657363" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="103.30694"
+         y="143.33174"
+         id="text76013-6-2-4-7"><tspan
+           sodipodi:role="line"
+           id="tspan76011-8-26-3-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
+           x="103.30694"
+           y="143.33174">α</tspan></text>
+    </g>
+    <g
+       id="g19023"
+       transform="translate(-15.476192,141.35644)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <rect
+         style="fill:#e3db55;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.313747;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+         id="rect116426-4-3-9-8-7"
+         width="6.2422528"
+         height="6.6862531"
+         x="101.44465"
+         y="149.91573"
+         ry="1.2657363" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+         x="103.66561"
+         y="153.87483"
+         id="text76013-6-2-4-8"><tspan
+           sodipodi:role="line"
+           id="tspan76011-8-26-3-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
+           x="103.66561"
+           y="153.87483">γ</tspan></text>
+    </g>
+    <g
+       id="g50114-1"
+       transform="translate(-20.918853,147.00403)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_assumptions_w_variables.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <g
+         id="g88631"
+         transform="translate(-1.402286,-4.2068581)">
+        <rect
+           style="fill:#e3db55;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.313747;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+           id="rect116426-4-3-9-8-3-5"
+           width="6.2422528"
+           height="6.6862531"
+           x="83.820816"
+           y="149.58003"
+           ry="1.2657363" />
+        <text
+           xml:space="preserve"
+           style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+           x="85.665535"
+           y="154.26054"
+           id="text76013-6-2-4-71-0"><tspan
+             sodipodi:role="line"
+             id="tspan76011-8-26-3-3-54"
+             style="stroke-width:0.264583"
+             x="85.665535"
+             y="154.26054">G</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g45465-8"
+       transform="translate(26.786284,1.8609719)">
+      <g
+         id="g45439-5"
+         transform="translate(3.1749995,2.5457438)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;stroke-width:0.264583"
+       x="254.85179"
+       y="222.48964"
+       id="text52803"><tspan
+         sodipodi:role="line"
+         id="tspan52801"
+         style="stroke-width:0.264583" /></text>
+    <g
+       id="g1039-0"
+       transform="translate(-6.591486,21.674275)"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000">
+      <g
+         id="g125932">
+        <rect
+           style="fill:#fbc98c;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.437998;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-dashoffset:39.0425"
+           id="rect88204-2"
+           width="54.670002"
+           height="13.998002"
+           x="18.440485"
+           y="50.089989"
+           ry="1.3985909" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.52778px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;white-space:pre;inline-size:49.729;stroke-width:0.264583"
+           x="22.138344"
+           y="55.770378"
+           id="text64783-7"><tspan
+             x="22.138344"
+             y="55.770378"
+             id="tspan2363">Other methods are available, but </tspan><tspan
+             x="22.138344"
+             y="60.180104"
+             id="tspan2365">they are not described here</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:19;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ExperimentalArrow-37)"
+       d="m 87.419,72.481104 v 1.691329 H 67.893"
+       id="path86881-8"
+       inkscape:path-effect="#path-effect86883-1"
+       inkscape:original-d="m 87.419,72.481104 v 1.691329 H 67.893"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\Users\sarar\OneDrive\Dokumenter\R\MR_analysis_flow2.png"
+       inkscape:export-xdpi="2000"
+       inkscape:export-ydpi="2000" />
+  </g>
+</svg>
