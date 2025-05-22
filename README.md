@@ -19,8 +19,8 @@ Rohde PD, Sorensen IF and Sørensen P. qgg: an R package for large-scale quantit
     
 
 ### R gact ###
+The <a href="https://psoerensen.github.io/gact/index.html">gact package</a> package provides a framework for building and managing a comprehensive database of genomic associations with complex traits. It supports both infrastructure development and data acquisition, enabling integration of single marker associations with broader biological entities such as genes, proteins, metabolites, and pathways. gact streamlines the processing of GWAS summary statistics and biological databases, facilitates fine-mapping using Bayesian linear regression, and performs advanced gene set enrichment analysis. Its goal is to enhance the biological interpretation of genomic data by uncovering complex trait-related relationships.
 
-[link](https://psoerensen.github.io/gact/index.html) <br>
 
 ## Statistical Genetic Notes
 Mendelian Randomization [link](sites/MR/Mendelian-randomization2_PDR.html) <br>
