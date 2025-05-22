@@ -7,8 +7,20 @@ I am an Associate Professor, and research group leader, at the <a href="https://
 Research output [link](https://vbn.aau.dk/da/persons/palledr) <br>
 
 ## Software Packages
-R qgg [link](https://psoerensen.github.io/qgg/index.html) <br>
-R gact [link](https://psoerensen.github.io/gact/index.html) <br>
+
+### R qgg ###
+The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a comprehensive tool for large-scale genetic data analysis, built on the idea that certain genomic regions may be enriched for causal variants. It offers efficient infrastructure for linear mixed models, genomic prediction, heritability estimation, and gene set enrichment analysis. qgg supports high-performance computing with multi-core processing, optimized matrix operations, and memory-efficient genotype handling. It includes advanced genomic feature modeling approaches such as GFBLUP and marker set tests to improve discovery and prediction of trait-associated genomic regions.
+
+Published papers <br>
+
+Rohde PD, Sorensen IF and Sorensen P. Expanded utility of the R package, qgg, with applications within genomic medicine. <i>Bioinformatics<\i> 39, btad656 (2023)<br>
+
+Rohde PD, Sorensen IF and Sørensen P. qgg: an R package for large-scale quantitative genetic analyses. <i>Bioinformatics<\i> 36, 2614–2615 (2019).
+    
+
+### R gact ###
+
+[link](https://psoerensen.github.io/gact/index.html) <br>
 
 ## Statistical Genetic Notes
 Mendelian Randomization [link](sites/MR/Mendelian-randomization2_PDR.html) <br>
@@ -25,5 +37,3 @@ Tutorial for constructing polygenic scores (PGS) [link](https://psoerensen.githu
 Human Genomics [link](https://pdrohde.github.io/AAU-human-genomics/) <br>
 PGS Workshop [link](sites/SDU_PGS-workshop_print.pdf) <br>
 
-
-https://pdrohde.github.io/[url](https://vbn.aau.dk/da/organisations/genomic-medicine-2)
