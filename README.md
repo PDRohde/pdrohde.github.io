@@ -40,7 +40,6 @@ Tutorial for constructing polygenic scores (PGS) [link](https://psoerensen.githu
 
 ## Course Work
 <i>All teaching materials on this page are shared under a CC BY 4.0 license.</i><br>
-<br>
 Human Genomics [link](https://pdrohde.github.io/AAU-human-genomics/) <br>
 PGS Workshop [link](sites/SDU_PGS-workshop_print.pdf) <br>
 
