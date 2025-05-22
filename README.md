@@ -1,5 +1,5 @@
-Palle Duun Rohde, palledr(at)hst.aau.dk | p.rohde(at)rn.dk
-Associate Professor in Statistical and Complex Trait Genetics
+Palle Duun Rohde, palledr(at)hst.aau.dk | p.rohde(at)rn.dk <br>
+Associate Professor in Statistical and Complex Trait Genetics <br>
 <br><br>
 I am an Associate Professor, and research group leader, at the <a href="https://vbn.aau.dk/da/organisations/genomic-medicine-2">Genomic Medicine research group</a> at the <a href="https://www.hst.aau.dk/">Department of Health Science and Technology, Aalborg University, Denmark</a>, and hold a part-time position as clinical academic in theoretical genetics at the <a href="https://vbn.aau.dk/en/organisations/klinisk-genetisk-afdeling">Department of Clinical Genetics, Aalborg Univeristy Hospital</a>.
 
@@ -12,11 +12,11 @@ Research output [link](https://vbn.aau.dk/da/persons/palledr) <br>
 The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a comprehensive tool for large-scale genetic data analysis, built on the idea that certain genomic regions may be enriched for causal variants. It offers efficient infrastructure for linear mixed models, genomic prediction, heritability estimation, and gene set enrichment analysis. qgg supports high-performance computing with multi-core processing, optimized matrix operations, and memory-efficient genotype handling. It includes advanced genomic feature modeling approaches such as GFBLUP and marker set tests to improve discovery and prediction of trait-associated genomic regions.
 
 <b>Citations</b> <br>
-Rohde PD, Sorensen IF and Sorensen P. Expanded utility of the R package, qgg, with applications within genomic medicine. <i>Bioinformatics</i> 39, btad656 (2023)<br>
-Rohde PD, Sorensen IF and Sorensen P. qgg: an R package for large-scale quantitative genetic analyses. <i>Bioinformatics</i> 36, 2614–2615 (2019).
-
 <div style="text-indent: -36px; padding-left: 36px;">
-<p>Armbrecht, Tom. (2018). Getting Over Stumbling Blocks (of Text): Creating Engaging Content Pages. <em>ObjectLessons</em>. Retrieved from https://object-lessons.com/getting-over-stumbling-blocks-of-text-creating-engaging-content-pages/</p>
+<p>Rohde PD, Sorensen IF and Sorensen P. (2019). qgg: an R package for large-scale quantitative genetic analyses. <em>Bioinformatics</em> 36, 2614–2615</p>
+
+<p>Rohde PD, Sorensen IF and Sorensen P (2023). Expanded utility of the R package, qgg, with applications within genomic medicine. <em>Bioinformatics</em> 39, btad656</p>
+
 </div>
 
 
