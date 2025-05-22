@@ -20,5 +20,6 @@ Bayesian Linear Regression Models [link](https://psoerensen.github.io/qgnotes/BL
 Tutorial for constructing polygenic scores (PGS) [link](https://psoerensen.github.io/qgtutorials/Practicals_human_example.pdf) <br>
 
 ## Course Work
+<i>All teaching materials on this page are shared under a CC BY 4.0 license.</i>
 Human Genomics [link](https://pdrohde.github.io/AAU-human-genomics/) <br>
-PGS Workshop 
+PGS Workshop [link](sites/SDU_PGS-workshop_print.pdf) <br>
