@@ -15,7 +15,7 @@ The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a c
 
 Rohde PD, Sorensen IF and Sorensen P. Expanded utility of the R package, qgg, with applications within genomic medicine. <i>Bioinformatics<\i> 39, btad656 (2023)<br>
 
-Rohde PD, Sorensen IF and Sørensen P. qgg: an R package for large-scale quantitative genetic analyses. <i>Bioinformatics<\i> 36, 2614–2615 (2019).
+Rohde PD, Sorensen IF and Sorensen P. qgg: an R package for large-scale quantitative genetic analyses. <i>Bioinformatics<\i> 36, 2614–2615 (2019).
     
 
 ### R gact ###
