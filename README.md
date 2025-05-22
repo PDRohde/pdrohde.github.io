@@ -1,6 +1,6 @@
 # Human Genomic Medicine
 
-I am an Associate Professor, and research group leader, at the <a href="[url](https://vbn.aau.dk/da/organisations/genomic-medicine-2)">Genomic Medicine research group</a> at the <a href="[url](https://www.hst.aau.dk/)">Department of Health Science and Technology, Aalborg University, Denmark</a>, and hold a part-time position as clinical academic in theoretical genetics at the <a href="[url](https://vbn.aau.dk/en/organisations/klinisk-genetisk-afdeling)">Department of Clinical Genetics, Aalborg Univeristy Hospital</a>.
+I am an Associate Professor, and research group leader, at the <a href="[url]https://vbn.aau.dk/da/organisations/genomic-medicine-2">Genomic Medicine research group</a> at the <a href="[url]https://www.hst.aau.dk/">Department of Health Science and Technology, Aalborg University, Denmark</a>, and hold a part-time position as clinical academic in theoretical genetics at the <a href="[url]https://vbn.aau.dk/en/organisations/klinisk-genetisk-afdeling">Department of Clinical Genetics, Aalborg Univeristy Hospital</a>.
 
 
 ## Research
@@ -23,3 +23,6 @@ Tutorial for constructing polygenic scores (PGS) [link](https://psoerensen.githu
 <i>All teaching materials on this page are shared under a CC BY 4.0 license.</i><br>
 Human Genomics [link](https://pdrohde.github.io/AAU-human-genomics/) <br>
 PGS Workshop [link](sites/SDU_PGS-workshop_print.pdf) <br>
+
+
+https://pdrohde.github.io/[url](https://vbn.aau.dk/da/organisations/genomic-medicine-2)
