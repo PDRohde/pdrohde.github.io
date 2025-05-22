@@ -1,5 +1,6 @@
-# Human Genomic Medicine
-
+Palle Duun Rohde, palledr(at)hst.aau.dk | p.rohde(at)rn.dk
+Associate Professor in Statistical and Complex Trait Genetics
+<br><br>
 I am an Associate Professor, and research group leader, at the <a href="https://vbn.aau.dk/da/organisations/genomic-medicine-2">Genomic Medicine research group</a> at the <a href="https://www.hst.aau.dk/">Department of Health Science and Technology, Aalborg University, Denmark</a>, and hold a part-time position as clinical academic in theoretical genetics at the <a href="https://vbn.aau.dk/en/organisations/klinisk-genetisk-afdeling">Department of Clinical Genetics, Aalborg Univeristy Hospital</a>.
 
 
