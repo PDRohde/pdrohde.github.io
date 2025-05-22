@@ -1,8 +1,8 @@
-<font size="4">
+<font size="6">
 	<b>Palle Duun Rohde</b>
 </font><br>
 
-<font size="2">
+<font size="4">
 Associate Professor in Statistical and Complex Trait Genetics
 </font><br>
 palledr(at)hst.aau.dk | p.rohde(at)rn.dk <br>
