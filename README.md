@@ -1,16 +1,18 @@
 <font size="10">
 	<b>Palle Duun Rohde</b>
 </font>
+
 <font size="8">
     Associate Professor in Statistical and Complex Trait Genetics
 </font>
+
 palledr(at)hst.aau.dk | p.rohde(at)rn.dk
 <br><br>
 I am an Associate Professor, and research group leader, at the <a href="https://vbn.aau.dk/da/organisations/genomic-medicine-2">Genomic Medicine research group</a> at the <a href="https://www.hst.aau.dk/">Department of Health Science and Technology, Aalborg University, Denmark</a>, and hold a part-time position as clinical academic in theoretical genetics at the <a href="https://vbn.aau.dk/en/organisations/klinisk-genetisk-afdeling">Department of Clinical Genetics, Aalborg Univeristy Hospital</a>.
 
 
 ## Research
-Research output [link](https://vbn.aau.dk/da/persons/palledr) <br>
+My full reseach profile can be found [here](https://vbn.aau.dk/da/persons/palledr) <br>
 
 ## Software Packages
 ### R qgg ###
