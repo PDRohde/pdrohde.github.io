@@ -54,7 +54,7 @@ The <a href="https://psoerensen.github.io/gact/index.html">gact package</a> pack
 
 <p>Rohde PD, Sørensen IF and Sørensen P (2023). <b>Expanded utility of the R package, qgg, with applications within genomic medicine</b>. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">[link]</a> </p>
 
-<p> Rohde PPD, Nyegaard M, Kjolby MF, Sørensen P (2021). <b>Multi-trait genomic risk stratification for type 2 diabetes</b>. <em>Frontiers in Medicine</em> 8, 711208 <a href="https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2021.711208/full">[link]</a> </p>
+<p> Rohde PD, Nyegaard M, Kjolby MF, Sørensen P (2021). <b>Multi-trait genomic risk stratification for type 2 diabetes</b>. <em>Frontiers in Medicine</em> 8, 711208 <a href="https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2021.711208/full">[link]</a> </p>
 
 <p>Rohde PD, Sørensen IF and Sørensen P. (2019). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
 
