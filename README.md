@@ -13,7 +13,7 @@
 </font>
 
 
-Associate Professor in Statistical and Complex Trait Genetics <br>
+<b>Associate Professor in Statistical and Complex Trait Genetics</b> <br>
 <font color="#E97132"> E-mail contact: palledr(at)hst.aau.dk</font> 
 
 
@@ -30,8 +30,8 @@ The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a c
 
 <b>Citations</b> <br>
 <div style="text-indent: -36px; padding-left: 36px;">
-<p>Rohde PD, Sørensen IF and Sørensen P. (2019). qgg: an R package for large-scale quantitative genetic analyses. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
-<p>Rohde PD, Sørensen IF and Sørensen P (2023). Expanded utility of the R package, qgg, with applications within genomic medicine. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">[link]</a> </p>
+<p>Rohde PD, Sørensen IF and Sørensen P. (2019). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
+<p>Rohde PD, Sørensen IF and Sørensen P (2023). <b>Expanded utility of the R package, qgg, with applications within genomic medicine</b>. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">[link]</a> </p>
 </div>
 
 ### R gact ###
@@ -39,7 +39,7 @@ The <a href="https://psoerensen.github.io/gact/index.html">gact package</a> pack
 
 <b>Citation</b> <br>
 <div style="text-indent: -36px; padding-left: 36px;">
-<p>Sørensen P, Gholipourshahraki T, Shrestha M, Bai Z, Hjelholt A, Kjolby MF and Rohde PD (2025). A versatile data repository for GWAS summary statistics-based downstread genomic analysis of human complex traits. <em>link comming soon</em> </p>
+<p>Sørensen P, Gholipourshahraki T, Shrestha M, Bai Z, Hjelholt A, Kjolby MF and Rohde PD (2025). <b>A versatile data repository for GWAS summary statistics-based downstream genomic analysis of human complex traits </b>. <em>link comming soon</em> </p>
 </div>
 
 ## Selected publications
