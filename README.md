@@ -4,7 +4,7 @@
 
 
 Associate Professor in Statistical and Complex Trait Genetics <br>
-<font color="#E97132"> E-mail contact: </font> [Email](mailto:palledr@hst.aau.dk?subject=Subject&body=Text)
+<font color="#E97132"> E-mail contact: palledr(at)hst.aau.dk</font> 
 
 
 I am an Associate Professor, and research group leader, at the <a href="https://vbn.aau.dk/da/organisations/genomic-medicine-2">Genomic Medicine research group</a> at the <a href="https://www.hst.aau.dk/">Department of Health Science and Technology, Aalborg University, Denmark</a>, and hold a part-time position as clinical academic in theoretical genetics at the <a href="https://vbn.aau.dk/en/organisations/klinisk-genetisk-afdeling">Department of Clinical Genetics, Aalborg Univeristy Hospital</a>.
