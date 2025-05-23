@@ -79,6 +79,7 @@ The <a href="https://psoerensen.github.io/gact/index.html">gact package</a> pack
 
 ## Course Work
 <i>All teaching materials on this page are shared under a CC BY 4.0 license.</i><br>
+
 &nbsp; Human Genomics [[link]](https://pdrohde.github.io/AAU-human-genomics/) <br>
 &nbsp; PGS Workshop [[link]](sites/SDU_PGS-workshop_print.pdf) <br>
 
