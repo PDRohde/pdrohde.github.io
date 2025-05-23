@@ -1,7 +1,7 @@
 <font size="10">
 	<b>Palle Duun Rohde</b>
 </font>
-
+<br>
 <font size="8">
     Associate Professor in Statistical and Complex Trait Genetics
 </font>
@@ -12,7 +12,7 @@ I am an Associate Professor, and research group leader, at the <a href="https://
 
 
 ## Research
-My full reseach profile can be found [here](https://vbn.aau.dk/da/persons/palledr) <br>
+My full reseach profile can be found [here](https://vbn.aau.dk/da/persons/palledr) 
 
 ## Software Packages
 ### R qgg ###
@@ -20,9 +20,9 @@ The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a c
 
 <b>Citations</b> <br>
 <div style="text-indent: -36px; padding-left: 36px;">
-<p>Rohde PD, Sorensen IF and Sorensen P. (2019). qgg: an R package for large-scale quantitative genetic analyses. <em>Bioinformatics</em> 36, 2614–2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">link</a></p>
+<p>Rohde PD, Sorensen IF and Sorensen P. (2019). qgg: an R package for large-scale quantitative genetic analyses. <em>Bioinformatics</em> 36, 2614–2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">link</a> </p>
 
-<p>Rohde PD, Sorensen IF and Sorensen P (2023). Expanded utility of the R package, qgg, with applications within genomic medicine. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">link</a></p>
+<p>Rohde PD, Sorensen IF and Sorensen P (2023). Expanded utility of the R package, qgg, with applications within genomic medicine. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">link</a> </p>
 
 
 </div>
