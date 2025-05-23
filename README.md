@@ -7,12 +7,12 @@
 <body>
 </body>
 </html>
-
+<img src="sites/HST_PalleDuunRohde_November2024_small.jpg" alt="" style="float:right;width:100px;height:150px;">
 <font size="10">
 	<b>Palle Duun Rohde</b>
 </font>
 
-<img src="sites/HST_PalleDuunRohde_November2024_small.jpg" alt="" style="float:right;width:100px;height:150px;">
+
 Associate Professor in Statistical and Complex Trait Genetics <br>
 <font color="#E97132"> E-mail contact: palledr(at)hst.aau.dk</font> 
 
