@@ -35,7 +35,7 @@ The <a href="https://psoerensen.github.io/gact/index.html">gact package</a> pack
 ## Statistical Genetic Notes
 Mendelian Randomization [[link]](sites/MR/Mendelian-randomization2_PDR.html) <br>
 Introduction to Quantitative Genetics [[link]](https://psoerensen.github.io/qgnotes/Quantitative-Genetics-Theory.pdf) <br>
-Estimating of Genetic Predisposition [l[ink]](https://psoerensen.github.io/qgnotes/Estimation-of-Genetic-Predisposition.pdf) <br>
+Estimating of Genetic Predisposition [[ink]](https://psoerensen.github.io/qgnotes/Estimation-of-Genetic-Predisposition.pdf) <br>
 Estimating of Genetic Predisposition [[link]](https://psoerensen.github.io/qgnotes/Estimation-of-Genetic-Parameters.pdf) <br>
 Gene-Set Enrichment Analyses [[link]](https://psoerensen.github.io/qgnotes/GSEA.pdf) <br>
 Bayesian Linear Regression Models [[link]](https://psoerensen.github.io/qgnotes/BLR.pdf) <br>
