@@ -3,9 +3,9 @@
 </font>
 
 
-Associate Professor in Statistical and Complex Trait Genetics
+Associate Professor in Statistical and Complex Trait Genetics <br>
+<font color="#F27127FF"> E-mail contact: ([Email](mailto:palledr@hst.aau.dk?subject=Subject&body=Text)) </font> 
 
-palledr(at)hst.aau.dk | p.rohde(at)rn.dk <br>
 
 I am an Associate Professor, and research group leader, at the <a href="https://vbn.aau.dk/da/organisations/genomic-medicine-2">Genomic Medicine research group</a> at the <a href="https://www.hst.aau.dk/">Department of Health Science and Technology, Aalborg University, Denmark</a>, and hold a part-time position as clinical academic in theoretical genetics at the <a href="https://vbn.aau.dk/en/organisations/klinisk-genetisk-afdeling">Department of Clinical Genetics, Aalborg Univeristy Hospital</a>.
 
