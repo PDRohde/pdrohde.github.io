@@ -47,13 +47,13 @@ The <a href="https://psoerensen.github.io/gact/index.html">gact package</a> pack
 <!-- <p> author (year). title. <em>journal</em> no, pages <a href="https://">[link]</a> </p> -->
 
 
-<p> Bai Z, Gholipourshahraki T, Shrestha M, Hjelholt A, Hu S, Kjolby MF, Rohde PD, Sørensen P (2024). Evaluation of Bayesian Linear Regression derived gene set test methods. <em>BMC Genomics</em> 25, 1236 <a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-11026-2">[link]</a> </p>
+<p> Bai Z, Gholipourshahraki T, Shrestha M, Hjelholt A, Hu S, Kjolby MF, Rohde PD, Sørensen P (2024). <b>Evaluation of Bayesian Linear Regression derived gene set test methods</b>. <em>BMC Genomics</em> 25, 1236 <a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-11026-2">[link]</a> </p>
 
-<p> Gholipourshahraki T, Bai Z, Shrestha M, Hjelholt A, Hu S, Kjolby MF, Rohde PD, Sørensen P (2024). Evaluation of Bayesian Linear Regression models for gene set prioritization in complex diseases. <em>PLOS Genetics</em> 11(20), e1011463 <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011463">[link]</a> </p> 
+<p> Gholipourshahraki T, Bai Z, Shrestha M, Hjelholt A, Hu S, Kjolby MF, Rohde PD, Sørensen P (2024). <b>Evaluation of Bayesian Linear Regression models for gene set prioritization in complex diseases</b>. <em>PLOS Genetics</em> 11(20), e1011463 <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011463">[link]</a> </p> 
 
-<p>Rohde PD, Sørensen IF and Sørensen P (2023). Expanded utility of the R package, qgg, with applications within genomic medicine. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">[link]</a> </p>
+<p>Rohde PD, Sørensen IF and Sørensen P (2023). <b>Expanded utility of the R package, qgg, with applications within genomic medicine</b>. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">[link]</a> </p>
 
-<p>Rohde PD, Sørensen IF and Sørensen P. (2019). qgg: an R package for large-scale quantitative genetic analyses. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
+<p>Rohde PD, Sørensen IF and Sørensen P. (2019). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
 
 
   
