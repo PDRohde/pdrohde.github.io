@@ -37,6 +37,9 @@ The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a c
 ### R gact ###
 The <a href="https://psoerensen.github.io/gact/index.html">gact package</a> package provides a framework for building and managing a comprehensive database of genomic associations with complex traits. It supports both infrastructure development and data acquisition, enabling integration of single marker associations with broader biological entities such as genes, proteins, metabolites, and pathways. gact streamlines the processing of GWAS summary statistics and biological databases, facilitates fine-mapping using Bayesian linear regression, and performs advanced gene set enrichment analysis. Its goal is to enhance the biological interpretation of genomic data by uncovering complex trait-related relationships.
 
+With <a href="https://psoerensen.github.io/gact/index.html">gact</a> you create your own GWAS summary statistics database and link it directly to your favorite types of gene annotations.
+
+
 <b>Citation</b> <br>
 <div style="text-indent: -36px; padding-left: 36px;">
 <p>Sørensen P, Gholipourshahraki T, Shrestha M, Bai Z, Hjelholt A, Kjolby MF and Rohde PD (2025). <b>A versatile data repository for GWAS summary statistics-based downstream genomic analysis of human complex traits </b>. <em>link comming soon</em> </p>
