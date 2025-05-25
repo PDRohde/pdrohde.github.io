@@ -1,7 +1,7 @@
 ---
-layout: default
 title: "Full list of publications"
-permalink: /publications/
+permalink: /
+layout: default
 ---
 
 
