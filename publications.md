@@ -23,8 +23,8 @@ permalink: /publications/
 
 
 <!-- 2017 -->
-<b> 2017 </b> <br>
-<p> Ørsted M<sup>*</sup>, Rohde PD<sup>*</sup>, Hoffmann AA, Sørensen P, Kristensen TN (2017). <b>Environmental variation partitioned into separate heritable components</b>. <em>Evolution</em>, 72(1):136-152, <a href="https://doi.org/10.1111/evo.13391">https://doi.org/10.1111/evo.13391</a> <small><br><sup>*</sup>These authors contributed equally to this work.</small> </p> 
+<font color="#E97132"> <b>2017</b> </font>  <br>
+<p> Ørsted M<sup>*</sup>, <b><span class="my-name">Rohde PD</span></b><sup>*</sup>, Hoffmann AA, Sørensen P, Kristensen TN (2017). <b>Environmental variation partitioned into separate heritable components</b>. <em>Evolution</em>, 72(1):136-152, <a href="https://doi.org/10.1111/evo.13391">https://doi.org/10.1111/evo.13391</a> <small><br><sup>*</sup>These authors contributed equally to this work.</small> </p> 
 
 <p> <b><span class="my-name">Rohde PD</span></b>, Gaertner B, Ward K, Sørensen P, Mackay TFC (2017). <b>Genomic analysis of genotype by social environment interaction for <i>Drosophila melanogaster</i> aggressive behaviour</b>. <em>Genetics</em>, 206(4):1969-1984, <a href="https://doi.org/10.1534/genetics.117.200642">https://doi.org/10.1534/genetics.117.200642</a> </p>
 
