@@ -1,9 +1,10 @@
 ---
-title: "Full list of publications"
-permalink: /
 layout: default
+title: Publications
+permalink: /publications/
 ---
 
+# Publications
 
 
 <div style="text-indent: -36px; padding-left: 36px;">

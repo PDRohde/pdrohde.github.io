@@ -1,3 +1,5 @@
+theme: jekyll-theme-cayman
+markdown: kramdown
 title: PDRohde Research
 description: Research and Education
 show_downloads: true
