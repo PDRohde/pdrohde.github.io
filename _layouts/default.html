@@ -16,11 +16,11 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-         <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-         <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-        
-         <a href="{{ '/' | relative_url }}" class="btn{% if page.url == '/' %} btn-active{% endif %}">Home</a>
-         <a href="{{ '/publications/' | relative_url }}" class="btn{% if page.url == '/publications/' %} btn-active{% endif %}">Publications</a>/header>
+          <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+          <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          <a href="{{ '/' | relative_url }}" class="btn">Home</a>
+          <a href="{{ '/publications/' | relative_url }}" class="btn">Publications</a>
+    </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
