@@ -41,12 +41,12 @@ With <a href="https://psoerensen.github.io/gact/index.html">gact</a> you create 
 
 
 <b>Please cite</b> <br>
-<div style="text-indent: -36px; padding-left: 36px;">
+<div style="text-indent: -30px; padding-left: 30px;">
 <p>Sørensen P and <b><span class="my-name">Rohde PD</span></b> (2025). <b>A versatile data repository for GWAS summary statistics-based downstream genomic analysis of human complex traits </b>. <em>doi comming soon</em> </p>
 </div>
 
 ## Selected publications
-<div style="text-indent: -36px; padding-left: 36px;">
+<div style="text-indent: -30px; padding-left: 30px;">
 <!-- <p> author (year). title. <em>journal</em> no, pages <a href="https://">[link]</a> </p> -->
 
 <p> Shrestha M, Bai Z, Gholipourshahraki T,  Hjelholt A, Kjolby MF, Rohde PD, Sørensen P (2025). <b>Enhanced genetic fine mapping accuracy with Bayesian Linear Regression models in diverse genetic architectures</b>. <em>bioRxiv</em> <a href="https://www.biorxiv.org/content/10.1101/2023.09.01.555889v1">[link]</a> </p> 
