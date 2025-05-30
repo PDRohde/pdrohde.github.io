@@ -28,7 +28,7 @@ My full publication record can be found at the <a href="https://pdrohde.github.i
 ### R qgg ###
 The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a comprehensive tool for large-scale genetic data analysis, built on the idea that certain genomic regions may be enriched for causal variants. It offers efficient infrastructure for linear mixed models, genomic prediction, heritability estimation, and gene set enrichment analysis. qgg supports high-performance computing with multi-core processing, optimized matrix operations, and memory-efficient genotype handling. It includes advanced genomic feature modeling approaches such as GFBLUP and marker set tests to improve discovery and prediction of trait-associated genomic regions.
 
-<b>Please cite</b> <br>
+<b><i>Please cite</i></b> <br>
 <div style="text-indent: -36px; padding-left: 36px;">
 <p><b><span class="my-name">Rohde PD</span></b>, Sørensen IF and Sørensen P. (2019). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
 <p><b><span class="my-name">Rohde PD</span></b>, Sørensen IF and Sørensen P (2023). <b>Expanded utility of the R package, qgg, with applications within genomic medicine</b>. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">[link]</a> </p>
@@ -40,7 +40,7 @@ The <a href="https://psoerensen.github.io/gact/index.html">gact package</a> pack
 With <a href="https://psoerensen.github.io/gact/index.html">gact</a> you create your <b>own curated GWAS summary statistics database</b> and link it directly to your preferred types of gene annotations. With this repository, you can then <b>perform several novel Bayesian analyses</b> at the <b>level of SNPs</b> (<a href="https://psoerensen.github.io/gact/Document/Finemapping_bayesian_linear_regression_real_data.html">fine mapping</a>), <b>genes</b> (<a href="https://psoerensen.github.io/gact/Document/Gene_ranking_bayesian_pops.html">Bayes PoPS</a>), and <b>gene sets</b> (<a href="https://psoerensen.github.io/gact/Document/Gene_set_analysis_bayesian_magma.html">Bayes MAGMA</a>)
 
 
-<b>Please cite</b> <br>
+<b><i>Please cite</i></b> <br>
 <div style="text-indent: -30px; padding-left: 30px;">
 <p>Sørensen P and <b><span class="my-name">Rohde PD</span></b> (2025). <b>A versatile data repository for GWAS summary statistics-based downstream genomic analysis of human complex traits </b>. <em>doi comming soon</em> </p>
 </div>
