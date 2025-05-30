@@ -21,10 +21,36 @@ permalink: /publications/
 ## Peer-reviewed publications
 <!-- <p> author (year). title. <em>journal</em>, no, pages, <a href="https://doi.org/">https://doi.org/</a> </p> -->
 
+<!-- 2024 -->
+<font color="#E97132"> <b>2024</b> </font>
+ <p> Thorolfsdottir RB, Jonsdottir AB, ..., DBDS Genetics Concortium<sup>*</sup>, ..., Steffanson K.  (2024). Variants at the Interleukin 1 Gene Locus and Pericarditis. <em>JAMA Cardiology</em>, 9(2):165-172, <a href="https://doi.org/10.1001/jamacardio.2023.4820">https://doi.org/10.1001/jamacardio.2023.4820</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small> </p>
+
+<p> Westergaard D, Steinthorsdottir V, Stefansdottir L, <b><span class="my-name">Rohde PD</span></b>, Wu X, Geller F, Tyrmi J, Havulinna AS, Navais PS, Flatley C, Ostrowski SR, Pedersen OB, Erikstrup C, Sørensen E, Mikkelsen C, Brun MT, Jensen, BA, Brodersen T, Ullum H, Magnus P, Andreassen OA, Njolstad PR, Kolte AM, Krebs L, Nyegaard M, Hansen TF, Fenstra B, Daly M, Lindgren CM, Thorleifsson G, Stefansson OA, Sveinbjornsson G, Gudbjartsson DF, Thorsteinsdottir U, Banasik K, Jacobsson B, Laisk T, Laivuori H, Stefansson K, Brunak S, Nielsen HS (2024).  Genome-wide association meta-analysis identifies five loci associated with postpartum hemorrhage. <em>Nature Genetics</em>, 56:1597–1603, <a href="https://doi.org/10.1038/s41588-024-01839-y">https://doi.org/10.1038/s41588-024-01839-y</a> </p>
+
+<p> Bak NK, Rohde PD, Kristensen TN (2023). <b>Strong sex-dependent effects of malnutrition on life- and healthspan in <i>Drosophila melanogaster</i></b>. <em>Insects</em>, 15:9, <a href="https://doi.org/10.3390/insects15010009">https://doi.org/10.3390/insects15010009</a> </p>
+
+<!-- 2023 -->
+<font color="#E97132"> <b>2023</b> </font>
+<p> Brix GS, Rasmussen LD, <b><span class="my-name">Rohde PD</span></b>, Schmidt SE, Nyegaard M, Douglas PS, Newby DE, Williams MC, Foldyna B, Knuuti J, Bøttcher M, Winther Suthor (2023). <b>Calcium scoring improves clinical management in patients with low clinical likelihood of coronary artery disease</b>. <em>JACC: Cardiovascular Imaging</em>,  17(6):625–639, <a href="https://doi.org10.1016/j.jcmg.2023.11.008">https://doi.org/10.1016/j.jcmg.2023.11.008</a> </p>
+ 
+<p> Bjornsdottir G, Chalmer M, ..., DBDS Genetics Concortium<sup>*</sup>, ..., Steffanson K. (2023). <b>Rare variants with large effects provide functional insights into the pathology of migraine subtypes, with and without aura</b>. <em>Nature Genetics</em>, 55:1843–1853, <a href="https://doi.org/10.1038/s41588-023-01538-0">https://doi.org/10.1038/s41588-023-01538-0</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small> </p>
+
+<p> <b><span class="my-name">Rohde PD</span></b>, Sørensen IF, Sørensen P (2023). <b>Expanded utility of the R package, qgg, with applications within genomic medicine</b>. <em>Bioinformatics</em>, 39(11):btad656, <a href="https://doi.org/10.1093/bioinformatics/btad656">https://doi.org/10.1093/bioinformatics/btad656</a> </p>
+ 
+ <p> Møller PL, <b><span class="my-name">Rohde PD</span></b>, Dahl JN, Rasmussen LD, Schmidt SE, Nissen L, McGilligan V, Bentzon JF, Gudbjartsson DF, Steffanson K, Holm H, Winther S, Bøttcher M, Nyegaard M (2023). Combining polygenic and proteomic risk scores with clinical risk factors to improve performance for diagnosing absence of coronary artery disease in patients with de novo chest pain. <em>Circulation: Genomic and Precision Medicine</em>, 16(5):442-451, <a href="https://doi.org/10.1161/circgen.123.004053">https://doi.org/10.1161/circgen.123.004053</a> </p> 
+ 
+ <p> Therkildsen J, <b><span class="my-name">Rohde PD</span></b>, Nissen L, Thygesen J, Hauge EM, Langdahl BL, Boettcher M, Nyegaard M, Winther S (2023). <b>A genome-wide genomic score added to standard recommended stratification tools does not improve the identification of patients with very low bone mineral density</b>. <em>Osteoporos International</em>, 34(11)1893-1906, <a href="https://doi.org/10.1007/s00198-023-06857-w">https://doi.org/10.1007/s00198-023-06857-w</a> </p>
+
+<p> Winther S, Rasmussen LD, Westra J, Abdulzahra SRK, Dahl JN, Gormsen LC, Christiansen EH, Brix GS, Mortensen J, Ejlersen JA, Søndergaard HM, Hansson NCL, Holm NR, Knudsen LL, Eftekhari A, Møller PL, <b><span class="my-name">Rohde PD</span></b>, Nyegaard M, Böttcher M (2023). <b>Danish study of Non-Invasive Testing in Coronary Artery Disease 3 (Dan-NICAD 3): study design of a controlled study on optimal diagnostic strategy</b>. <em>Open Heart</em>, 10(2):e002328, <a href="https://doi.org/10.1136/openhrt-2023-002328">https://doi.org/10.1136/openhrt-2023-002328</a> </p>
+
+<p> Banasik K, Møller PL, Techlo TR,  Holm PC, Walters B,  Ingason A, Rosengren A, b><span class="my-name">Rohde PD</span></b>, Kogelman, LJ, Westergaard D, Siggaard T, Chmura PJ, Chalmer MA, Magnússon O, Pórisson GA, Stefánsson H, Guðbjartsson DF, Stefánsson K, Olesen J, Winther S, Bøttcher M, Brunak S, Werge T, Nyegaard M, Hansen TF (2023). <b>DanMAC5: a browser of aggregated sequence variants from 8,671 whole genome sequenced Danish individuals</b>. <em>BMC Genomic Data</em>, 24:30, <a href="https://doi.org/10.1186/s12863-023-01132-7">https://doi.org/10.1186/s12863-023-01132-7</a> </p>
+
+<p> Jensen HH, Frantzen MT, Wesseltoft JL, Busuioc A,  Møller KV, Brohus M, b><span class="my-name">Rohde PD</span></b>, Nyegaard M, Overgaard MT, Olsen A (2023). <b>Human calmodulin mutations cause arrhythmia and affect neuronal function in <i>C. elegans</i></b>. <em>Human Molecular Genetics</em>, 32(12)2068–2083, <a href="https://doi.org/10.1093/hmg/ddad042">https://doi.org/10.1093/hmg/ddad042</a> </p> 
+
+<p> Baisgaard AE, Koldby KM, Kristensen TN, Nyegaard M, b><span class="my-name">Rohde PD</span></b> (2023). <b>Functionally validating evolutionary conserved risk genes for Parkinsons disease in <i>Drosophila melanogaster</i></b>. <em>Insects</em>, 14(2):168, <a href="https://doi.org/10.3390/insects14020168">https://doi.org/10.3390/insects14020168</a> </p>
+
 <!-- 2022 -->
 <font color="#E97132"> <b>2022</b> </font>
-
-
 <p> Brohus M, <b><span class="my-name">Rohde PD</span></b>, Gregersen S, Westphal KR, Ern R, Jensen HH (2022). Exploring approaches for blended learning in life sciences. <em>Journal of Problem Based Learning in Higher Education</em>, 10(1):88-100, <a href="https://doi.org/10.54337/ojs.jpblhe.v10i1.7304">https://doi.org/10.54337/ojs.jpblhe.v10i1.7304</a> </p> 
 
 <p> Staehr C, <b><span class="my-name">Rohde PD</span></b>, Krarup NT, Ringgaard S, Laustsen C, Johnsen J, Beck HC, Morth JP, Lykke-Hartmann K, Jespersen NR, Abramochkin DV, Nyegaard M, Bøtker HE, Aalkjaer C, Matchkov, VV (2022). <b>Migraine-associated mutation in the Na,K-ATPase alpha-2 isoform leads to disturbances in cardiac metabolism associated with reduced cardiac function</b>. <em>Journal of the American Heart Association</em>, 7(11):e021814, <a href="https://doi.org/10.1161/jaha.121.021814">https://doi.org/10.1161/jaha.121.021814</a> </p>
