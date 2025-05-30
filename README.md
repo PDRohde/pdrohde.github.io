@@ -21,7 +21,7 @@ I am an Associate Professor, and research group leader, at the <a href="https://
 
 
 ## Research
-My full reseach profile can be found <a href="https://vbn.aau.dk/da/persons/palledr">here</a>.
+My full publication record can be found at the <a href="https://pdrohde.github.io/publications/">Publications</a>-page at the top on this site, and my university reseach profile can be found <a href="https://vbn.aau.dk/da/persons/palledr">here</a>.
 
 
 ## Software Packages
