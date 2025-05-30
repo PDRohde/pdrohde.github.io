@@ -17,7 +17,7 @@ permalink: /publications/
 
 <p>Shrestha M, Bai Z, Gholipourshahraki T, Hjelholt AJ, Hu S, Kjølby M, Rohde PD, Sørensen P (2023). <b>Evaluation of Bayesian Linear Regression models as a fine mapping tool</b>. <em>bioRxiv</em> <a href="https://doi.org/10.1101/2023.09.01.555889">https://doi.org/10.1101/2023.09.01.555889</a> </p>
 </div>
- 
+<br> 
 
 ## Peer-reviewed publications
 
