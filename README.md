@@ -30,7 +30,7 @@ The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a c
 
 <b><i>Please cite</i></b> <br>
 <div style="text-indent: -36px; padding-left: 36px;">
-<p><b><span class="my-name">Rohde PD</span></b>, Sørensen IF and Sørensen P. (2019). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
+<p><b><span class="my-name">Rohde PD</span></b>, Sørensen IF and Sørensen P. (2020). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
 <p><b><span class="my-name">Rohde PD</span></b>, Sørensen IF and Sørensen P (2023). <b>Expanded utility of the R package, qgg, with applications within genomic medicine</b>. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">[link]</a> </p>
 </div>
 
@@ -59,7 +59,7 @@ With <a href="https://psoerensen.github.io/gact/index.html">gact</a> you create 
 
 <p> <b><span class="my-name">Rohde PD</span></b>, Nyegaard M, Kjolby MF, Sørensen P (2021). <b>Multi-trait genomic risk stratification for type 2 diabetes</b>. <em>Frontiers in Medicine</em> 8, 711208 <a href="https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2021.711208/full">[link]</a> </p>
 
-<p><b><span class="my-name">Rohde PD</span></b>, Sørensen IF and Sørensen P. (2019). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
+<p><b><span class="my-name">Rohde PD</span></b>, Sørensen IF and Sørensen P. (2020). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
 
 <p> Sørensen IF, Edwards SM, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2017). <b>Multiple Trait Covariance Association Test identifies Gene Ontology categories associated with chill coma recovery time in <i>Drosophila melanogaster</i></b>. <em>Scientific Reports</em> 1(7), 2413 <a href="https://www.nature.com/articles/s41598-017-02281-3">[link]</a> </p>
 
