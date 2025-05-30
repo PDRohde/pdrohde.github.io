@@ -21,12 +21,19 @@ permalink: /publications/
 ## Peer-reviewed publications
 <!-- <p> author (year). title. <em>journal</em>, no, pages, <a href="https://doi.org/">https://doi.org/</a> </p> -->
 
+<!-- 2022 -->
+<font color="#E97132"> <b>2022</b> </font>
+
+
+<p> Brohus M, <b><span class="my-name">Rohde PD</span></b>, Gregersen S, Westphal KR, Ern R, Jensen HH (2022). Exploring approaches for blended learning in life sciences. <em>Journal of Problem Based Learning in Higher Education</em>, 10(1):88-100, <a href="https://doi.org/10.54337/ojs.jpblhe.v10i1.7304">https://doi.org/10.54337/ojs.jpblhe.v10i1.7304</a> </p> 
+
+<p> Staehr C, <b><span class="my-name">Rohde PD</span></b>, Krarup NT, Ringgaard S, Laustsen C, Johnsen J, Beck HC, Morth JP, Lykke-Hartmann K, Jespersen NR, Abramochkin DV, Nyegaard M, Bøtker HE, Aalkjaer C, Matchkov, VV (2022). <b>Migraine-associated mutation in the Na,K-ATPase alpha-2 isoform leads to disturbances in cardiac metabolism associated with reduced cardiac function</b>. <em>Journal of the American Heart Association</em>, 7(11):e021814, <a href="https://doi.org/10.1161/jaha.121.021814">https://doi.org/10.1161/jaha.121.021814</a> </p>
 
 <!-- 2021 -->
 <font color="#E97132"> <b>2021</b> </font>
- <p> Kløve-Mogensen K<sup>*</sup>, <b><span class="my-name">Rohde PD</span></b><sup>*</sup>, Twisttmann S, Nygaard M, Koldby MA, Steffensen R, Dahl CM, Rytter D, Overgaard MT, Forman A, Christiansen L, Nyegaard M (2021). Polygenic risk score prediction for endometriosis. <em>Frontiers in Reproductive Health</em>, 3:793226, <a href="https://doi.org/10.3389/frph.2021.793226">https://doi.org/10.3389/frph.2021.793226</a> <small><br><sup>*</sup>These authors contributed equally to this work.</small> </p>
+ <p> Kløve-Mogensen K<sup>*</sup>, <b><span class="my-name">Rohde PD</span></b><sup>*</sup>, Twisttmann S, Nygaard M, Koldby MA, Steffensen R, Dahl CM, Rytter D, Overgaard MT, Forman A, Christiansen L, Nyegaard M (2021). <b>Polygenic risk score prediction for endometriosis</b>. <em>Frontiers in Reproductive Health</em>, 3:793226, <a href="https://doi.org/10.3389/frph.2021.793226">https://doi.org/10.3389/frph.2021.793226</a> <small><br><sup>*</sup>These authors contributed equally to this work.</small> </p>
 
-<p> Christensen, MW, Keefe DL, Fang W, Hansen CS. Chamani I, Sommer C, Nyegaard M, <b><span class="my-name">Rohde PD</span></b>, Nielsen AL, Bybjerg-Grauholm J, Kesmodel US, Knudsen UB, Kirkegaard K, Ingerslev HJ (2021). Idiopathic early ovarian aging: Is there a relation with premenopausal accelerated biological aging in young women with diminished response to ART?. <em>Journal of Assisted Reproduction and Genetics</em>, 38:3027–3038, <a href="https://doi.org/10.1007/s10815-021-02326-7">https://doi.org/10.1007/s10815-021-02326-7</a> </p> 
+<p> Christensen, MW, Keefe DL, Fang W, Hansen CS. Chamani I, Sommer C, Nyegaard M, <b><span class="my-name">Rohde PD</span></b>, Nielsen AL, Bybjerg-Grauholm J, Kesmodel US, Knudsen UB, Kirkegaard K, Ingerslev HJ (2021). <b>Idiopathic early ovarian aging: Is there a relation with premenopausal accelerated biological aging in young women with diminished response to ART?</b>. <em>Journal of Assisted Reproduction and Genetics</em>, 38:3027–3038, <a href="https://doi.org/10.1007/s10815-021-02326-7">https://doi.org/10.1007/s10815-021-02326-7</a> </p> 
 
 <p> <b><span class="my-name">Rohde PD</span></b>, Nyegaard M, Kjolby M, Sørensen P (2021). <b>Multi-trait genomic risk stratification for type 2 diabetes</b>. <em>Frontiers in Medicine</em>, 8:711208, <a href="https://doi.org/10.3389/fmed.2021.711208">https://doi.org/10.3389/fmed.2021.711208</a> </p>
 
