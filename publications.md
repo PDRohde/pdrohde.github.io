@@ -26,7 +26,7 @@ permalink: /publications/
 
 <p> <b><span class="my-name">Rohde PD</span></b>, Kristensen TN (2020). Untangling the genetic basis of drug response. <em>Pharmacogenomics</em>, 21(2):87-89, <a href="https://doi.org/10.2217/pgs-2019-0155">https://doi.org/10.2217/pgs-2019-0155</a> </p>
 
-<p> Hansen BK, Staehr C, <b><span class="my-name">Rohde PD</span></b>, Homilius C, Kim S, Nyegaard M, Matchkov V, Boedtkjer E (2020).  <b><i>PTPRG</i> is an ischemia risk locus essential for <msubsup> HCO3 3 - </msubsup>-dependent regulation of endothelial function and tissue perfusion</b>. <em>eLife</em>, 9:e57553, <a href="https://doi.org/10.7554/elife.57553">https://doi.org/10.7554/elife.57553</a> </p>
+<p> Hansen BK, Staehr C, <b><span class="my-name">Rohde PD</span></b>, Homilius C, Kim S, Nyegaard M, Matchkov V, Boedtkjer E (2020).  <b><i>PTPRG</i> is an ischemia risk locus essential for HCO33--dependent regulation of endothelial function and tissue perfusion</b>. <em>eLife</em>, 9:e57553, <a href="https://doi.org/10.7554/elife.57553">https://doi.org/10.7554/elife.57553</a> </p>
 
 <p> <b><span class="my-name">Rohde PD</span></b>, Sørensen IF, Sørensen P (2020). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em>, 36(8):2614-2615, <a href="https://doi.org/10.1093/bioinformatics/btz955">https://doi.org/10.1093/bioinformatics/btz955</a>
 
