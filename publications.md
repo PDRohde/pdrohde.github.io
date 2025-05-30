@@ -27,13 +27,14 @@ permalink: /publications/
 
 <p> Westergaard D, Steinthorsdottir V, Stefansdottir L, <b><span class="my-name">Rohde PD</span></b>, Wu X, Geller F, Tyrmi J, Havulinna AS, Navais PS, Flatley C, Ostrowski SR, Pedersen OB, Erikstrup C, Sørensen E, Mikkelsen C, Brun MT, Jensen, BA, Brodersen T, Ullum H, Magnus P, Andreassen OA, Njolstad PR, Kolte AM, Krebs L, Nyegaard M, Hansen TF, Fenstra B, Daly M, Lindgren CM, Thorleifsson G, Stefansson OA, Sveinbjornsson G, Gudbjartsson DF, Thorsteinsdottir U, Banasik K, Jacobsson B, Laisk T, Laivuori H, Stefansson K, Brunak S, Nielsen HS (2024).  Genome-wide association meta-analysis identifies five loci associated with postpartum hemorrhage. <em>Nature Genetics</em>, 56:1597–1603, <a href="https://doi.org/10.1038/s41588-024-01839-y">https://doi.org/10.1038/s41588-024-01839-y</a> </p>
 
-<p> Bak NK, Rohde PD, Kristensen TN (2023). <b>Strong sex-dependent effects of malnutrition on life- and healthspan in <i>Drosophila melanogaster</i></b>. <em>Insects</em>, 15:9, <a href="https://doi.org/10.3390/insects15010009">https://doi.org/10.3390/insects15010009</a> </p>
 
 <!-- 2023 -->
 <font color="#E97132"> <b>2023</b> </font>
 <p> Brix GS, Rasmussen LD, <b><span class="my-name">Rohde PD</span></b>, Schmidt SE, Nyegaard M, Douglas PS, Newby DE, Williams MC, Foldyna B, Knuuti J, Bøttcher M, Winther Suthor (2023). <b>Calcium scoring improves clinical management in patients with low clinical likelihood of coronary artery disease</b>. <em>JACC: Cardiovascular Imaging</em>,  17(6):625–639, <a href="https://doi.org10.1016/j.jcmg.2023.11.008">https://doi.org/10.1016/j.jcmg.2023.11.008</a> </p>
  
 <p> Bjornsdottir G, Chalmer M, ..., DBDS Genetics Concortium<sup>*</sup>, ..., Steffanson K. (2023). <b>Rare variants with large effects provide functional insights into the pathology of migraine subtypes, with and without aura</b>. <em>Nature Genetics</em>, 55:1843–1853, <a href="https://doi.org/10.1038/s41588-023-01538-0">https://doi.org/10.1038/s41588-023-01538-0</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small> </p>
+
+<p> Bak NK, Rohde PD, Kristensen TN (2023). <b>Strong sex-dependent effects of malnutrition on life- and healthspan in <i>Drosophila melanogaster</i></b>. <em>Insects</em>, 15:9, <a href="https://doi.org/10.3390/insects15010009">https://doi.org/10.3390/insects15010009</a> </p>
 
 <p> <b><span class="my-name">Rohde PD</span></b>, Sørensen IF, Sørensen P (2023). <b>Expanded utility of the R package, qgg, with applications within genomic medicine</b>. <em>Bioinformatics</em>, 39(11):btad656, <a href="https://doi.org/10.1093/bioinformatics/btad656">https://doi.org/10.1093/bioinformatics/btad656</a> </p>
  
