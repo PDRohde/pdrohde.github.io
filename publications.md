@@ -13,7 +13,7 @@ permalink: /publications/
 
 <p> Thielemann R, Stinson SE, Huang Y, Holm LA, Gräf JF, <b><span class="my-name">Rohde PD</span></b>, Møller PLR, Poggi AI, Anderson LV, Fonvig CE, Thiele M, Krag A, Rasmussen S, Holm JC, Hansen T (2025). <b>Obesity- and age-dependent genetic regulation of the plasma proteome in children and adolescents</b>.  <em>medRxiv</em>  <a href="https://doi.org/10.1101/2025.03.18.25324169">https://doi.org/10.1101/2025.03.18.25324169</a> </p>
 
-<p> Jensen HH, Brohus M, Hussey JH, Busuioc AO, Iversen ED, Darki F, Nikolova GD, Baisgaard AE, <b><span class="my-name">Rohde PD</span></b>, Holm IEG, McQuillin A, Moos T, Dick IE, Overgaard MT, Nyegaard M (2024). <b><i>>Calmodulin</i> variants in schizophrenia patients display gain-of-function or loss-of-function effects</b>. <em>medRxiv</em> <a href="https://doi.org/10.1101/2024.05.22.24307674">https://doi.org/10.1101/2024.05.22.24307674</a> </p>
+<p> Jensen HH, Brohus M, Hussey JH, Busuioc AO, Iversen ED, Darki F, Nikolova GD, Baisgaard AE, <b><span class="my-name">Rohde PD</span></b>, Holm IEG, McQuillin A, Moos T, Dick IE, Overgaard MT, Nyegaard M (2024). <b><i>Calmodulin</i> variants in schizophrenia patients display gain-of-function or loss-of-function effects</b>. <em>medRxiv</em> <a href="https://doi.org/10.1101/2024.05.22.24307674">https://doi.org/10.1101/2024.05.22.24307674</a> </p>
 
 <p>Shrestha M, Bai Z, Gholipourshahraki T, Hjelholt AJ, Hu S, Kjølby M, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2023). <b>Evaluation of Bayesian Linear Regression models as a fine mapping tool</b>. <em>bioRxiv</em> <a href="https://doi.org/10.1101/2023.09.01.555889">https://doi.org/10.1101/2023.09.01.555889</a> </p>
 
