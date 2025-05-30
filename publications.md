@@ -21,14 +21,28 @@ permalink: /publications/
 ## Peer-reviewed publications
 <!-- <p> author (year). title. <em>journal</em>, no, pages, <a href="https://doi.org/">https://doi.org/</a> </p> -->
 
+
+<!-- 2021 -->
+<font color="#E97132"> <b>2021</b> </font>
+ <p> Kløve-Mogensen K<sup>*</sup>, <b><span class="my-name">Rohde PD</span></b><sup>*</sup>, Twisttmann S, Nygaard M, Koldby MA, Steffensen R, Dahl CM, Rytter D, Overgaard MT, Forman A, Christiansen L, Nyegaard M (2021). Polygenic risk score prediction for endometriosis. <em>Frontiers in Reproductive Health</em>, 3:793226, <a href="https://doi.org/10.3389/frph.2021.793226">https://doi.org/10.3389/frph.2021.793226</a> <small><br><sup>*</sup>These authors contributed equally to this work.</small> </p>
+
+<p> Christensen, MW, Keefe DL, Fang W, Hansen CS. Chamani I, Sommer C, Nyegaard M, <b><span class="my-name">Rohde PD</span></b>, Nielsen AL, Bybjerg-Grauholm J, Kesmodel US, Knudsen UB, Kirkegaard K, Ingerslev HJ (2021). Idiopathic early ovarian aging: Is there a relation with premenopausal accelerated biological aging in young women with diminished response to ART?. <em>Journal of Assisted Reproduction and Genetics</em>, 38:3027–3038, <a href="https://doi.org/10.1007/s10815-021-02326-7">https://doi.org/10.1007/s10815-021-02326-7</a> </p> 
+
+<p> <b><span class="my-name">Rohde PD</span></b>, Nyegaard M, Kjolby M, Sørensen P (2021). <b>Multi-trait genomic risk stratification for type 2 diabetes</b>. <em>Frontiers in Medicine</em>, 8:711208, <a href="https://doi.org/10.3389/fmed.2021.711208">https://doi.org/10.3389/fmed.2021.711208</a> </p>
+
+<p> <b><span class="my-name">Rohde PD</span></b>, Bøcker A, Jensen CAB, Bergstrøm AL, Madsen MIJ, Christensen SL, Villadsen SB, Kristensen TN (2021). <b>Genotype and trait specific responses to rapamycin intake in <i>Drosophila melanogaster</i></b>. <em>Insects</em>, 12(5):475, <a href="https://doi.org/10.3390/insects12050474">https://doi.org/10.3390/insects12050474</a> </p>
+
+<p> Møller PL, <b><span class="my-name">Rohde PD</span></b>, Winther S, Breining P, Nissen L, Nykjaer A, Bøttcher M, Nyegaard M, Kjolby M (2021). <b>Sortilin as a biomarker for cardiovascular disease revisited</b>. <em>Frontiers in Cardiovascular Medicine</em>, 8:652584, <a href="https://doi.org/10.3389/fcvm.2021.652584">https://doi.org/10.3389/fcvm.2021.652584</a> </p> 
+
+<p> <b><span class="my-name">Rohde PD</span></b>, Kristensen TN, Sarup P, Munoz J, Malmendal A (2021). <b>Prediction of complex phenotypes using the <i>Drosophila</i> metabolome</b>. <em>Heredity</em>, 126:717–732, <a href="https://doi.org/10.1038/s41437-021-00404-1">https://doi.org/10.1038/s41437-021-00404-1</a> </p>
+
 <!-- 2020 -->
 <font color="#E97132"> <b>2020</b> </font>
-
-<p> <b><span class="my-name">Rohde PD</span></b>, Kristensen TN (2020). Untangling the genetic basis of drug response. <em>Pharmacogenomics</em>, 21(2):87-89, <a href="https://doi.org/10.2217/pgs-2019-0155">https://doi.org/10.2217/pgs-2019-0155</a> </p>
+<p> <b><span class="my-name">Rohde PD</span></b>, Kristensen TN (2020). <b>Untangling the genetic basis of drug response</b>. <em>Pharmacogenomics</em>, 21(2):87-89, <a href="https://doi.org/10.2217/pgs-2019-0155">https://doi.org/10.2217/pgs-2019-0155</a> </p>
 
 <p> Hansen BK, Staehr C, <b><span class="my-name">Rohde PD</span></b>, Homilius C, Kim S, Nyegaard M, Matchkov V, Boedtkjer E (2020).  <b><i>PTPRG</i> is an ischemia risk locus essential for HCO33--dependent regulation of endothelial function and tissue perfusion</b>. <em>eLife</em>, 9:e57553, <a href="https://doi.org/10.7554/elife.57553">https://doi.org/10.7554/elife.57553</a> </p>
 
-<p> <b><span class="my-name">Rohde PD</span></b>, Sørensen IF, Sørensen P (2020). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em>, 36(8):2614-2615, <a href="https://doi.org/10.1093/bioinformatics/btz955">https://doi.org/10.1093/bioinformatics/btz955</a>
+<p> <b><span class="my-name">Rohde PD</span></b>, Sørensen IF, Sørensen P (2020). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em>, 36(8):2614-2615, <a href="https://doi.org/10.1093/bioinformatics/btz955">https://doi.org/10.1093/bioinformatics/btz955</a> </p>
 
 
 <!-- 2019 -->
