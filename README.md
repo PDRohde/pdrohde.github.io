@@ -30,8 +30,8 @@ The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a c
 
 <b>Please cite</b> <br>
 <div style="text-indent: -36px; padding-left: 36px;">
-<p><b><span class="my-name">Rohde PD</span></b>, Sørensen IF and Sørensen P. (2019). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
-<p><b><span class="my-name">Rohde PD</span></b>, Sørensen IF and Sørensen P (2023). <b>Expanded utility of the R package, qgg, with applications within genomic medicine</b>. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">[link]</a> </p>
+<p>Rohde PD, Sørensen IF and Sørensen P. (2019). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
+<p>Rohde PD, Sørensen IF and Sørensen P (2023). <b>Expanded utility of the R package, qgg, with applications within genomic medicine</b>. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">[link]</a> </p>
 </div>
 
 ### R gact ###
@@ -42,28 +42,28 @@ With <a href="https://psoerensen.github.io/gact/index.html">gact</a> you create 
 
 <b>Please cite</b> <br>
 <div style="text-indent: -36px; padding-left: 36px;">
-<p>Sørensen P and <b><span class="my-name">Rohde PD</span></b> (2025). <b>A versatile data repository for GWAS summary statistics-based downstream genomic analysis of human complex traits </b>. <em>link comming soon</em> </p>
+<p>Sørensen P and Rohde PD (2025). <b>A versatile data repository for GWAS summary statistics-based downstream genomic analysis of human complex traits </b>. <em>link comming soon</em> </p>
 </div>
 
 ## Selected publications
 <div style="text-indent: -36px; padding-left: 36px;">
 <!-- <p> author (year). title. <em>journal</em> no, pages <a href="https://">[link]</a> </p> -->
 
-<p> Shrestha M, Bai Z, Gholipourshahraki T,  Hjelholt A, Kjolby MF, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2025). <b>Enhanced genetic fine mapping accuracy with Bayesian Linear Regression models in diverse genetic architectures</b>. <em>bioRxiv</em> <a href="https://www.biorxiv.org/content/10.1101/2023.09.01.555889v1">[link]</a> </p> 
+<p> Shrestha M, Bai Z, Gholipourshahraki T,  Hjelholt A, Kjolby MF, Rohde PD, Sørensen P (2025). <b>Enhanced genetic fine mapping accuracy with Bayesian Linear Regression models in diverse genetic architectures</b>. <em>bioRxiv</em> <a href="https://www.biorxiv.org/content/10.1101/2023.09.01.555889v1">[link]</a> </p> 
 
-<p> Bai Z, Gholipourshahraki T, Shrestha M, Hjelholt A, Hu S, Kjolby MF, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2024). <b>Evaluation of Bayesian Linear Regression derived gene set test methods</b>. <em>BMC Genomics</em> 25, 1236 <a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-11026-2">[link]</a> </p>
+<p> Bai Z, Gholipourshahraki T, Shrestha M, Hjelholt A, Hu S, Kjolby MF, Rohde PD, Sørensen P (2024). <b>Evaluation of Bayesian Linear Regression derived gene set test methods</b>. <em>BMC Genomics</em> 25, 1236 <a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-11026-2">[link]</a> </p>
 
-<p> Gholipourshahraki T, Bai Z, Shrestha M, Hjelholt A, Hu S, Kjolby MF, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2024). <b>Evaluation of Bayesian Linear Regression models for gene set prioritization in complex diseases</b>. <em>PLOS Genetics</em> 11(20), e1011463 <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011463">[link]</a> </p> 
+<p> Gholipourshahraki T, Bai Z, Shrestha M, Hjelholt A, Hu S, Kjolby MF, Rohde PD, Sørensen P (2024). <b>Evaluation of Bayesian Linear Regression models for gene set prioritization in complex diseases</b>. <em>PLOS Genetics</em> 11(20), e1011463 <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011463">[link]</a> </p> 
 
-<p><b><span class="my-name">Rohde PD</span></b>, Sørensen IF and Sørensen P (2023). <b>Expanded utility of the R package, qgg, with applications within genomic medicine</b>. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">[link]</a> </p>
+<p>Rohde PD, Sørensen IF and Sørensen P (2023). <b>Expanded utility of the R package, qgg, with applications within genomic medicine</b>. <em>Bioinformatics</em> 39, btad656 <a href="https://academic.oup.com/bioinformatics/article/39/11/btad656/7330405">[link]</a> </p>
 
-<p> <b><span class="my-name">Rohde PD</span></b>, Nyegaard M, Kjolby MF, Sørensen P (2021). <b>Multi-trait genomic risk stratification for type 2 diabetes</b>. <em>Frontiers in Medicine</em> 8, 711208 <a href="https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2021.711208/full">[link]</a> </p>
+<p> Rohde PD, Nyegaard M, Kjolby MF, Sørensen P (2021). <b>Multi-trait genomic risk stratification for type 2 diabetes</b>. <em>Frontiers in Medicine</em> 8, 711208 <a href="https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2021.711208/full">[link]</a> </p>
 
-<p><b><span class="my-name">Rohde PD</span></b>, Sørensen IF and Sørensen P. (2019). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
+<p>Rohde PD, Sørensen IF and Sørensen P. (2019). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em> 36, 2614-2615 <a href="https://academic.oup.com/bioinformatics/article/36/8/2614/5688744">[link]</a> </p>
 
-<p> Sørensen IF, Edwards SM, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2017). <b>Multiple Trait Covariance Association Test identifies Gene Ontology categories associated with chill coma recovery time in <i>Drosophila melanogaster</i></b>. <em>Scientific Reports</em> 1(7), 2413 <a href="https://www.nature.com/articles/s41598-017-02281-3">[link]</a> </p>
+<p> Sørensen IF, Edwards SM, Rohde PD, Sørensen P (2017). <b>Multiple Trait Covariance Association Test identifies Gene Ontology categories associated with chill coma recovery time in <i>Drosophila melanogaster</i></b>. <em>Scientific Reports</em> 1(7), 2413 <a href="https://www.nature.com/articles/s41598-017-02281-3">[link]</a> </p>
 
-<p> <b><span class="my-name">Rohde PD</span></b>, Demontis D, Cuyabano BCD, The Genomic Medicine for Schizophrenia Group, Børglum AD, Sørensen P (2016). <b>Covariance Association Test (CVAT) identifies genetic markers associated with schizophrenia in functionally associated biological processes</b>. <em>journal</em> 4(203), 1901-1913 <a href="https://academic.oup.com/genetics/article/203/4/1901/6065867">[link]</a> </p> 
+<p> Rohde PD, Demontis D, Cuyabano BCD, The Genomic Medicine for Schizophrenia Group, Børglum AD, Sørensen P (2016). <b>Covariance Association Test (CVAT) identifies genetic markers associated with schizophrenia in functionally associated biological processes</b>. <em>journal</em> 4(203), 1901-1913 <a href="https://academic.oup.com/genetics/article/203/4/1901/6065867">[link]</a> </p> 
 
 </div>
 
