@@ -21,6 +21,15 @@ permalink: /publications/
 ## Peer-reviewed publications
 <!-- <p> author (year). title. <em>journal</em>, no, pages, <a href="https://doi.org/">https://doi.org/</a> </p> -->
 
+<!-- 2019 -->
+<font color="#E97132"> <b>2019</b> </font>
+<p> <b><span class="my-name">Rohde PD</span></b>, Jensen I, Sarup P, Ørsted M, Demontis D, Sørensen P, Kristensen TN (2019). <b>Genetic signatures of drug response variability in <i>Drosophila melanogaster</i></b>. <em>Genetics</em>, 213(2):633-650, <a href="https://doi.org/10.1534/genetics.119.302381">https://doi.org/10.1534/genetics.119.302381</a> </p> 
+
+<p> Ørsted M, Hoffmann AA, <b><span class="my-name">Rohde PD</span></b>, Sørensen P, Kristensen TN (2019). <b>Strong impact of thermal environment on the quantitative genetic basis of a key stress tolerance trait</b>. <em>Heredity</em>, 122:315-325, <a href="https://doi.org/10.1038/s41437-018-0117-7">https://doi.org/10.1038/s41437-018-0117-7</a> </p>
+
+<!-- 2018 -->
+<font color="#E97132"> <b>2018</b> </font>
+<p> <b><span class="my-name">Rohde PD</span></b>, Østergaard S, Kristensen TN, Sørensen P, Loeschcke V, Mackay TFC, Sarup P. (2018). <b>Functional validation of candidate genes detected by genomic feature models</b>. <em>G3: Genes, Genomes, Genetics</em>, 8(5):1659-1668, <a href="https://doi.org/10.1534/g3.118.200082">https://doi.org/10.1534/g3.118.200082</a> </p>
 
 <!-- 2017 -->
 <font color="#E97132"> <b>2017</b> </font>
