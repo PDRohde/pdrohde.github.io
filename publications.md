@@ -24,8 +24,15 @@ permalink: /publications/
 
 <!-- 2025 -->
 <font color="#E97132"> <b>2025</b> </font>
-<p> Brix G, Rasmussen LD, <b><span class="my-name">Rohde PD</span></b>, Nissen L, Nyegaard M, O’Donoghue ML, Bøttcher M, Winther S (2025). <b>Elevated lipoprotein(a) is independently associated with the presence of significant coronary stenosis in de-novo patients with stable chest pain</b>. <em>American Heart Journal</em>, 282:103-113, <a href="https://doi.org/10.1016/j.ahj.2025.01.001">https://doi.org/10.1016/j.ahj.2025.01.001</a> </p>
 
+<p> Arnadottir GA, Jonsson H, Hartwig TS, Gruhn JR, Møller PL, Gylfason A, Westergaard D, Chan A, Oddsson A, Stefansdottir L, le Roux L, Steinthorsdottir V, Moore1 KHS, Olafsson S, Olason PL, Eggertsson HP, Halldórsson GH, Palsson G, Jensson BO, Fridriksdottir R, Petersen JF, Helgason A, Norddahl GL, <b><span class="my-name">Rohde PD</span></b>, Saemundsdottir J, Magnusson JT, Halldorsson BV, Bliddal A, Banasik K, Gudbjartsson DF, Nyegaard M, Sulem P, Thorsteinsdottir U, Hoffmann ER, Nielsen HS, Stefansson K (2025). <b>Sequence diversity lost in early pregnancy<b>. <em>Nature</em>, <a href="https://doi.org/10.1038/s41586-025-09031-w">https://doi.org/10.1038/s41586-025-09031-w</a> </p> 
+
+<p> Worm J, Jørgensen IF, Davídsson OB, Hjalgrim H, Röder T, Ostrowski SR, Pedersen OB, Erikstrup C, Bruun MT, Jensen BA, Sørensen E, Ullum H, Björnsdóttir G, Thorgeirsson T, Stefánsson H, Sveinsson OS, Stefánsson K, Schytz HW, Bendtsen L, Brunak S, Hansen TF, Maarbjerg S, DBDS Genomic Consortium<sup>*</sup>
+ (2025). Trigeminal neuralgia and its comorbidities: a nationwide disease trajectory study. <em>Pain</em>, 166(4):879-887, <a href="https://doi.org/10.1097/j.pain.0000000000003428">https://doi.org/10.1097/j.pain.0000000000003428</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small> </p>
+
+<p> Andersson  NW, Wu  X, Geller F, Wohlfahrt J, Melbye M, Hviid A, Schwinn M, Mikkelsen C, Dowsett J, Bruun MT, Aagaard B, Ullum H, Erikstrup C, Gudbjartsson DF, Stefánsson K, Ghouse J, Pedersen OB, Sørensen E, Ostrowski SR, Bundgaard H, Lund M, Feenstra B, DBDS Genomic Consortium<sup>*</sup> (2025). Genome-wide association study of plasma sodium concentrations with and without exposure to thiazide diuretics. <em>Journal of the American Society of Nephrology</em>, no, pages, <a href="https://doi.org/10.1681/ASN.0000000622">https://doi.org/10.1681/ASN.0000000622</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small>  </p> 
+
+<p> Brix G, Rasmussen LD, <b><span class="my-name">Rohde PD</span></b>, Nissen L, Nyegaard M, O’Donoghue ML, Bøttcher M, Winther S (2025). <b>Elevated lipoprotein(a) is independently associated with the presence of significant coronary stenosis in de-novo patients with stable chest pain</b>. <em>American Heart Journal</em>, 282:103-113, <a href="https://doi.org/10.1016/j.ahj.2025.01.001">https://doi.org/10.1016/j.ahj.2025.01.001</a> </p>
 
 <p> Venkatesh SS, Wittemans LBL, Palmer DS, Baya NA, Ferreira T, Hill B, Lassen FH, Parker MJ, Reibe S, Elhakeem A, Banasik K, Bruun MT, Erikstrup C, Jensen BA, Juul A, Mikkelsen C, Nielsen HS, Ostrowski SR, Pedersen OB, <b><span class="my-name">Rohde PD</span></b>, Sørensen E, Ullum H, Westergaard D,  Haraldsson A, Holm H, Jonsdottir I, Olafsson I, Steingrimsdottir T, Steinthorsdottir V, Thorleifsson G, Figueredo J, Karjalainen MK, Pasanen A, Jacobs BM, Kalantzis G, Hubers N, van Heel DA, Mägi R, Metspalu A, Milani L, Esko T, Nelis M, Hudjashov G, Kolde R, Laur S, Reisberg S, Vilo J, Jensen BA, Karjalainen MK, Lippincott M, Fraser A, Lawlor DA, Timpson NJ, Nyegaard M, Stefansson K, Magi R, Laivuori H, van Heel DA, Boomsma DI, Balasubramanian R, Seminara SB, Chan YM, Laisk T, Lindgren CM (2025). <b>Genome-wide analyses identify 25 infertility loci and relationships with reproductive traits across the allele frequency spectrum</b>. <em>Nature Genetics</em>, 57:1107–1118, <a href="https://doi.org/10.1038/s41588-025-02156-8">https://doi.org/10.1038/s41588-025-02156-8</a> </p>
 
@@ -33,14 +40,8 @@ permalink: /publications/
 
 <p> Sun B, Ni M, Li Y, Song Z, Wang H, Zhu H-L, Wei J, Belke D, Cai S, Guo W, Yao J, Tian S, Estillore JP, Wang R, Sondergaard MT, Brohus M, <b><span class="my-name">Rohde PD</span></b>, Mu Y, Vallmitjana A, Benitez R, Hove-Madse L, Overgaard MT, Fishman G, Chen J, Sanatani S, Wilde A, Fill M, Ramos-Franco J, Nyegaard M, Chen WSR (2024). <b>Inositol 1,4,5-Trisphosphate Receptor 1 gain-of-function increases the risk for cardiac arrhythmias in mice and humans</b>. <em>Circulation</em>, 151(12):847-862, <a href="https://doi.org10.1161/circulationaha.124.070563">https://doi.org/10.1161/circulationaha.124.070563</a> </p> 
 
-
-
-
-
 <!-- 2024 -->
 <font color="#E97132"> <b>2024</b> </font>
-
-
 <p> Allara A, Bell S, Smith R, Keene SJ, Gill D, Gaziano L, Gysi DM, Wang F, Tragante V, Mason A, Karthikeyan S, Lumbers RT, Bonglack E, Ouwehand W, Roberts DJ, Dowsett J, Ostrowski SR, Larsen MH, Ullum H, Pedersen OB, Brunak S, Banasik K, Erikstrup C, DBDS Genomic Consortium<sup>*</sup>, Mitchell J,  Fuchsberger C, Pattaro C, Pramstaller PP, Girelli D, Arvas M, Toivonen J, Molnos S, Peters A, Polasek O, Rudan I, Hayward C, McDonnell C, Pirastu N, Wilson JF, van den Hurk K, Quee F, Ferrucci L, Bandinelli S, Tanaka T, Girotto G, Concas MP, Pecori A, Verweij N, van der Harst P, van de Vegte YJ, Kiemeney LA, Sweep FC, Galesloot TE, Sulem P, Gudbjartsson D, Ferkingstad E, FinnGen Consortium, Djousse L, Cho K, Inouye M, Burgess S, Benyamin B, Oexle K, Swinkels D, Stefansson K, Magnusson M, Ganna A, Gaziano M, Ivey K, Danesh J, Pereira A, Wood AM, Butterworth AS, Angelantonio ED  
 <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small> (2024). <b>Novel loci and biomedical consequences of iron homoeostasis variation</b>. <em>Communications Biology</em>, 7:1631, <a href="https://doi.org/10.1038/s42003-024-07115-3">https://doi.org/10.1038/s42003-024-07115-3</a> </p> 
 
