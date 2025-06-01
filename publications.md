@@ -24,6 +24,8 @@ permalink: /publications/
 
 <!-- 2025 -->
 <font color="#E97132"> <b>2025</b> </font>
+<p> Brix G, Rasmussen LD, <b><span class="my-name">Rohde PD</span></b>, Nissen L, Nyegaard M, O’Donoghue ML, Bøttcher M, Winther S (2025). Elevated lipoprotein(a) is independently associated with the presence of significant coronary stenosis in de-novo patients with stable chest pain. <em>American Heart Journal</em>, 282:103-113, <a href="https://doi.org/10.1016/j.ahj.2025.01.001">https://doi.org/10.1016/j.ahj.2025.01.001</a> </p>
+
 
 <p> Venkatesh SS, Wittemans LBL, Palmer DS, Baya NA, Ferreira T, Hill B, Lassen FH, Parker MJ, Reibe S, Elhakeem A, Banasik K, Bruun MT, Erikstrup C, Jensen BA, Juul A, Mikkelsen C, Nielsen HS, Ostrowski SR, Pedersen OB, <b><span class="my-name">Rohde PD</span></b>, Sørensen E, Ullum H, Westergaard D,  Haraldsson A, Holm H, Jonsdottir I, Olafsson I, Steingrimsdottir T, Steinthorsdottir V, Thorleifsson G, Figueredo J, Karjalainen MK, Pasanen A, Jacobs BM, Kalantzis G, Hubers N, van Heel DA, Mägi R, Metspalu A, Milani L, Esko T, Nelis M, Hudjashov G, Kolde R, Laur S, Reisberg S, Vilo J, Jensen BA, Karjalainen MK, Lippincott M, Fraser A, Lawlor DA, Timpson NJ, Nyegaard M, Stefansson K, Magi R, Laivuori H, van Heel DA, Boomsma DI, Balasubramanian R, Seminara SB, Chan YM, Laisk T, Lindgren CM (2025). Genome-wide analyses identify 25 infertility loci and relationships with reproductive traits across the allele frequency spectrum. <em>Nature Genetics</em>, 57:1107–1118, <a href="https://doi.org/10.1038/s41588-025-02156-8">https://doi.org/10.1038/s41588-025-02156-8</a> </p>
 
@@ -32,10 +34,15 @@ permalink: /publications/
 <p> Sun B, Ni M, Li Y, Song Z, Wang H, Zhu H-L, Wei J, Belke D, Cai S, Guo W, Yao J, Tian S, Estillore JP, Wang R, Sondergaard MT, Brohus M, <b><span class="my-name">Rohde PD</span></b>, Mu Y, Vallmitjana A, Benitez R, Hove-Madse L, Overgaard MT, Fishman G, Chen J, Sanatani S, Wilde A, Fill M, Ramos-Franco J, Nyegaard M, Chen WSR (2024). <b>Inositol 1,4,5-Trisphosphate Receptor 1 gain-of-function increases the risk for cardiac arrhythmias in mice and humans</b>. <em>Circulation</em>, 151(12):847-862, <a href="https://doi.org10.1161/circulationaha.124.070563">https://doi.org/10.1161/circulationaha.124.070563</a> </p> 
 
 
+
+
+
 <!-- 2024 -->
 <font color="#E97132"> <b>2024</b> </font>
 
 
+<p> Allara A, Bell S, Smith R, Keene SJ, Gill D, Gaziano L, Gysi DM, Wang F, Tragante V, Mason A, Karthikeyan S, Lumbers RT, Bonglack E, Ouwehand W, Roberts DJ, Dowsett J, Ostrowski SR, Larsen MH, Ullum H, Pedersen OB, Brunak S, Banasik K, Erikstrup C, DBDS Genomic Consortium<sup>*</sup>, Mitchell J,  Fuchsberger C, Pattaro C, Pramstaller PP, Girelli D, Arvas M, Toivonen J, Molnos S, Peters A, Polasek O, Rudan I, Hayward C, McDonnell C, Pirastu N, Wilson JF, van den Hurk K, Quee F, Ferrucci L, Bandinelli S, Tanaka T, Girotto G, Concas MP, Pecori A, Verweij N, van der Harst P, van de Vegte YJ, Kiemeney LA, Sweep FC, Galesloot TE, Sulem P, Gudbjartsson D, Ferkingstad E, FinnGen Consortium, Djousse L, Cho K, Inouye M, Burgess S, Benyamin B, Oexle K, Swinkels D, Stefansson K, Magnusson M, Ganna A, Gaziano M, Ivey K, Danesh J, Pereira A, Wood AM, Butterworth AS, Angelantonio ED  
+<small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small> (2024). <b>Novel loci and biomedical consequences of iron homoeostasis variation</b>. <em>Communications Biology</em>, 7:1631, <a href="https://doi.org/10.1038/s42003-024-07115-3">https://doi.org/10.1038/s42003-024-07115-3</a> </p> 
 
 <p> Nudel R, Chrsitensen RV, Kalnak N, Lundberg M, Schwinn M, Sørensen E, Mikkelsen C, Nissen J, Christoffersen LAN, Kjerulff BD, Hansen TF, Burgdorf KS, DBDS Genomic Consortium<sup>*</sup>, Pedersen OBV, Erikstrup C, Gísladóttir R, Walters B, Stefánsson H, Ostrowski SR, Werge T (2024). <b>Developmental language disorder - heritability and genetic correlations with other disorders affecting language </b>. <em>Psychiatry Research</em>, 342:116212, <a href="https://doi.org/10.1016/j.psychres.2024.116212">https://doi.org/10.1016/j.psychres.2024.116212</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small> </p>
 
