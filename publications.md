@@ -53,7 +53,7 @@ permalink: /publications/
 
 <p> Bai Z, Gholipourshahraki T, Shrestha M, Hjelhol A, Hu S, Kjølby M, <b><span class="my-name">Rohde PD</span></b>, and Sørensen P (2024). <b>Evaluation of Bayesian Linear Regression derived gene set test methods</b>. <em>BMC Genomics</em>, 25:1236, <a href="https://doi.org/10.1186/s12864-024-11026-2">https://doi.org/10.1186/s12864-024-11026-2</a> </p>
 
-<p> Gholipourshahraki T, Bai Z, Shrestha M, Hjelhol A, Hu S, Kjølby M, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2024). <b>Evaluation of Bayesian Linear Regression models for gene set prioritization in complex dseases</b>. <em>PLoS Genetics</em>, 20(11):e1011463, <a href="https://doi.org/10.1371/journal.pgen.1011463">https://doi.org/10.1371/journal.pgen.1011463</a> </p> 
+<p> Gholipourshahraki T, Bai Z, Shrestha M, Hjelhol A, Hu S, Kjølby M, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2024). <b>Evaluation of Bayesian Linear Regression models for gene set prioritization in complex diseases</b>. <em>PLoS Genetics</em>, 20(11):e1011463, <a href="https://doi.org/10.1371/journal.pgen.1011463">https://doi.org/10.1371/journal.pgen.1011463</a> </p> 
 
 <p> Hundebøl BNRG, <b><span class="my-name">Rohde PD</span></b>, Kristensen TN, Jensen RWM, Voesgaard T, Sørensen JG (2024). <b>Bugs on drugs: Paracetamol exposure reveals genotype-specific generational effects on life history traits in <i>Drosophila melanogaster</i></b>. <em>Insects</em>, 763:1–16, <a href="https://doi.org/10.3390/insects15100763 ">https://doi.org/10.3390/insects15100763 </a> </p> 
 
@@ -63,7 +63,7 @@ permalink: /publications/
 
 <p> Skuladottir Ath, Stefansdottir L, Halldorsson GH, Stefansson OA, Bjornsdottir A, Jonsson P, Palmadottir V, Thorgeirsson TE, Walters GB, Gisladottir RS, Bjornsdottir G, Jonsdottir GA, Sulem P, Gudbjartsson DF, Knowlton KU, Jones DA, Ottas A, Estonian Biobank, Esko T, Mägi R, Nelis M, Hudjashov G, Pedersen OB, Didriksen M, Brunak S, Banasik K, Hansen TF, Erikstrup C, DBDS Genomic Consortium<sup>*</sup>, Haavik J, Andreassen OA, Rye D, Igland J, Ostrowski SR, Milani LA, Nadauld LD, Stefansson H, Stefansson K (2024). <b>GWAS meta-analysis reveals key risk loci in essential tremor pathogenesis</b>. <em>Communications Biology</em>, 7(1):504, <a href="https://doi.org/10.1038/s42003-024-06207-4">https://doi.org/10.1038/s42003-024-06207-4</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small>  </p>
 
-<p> Wesseltoft JB, Danielsen CD, Andersen AM, de Jonge N, Olsen A, Rohde PD, Kristensen TN (2024). <b>Feeding <i>Drosophila</i> gut microbiomes from young and old fies modifes the microbiome</b>. <em>Scientific Reports</em>, 14:7799, <a href="https://doi.org/10.1038/s41598-024-58500-1">https://doi.org/10.1038/s41598-024-58500-1</a> </p> 
+<p> Wesseltoft JB, Danielsen CD, Andersen AM, de Jonge N, Olsen A, Rohde PD, Kristensen TN (2024). <b>Feeding <i>Drosophila</i> gut microbiomes from young and old fies modifies the microbiome</b>. <em>Scientific Reports</em>, 14:7799, <a href="https://doi.org/10.1038/s41598-024-58500-1">https://doi.org/10.1038/s41598-024-58500-1</a> </p> 
 
 <p> Møller PL, <b><span class="my-name">Rohde PD</span></b>, Dahl JN, Rasmussen LD, Nissen L, Schmidt SE, McGilligan V, Gudbjartsson DF, Stefansson K, Holm H, Bentzon JF, Bøttcher M, Winther S, Nyegaard M (2024). <b>Predicting the presence of coronary plaques featuring high‑risk characteristics using polygenic risk scores and targeted proteomics in patients with suspected coronary artery disease</b>. <em>Genome Medicine</em>, 16(40):1-10, <a href="https://doi.org/10.1186/s13073-024-01313-8">https://doi.org/10.1186/s13073-024-01313-8</a> </p>
 
@@ -106,7 +106,7 @@ Bjornsdottir G, Chalmer MA, Stefansdottir L, Skuladottir ATh, Einarsson G, Andre
 <font color="#E97132"> <b>2022</b> </font>
 <p> Brohus M, <b><span class="my-name">Rohde PD</span></b>, Gregersen S, Westphal KR, Ern R, Jensen HH (2022). Exploring approaches for blended learning in life sciences. <em>Journal of Problem Based Learning in Higher Education</em>, 10(1):88-100, <a href="https://doi.org/10.54337/ojs.jpblhe.v10i1.7304">https://doi.org/10.54337/ojs.jpblhe.v10i1.7304</a> </p> 
 
-<p> Staehr C, <b><span class="my-name">Rohde PD</span></b>, Krarup NT, Ringgaard S, Laustsen C, Johnsen J, Beck HC, Morth JP, Lykke-Hartmann K, Jespersen NR, Abramochkin DV, Nyegaard M, Bøtker HE, Aalkjaer C, Matchkov, VV (2022). <b>Migraine-associated mutation in the Na,K-ATPase alpha-2 isoform leads to disturbances in cardiac metabolism associated with reduced cardiac function</b>. <em>Journal of the American Heart Association</em>, 7(11):e021814, <a href="https://doi.org/10.1161/jaha.121.021814">https://doi.org/10.1161/jaha.121.021814</a> </p>
+<p> Staehr C, <b><span class="my-name">Rohde PD</span></b>, Krarup NT, Ringgaard S, Laustsen C, Johnsen J, Beck HC, Morth JP, Lykke-Hartmann K, Jespersen NR, Abramochkin DV, Nyegaard M, Bøtker HE, Aalkjaer C, Matchkov, VV (2022). <b>Migraine-associated mutation in the Na,K-ATPase leads to disturbances in cardiac metabolism associated with reduced cardiac function</b>. <em>Journal of the American Heart Association</em>, 7(11):e021814, <a href="https://doi.org/10.1161/jaha.121.021814">https://doi.org/10.1161/jaha.121.021814</a> </p>
 
 <!-- 2021 -->
 <font color="#E97132"> <b>2021</b> </font>
@@ -120,7 +120,7 @@ Bjornsdottir G, Chalmer MA, Stefansdottir L, Skuladottir ATh, Einarsson G, Andre
 
 <p> Møller PL, <b><span class="my-name">Rohde PD</span></b>, Winther S, Breining P, Nissen L, Nykjaer A, Bøttcher M, Nyegaard M, Kjolby M (2021). <b>Sortilin as a biomarker for cardiovascular disease revisited</b>. <em>Frontiers in Cardiovascular Medicine</em>, 8:652584, <a href="https://doi.org/10.3389/fcvm.2021.652584">https://doi.org/10.3389/fcvm.2021.652584</a> </p> 
 
-<p> <b><span class="my-name">Rohde PD</span></b>, Kristensen TN, Sarup P, Munoz J, Malmendal A (2021). <b>Prediction of complex phenotypes using the <i>Drosophila</i> metabolome</b>. <em>Heredity</em>, 126:717–732, <a href="https://doi.org/10.1038/s41437-021-00404-1">https://doi.org/10.1038/s41437-021-00404-1</a> </p>
+<p> <b><span class="my-name">Rohde PD</span></b>, Kristensen TN, Sarup P, Munoz J, Malmendal A (2021). <b>Prediction of complex phenotypes using the <i>Drosophila melanogaster</i> metabolome</b>. <em>Heredity</em>, 126:717–732, <a href="https://doi.org/10.1038/s41437-021-00404-1">https://doi.org/10.1038/s41437-021-00404-1</a> </p>
 
 <!-- 2020 -->
 <font color="#E97132"> <b>2020</b> </font>
