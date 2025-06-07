@@ -42,7 +42,7 @@ My full publication record can be found at the <a href="https://pdrohde.github.i
 
 ### R gact ###
 <div style="float: left; margin-right: 15px;">
-  <img src="images/gact-logo.png" alt="gact logo 1" style="height: 80px; display: block; margin-bottom: 5px;">
+  <img src="images/gact-logo.png" alt="gact logo 1" style="height: 100px; display: block; margin-bottom: 5px;">
 </div>
 
 <p>The <a href="https://psoerensen.github.io/gact/index.html">gact package</a> package provides a framework for building and managing a comprehensive database of genomic associations with complex traits. It supports both infrastructure development and data acquisition, enabling integration of single marker associations with broader biological entities such as genes, proteins, metabolites, and pathways. gact streamlines the processing of GWAS summary statistics and biological databases, facilitates fine-mapping using Bayesian linear regression, and performs advanced gene set enrichment analysis. </p> <p>Its goal is to enhance the biological interpretation of genomic data by uncovering complex trait-related relationships.</p>
