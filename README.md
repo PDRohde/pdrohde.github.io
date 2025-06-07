@@ -26,9 +26,13 @@ My full publication record can be found at the <a href="https://pdrohde.github.i
 
 ## Software Packages
 ### R qgg ###
-<img src="images/qgg_logo.png" alt="qgg logo 1" style="height:50px; margin-right:10px;">
+<!-- Wrap the logos in a div and float them left -->
+<div style="float: left; margin-right: 15px;">
+  <img src="images/qgg-logo.png" alt="qgg logo 1" style="height: 80px; display: block; margin-bottom: 5px;">
+</div>
 
-The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a comprehensive tool for large-scale genetic data analysis, built on the idea that certain genomic regions may be enriched for causal variants. It offers efficient infrastructure for linear mixed models, genomic prediction, heritability estimation, and gene set enrichment analysis. qgg supports high-performance computing with multi-core processing, optimized matrix operations, and memory-efficient genotype handling. It includes advanced genomic feature modeling approaches such as GFBLUP and marker set tests to improve discovery and prediction of trait-associated genomic regions.
+<p>The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a comprehensive tool for large-scale genetic data analysis, built on the idea that certain genomic regions may be enriched for causal variants. It offers efficient infrastructure for linear mixed models, genomic prediction, heritability estimation, and gene set enrichment analysis. qgg supports high-performance computing with multi-core processing, optimized matrix operations, and memory-efficient genotype handling. </p> 
+<p>It includes advanced genomic feature modeling approaches such as GFBLUP and marker set tests to improve discovery and prediction of trait-associated genomic regions.</p>
 
 <b><i>Please cite</i></b> <br>
 <div style="text-indent: -36px; padding-left: 36px;">
@@ -37,7 +41,7 @@ The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a c
 </div>
 
 ### R gact ###
-<img src="images/gact_logo.png" alt="gact logo 1" style="height:50px; margin-right:10px;">
+<img src="images/gactlogo.png" alt="gact logo" style="height:50px; margin-right:10px;">
 
 The <a href="https://psoerensen.github.io/gact/index.html">gact package</a> package provides a framework for building and managing a comprehensive database of genomic associations with complex traits. It supports both infrastructure development and data acquisition, enabling integration of single marker associations with broader biological entities such as genes, proteins, metabolites, and pathways. gact streamlines the processing of GWAS summary statistics and biological databases, facilitates fine-mapping using Bayesian linear regression, and performs advanced gene set enrichment analysis. Its goal is to enhance the biological interpretation of genomic data by uncovering complex trait-related relationships.
 
