@@ -28,7 +28,7 @@ My full publication record can be found at the <a href="https://pdrohde.github.i
 ### R qgg ###
 <!-- Wrap the logos in a div and float them left -->
 <div style="float: left; margin-right: 15px;">
-  <img src="images/qgg-logo.png" alt="qgg logo 1" style="height: 100px; display: block; margin-bottom: 5px;">
+  <img src="images/qgg-logo2.png" alt="qgg logo 1" style="height: 100px; display: block; margin-bottom: 5px;">
 </div>
 
 <p>The <a href="https://psoerensen.github.io/qgg/index.html">qgg package</a> is a comprehensive tool for large-scale genetic data analysis, built on the idea that certain genomic regions may be enriched for causal variants. It offers efficient infrastructure for linear mixed models, genomic prediction, heritability estimation, and gene set enrichment analysis. qgg supports high-performance computing with multi-core processing, optimized matrix operations, and memory-efficient genotype handling. </p> 
