@@ -9,7 +9,7 @@ permalink: /publications/
 ## Recent Preprints 
 <div style="text-indent: -36px; padding-left: 36px;">
 <!-- <p> author (year). title. <em>journal</em> no, pages <a href="https://">[link]</a> </p> -->
-<p> Kogelman LJA, Rytter R, Hummelshoj L, Hansen KE, Kirk UB, Beauchamp JL, Bay JT, Bruun MT, Brøns N, Erikstrup C, Aagaard B, Kjerulff BD, Mikkelsen C,  Mikkelsen S, Ostrowski SR, Pedersen OB, Sørensen E, Ullum H, Grosen AK, Hvas CL, Steinthorsdottir V, Stefansson K, Banasik K, <b><span class="my-name">Rohde PD</span></b>, Nielsen HS, Nyegaard M (2025). The burden of endometriosis on quality of life in Danish blood donors. <em>ResearchSquare</em>, <a href="https://doi.org/10.21203/rs.3.rs-6620337/v1">https://doi.org/10.21203/rs.3.rs-6620337/v1</a> </p>
+<p> Kogelman LJA, Rytter R, Hummelshoj L, Hansen KE, Kirk UB, Beauchamp JL, Bay JT, Bruun MT, Brøns N, Erikstrup C, Aagaard B, Kjerulff BD, Mikkelsen C,  Mikkelsen S, Ostrowski SR, Pedersen OB, Sørensen E, Ullum H, Grosen AK, Hvas CL, Steinthorsdottir V, Stefansson K, Banasik K, <b><span class="my-name">Rohde PD</span></b>, Nielsen HS, Nyegaard M (2025). <b>The burden of endometriosis on quality of life in Danish blood donors</b>. <em>ResearchSquare</em>, <a href="https://doi.org/10.21203/rs.3.rs-6620337/v1">https://doi.org/10.21203/rs.3.rs-6620337/v1</a> </p>
 
 
 <p>Bak NK, Mackay TFC, Morgante F, Nielsen KL, Nielsen JL, Kristensen TN, <b><span class="my-name">Rohde PD</span></b> (2025). <b>The Role of genetic variation in shaping phenotypic responses to diet in aging <i>Drosophila melanogaster</i></b>. <em>bioRxiv</em> <a href="https://doi.org/10.1101/2025.01.09.632132">https://doi.org/10.1101/2025.01.09.632132</a> </p>
