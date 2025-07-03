@@ -80,7 +80,7 @@ With <a href="https://psoerensen.github.io/gact/index.html">gact</a> you create 
 
 
 ## Educational material
-For a full collection of **teaching materials and statistical genetic notes**, please visit the [Teaching Materials](./teaching-materials.html) tab.
+For a full collection of **teaching materials and statistical genetic notes**, please visit the [Teaching Materials](./teachingmaterial.html) tab.
 
 <hr>
 <p style="font-size: 14px;">
