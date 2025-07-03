@@ -79,22 +79,8 @@ With <a href="https://psoerensen.github.io/gact/index.html">gact</a> you create 
 
 
 
-## Statistical Genetic Notes
-<i>All statistical genetic notes below are shared under a CC BY 4.0 license.</i><br>
-
-&nbsp; Mendelian Randomization [[link]](sites/MR/Mendelian-randomization2_PDR.html) <br>
-&nbsp; Introduction to Quantitative Genetics [[link]](https://psoerensen.github.io/qgnotes/Quantitative-Genetics-Theory.pdf) <br>
-&nbsp; Estimating of Genetic Predisposition [[link]](https://psoerensen.github.io/qgnotes/Estimation-of-Genetic-Predisposition.pdf) <br>
-&nbsp; Estimating of Genetic Predisposition [[link]](https://psoerensen.github.io/qgnotes/Estimation-of-Genetic-Parameters.pdf) <br>
-&nbsp; Gene-Set Enrichment Analyses [[link]](https://psoerensen.github.io/qgnotes/GSEA.pdf) <br>
-&nbsp; Bayesian Linear Regression Models [[link]](https://psoerensen.github.io/qgnotes/BLR.pdf) <br>
-&nbsp; Tutorial for constructing polygenic scores (PGS) [[link]](https://psoerensen.github.io/qgtutorials/Practicals_human_example.pdf) <br>
-
-## Course Work
-<i>All teaching materials on this page are shared under a CC BY 4.0 license.</i><br>
-
-&nbsp; Human Genomics [[link]](https://pdrohde.github.io/AAU-human-genomics/) <br>
-&nbsp; PGS Workshop [[link]](sites/SDU_PGS-workshop_print.pdf) <br>
+## Educational material
+For a full collection of **teaching materials and statistical genetic notes**, please visit the [Teaching Materials](./teaching-materials.html) tab.
 
 <hr>
 <p style="font-size: 14px;">
