@@ -20,15 +20,15 @@ permalink: /publications/
 
 <p> Jensen HH, Brohus M, Hussey JH, Busuioc AO, Iversen ED, Darki F, Nikolova GD, Baisgaard AE, <b><span class="my-name">Rohde PD</span></b>, Holm IEG, McQuillin A, Moos T, Dick IE, Overgaard MT, Nyegaard M (2024). <b><i>Calmodulin</i> variants in schizophrenia patients display gain-of-function or loss-of-function effects</b>. <em>medRxiv</em> <a href="https://doi.org/10.1101/2024.05.22.24307674">https://doi.org/10.1101/2024.05.22.24307674</a> </p>
 
-<p>Shrestha M, Bai Z, Gholipourshahraki T, Hjelholt AJ, Hu S, Kjølby M, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2023). <b>Evaluation of Bayesian Linear Regression models as a fine mapping tool</b>. <em>bioRxiv</em> <a href="https://doi.org/10.1101/2023.09.01.555889">https://doi.org/10.1101/2023.09.01.555889</a> </p>
-</div>
-
 ## Peer-reviewed publications
 <!-- <p> author (year). title. <em>journal</em>, no, pages, <a href="https://doi.org/">https://doi.org/</a> </p> -->
 
 
 <!-- 2025 -->
 <font color="#E97132"> <b>2025</b> </font>
+
+<p>Shrestha M, Bai Z, Gholipourshahraki T, Hjelholt AJ, Hu S, Kjølby M, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2025). <b>Enhanced genetic fine mapping accuracy with Bayesian Linear Regression models in diverse genetic architectures</b>. <em>PLOS Genetics</em> <a href="https://doi.org/10.1371/journal.pgen.1011783">https://doi.org/10.1371/journal.pgen.1011783</a> </p>
+</div>
 
 <p> Darbani B, Brodersen T, Liljensøe A, Sørensen SB, Olsson-Svendsen JB, Buil A, Kamal A, Schork AJ, Poulsen A, Kjerulff BD, Aagaard B, Lund BØ, Rittig CS, Mikkelsen C, Larsen DM, Westergaard D, Rudbeck-Resdal D, Mikkelsen DH, Randers E, Schiødt FV, Hoffmann HJ, Jørgensen IF, Brandslund I, Brodersen JB, von Stemann JH, Bay JT, Nissen J, Sørensen J, Boldsen JK, Dowsett J, Gladov J, Banasik K, Kaspersen KA, Carlsen K, Dinh KM, Kellermann L, Christoffersen LAN, Quinn LJE, Thørner LW, Larsen L, Aamann L, Andersen MR, Didriksen M, Alexandraki MJ, Thomsen MK, Julsgaard M, Nyegaard M, Schwinn M, Topholm-Bruun M, Leite MN, Halling ML, Pedersen N, Bonderup OK, <b><span class="my-name">Rohde PD</span></b>, Ovesen PD, Dessau RB, Saboori S, Holm-Christensen S, Bank S, Mikkelsen S, Hansen TF, Werge T, Qvist N, Sørensen E, Burisch J, Hetland ML, Glintborg B, Erikstrup C, Brunak S, Ullum H, Ostrowski SR, Pedersen OBV, Andersen V (2025). <b>Cohort profile: Copenhagen Hospital Biobank-chronic inflammatory disease—inflammatory bowel disease (CHB-CID:IBD) genetic cohort</b>. <em>European Journal of Epidemiology</em>, <a href="https://doi.org/10.1007/s10654-025-01239-4">https://doi.org/10.1007/s10654-025-01239-4</a> </p>
 
