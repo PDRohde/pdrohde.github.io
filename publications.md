@@ -190,6 +190,7 @@ Bjornsdottir G, Chalmer MA, Stefansdottir L, Skuladottir ATh, Einarsson G, Andre
 <div style="text-indent: -36px; padding-left: 36px;">
 <p> <b><span class="my-name">Rohde PD</span></b>, Overgaard J, Loeschcke V, Schou MF, Malte H, Kristensen TN (2014). <b>Inbreeding effects on standard metabolic rate investigated at cold, benign and hot temperatures in <i>Drosophila melanogaster</i></b>. <em>Journal of Insect Physiology</em>, 62:11-20, <a href="https://doi.org/10.1016/j.jinsphys.2014.01.003">https://doi.org/10.1016/j.jinsphys.2014.01.003</a> </p>
 </div>
+
 <hr>
 <p style="font-size: 14px;">
   Unless otherwise stated, all content on this site is licensed under a 
