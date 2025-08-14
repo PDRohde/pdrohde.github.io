@@ -59,7 +59,7 @@ With <a href="https://psoerensen.github.io/gact/index.html">gact</a> you create 
 <div style="text-indent: -30px; padding-left: 30px;">
 <!-- <p> author (year). title. <em>journal</em> no, pages <a href="https://">[link]</a> </p> -->
 
-<p>Shrestha M, Bai Z, Gholipourshahraki T, Hjelholt AJ, Hu S, Kjølby M, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2025). <b>Enhanced genetic fine mapping accuracy with Bayesian Linear Regression models in diverse genetic architectures</b>. <em>PLOS Genetics</em> <a href="https://doi.org/10.1371/journal.pgen.1011783">https://doi.org/10.1371/journal.pgen.1011783</a> </p>
+<p>Shrestha M, Bai Z, Gholipourshahraki T, Hjelholt AJ, Hu S, Kjølby M, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2025). <b>Enhanced genetic fine mapping accuracy with Bayesian Linear Regression models in diverse genetic architectures</b>. <em>PLOS Genetics</em> <a href="https://doi.org/10.1371/journal.pgen.1011783">[link]</a> </p>
 
 <p> Bai Z, Gholipourshahraki T, Shrestha M, Hjelholt A, Hu S, Kjolby MF, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2024). <b>Evaluation of Bayesian Linear Regression derived gene set test methods</b>. <em>BMC Genomics</em> 25, 1236 <a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-11026-2">[link]</a> </p>
 
