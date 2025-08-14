@@ -52,6 +52,7 @@ permalink: /publications/
 
 <!-- 2024 -->
 <font color="#E97132"> <b>2024</b> </font>
+<div style="text-indent: -36px; padding-left: 36px;">
 <p> Allara A, Bell S, Smith R, Keene SJ, Gill D, Gaziano L, Gysi DM, Wang F, Tragante V, Mason A, Karthikeyan S, Lumbers RT, Bonglack E, Ouwehand W, Roberts DJ, Dowsett J, Ostrowski SR, Larsen MH, Ullum H, Pedersen OB, Brunak S, Banasik K, Erikstrup C, DBDS Genomic Consortium<sup>*</sup>, Mitchell J,  Fuchsberger C, Pattaro C, Pramstaller PP, Girelli D, Arvas M, Toivonen J, Molnos S, Peters A, Polasek O, Rudan I, Hayward C, McDonnell C, Pirastu N, Wilson JF, van den Hurk K, Quee F, Ferrucci L, Bandinelli S, Tanaka T, Girotto G, Concas MP, Pecori A, Verweij N, van der Harst P, van de Vegte YJ, Kiemeney LA, Sweep FC, Galesloot TE, Sulem P, Gudbjartsson D, Ferkingstad E, FinnGen Consortium, Djousse L, Cho K, Inouye M, Burgess S, Benyamin B, Oexle K, Swinkels D, Stefansson K, Magnusson M, Ganna A, Gaziano M, Ivey K, Danesh J, Pereira A, Wood AM, Butterworth AS, Angelantonio ED (2024). <b>Novel loci and biomedical consequences of iron homoeostasis variation</b>. <em>Communications Biology</em>, 7:1631, <a href="https://doi.org/10.1038/s42003-024-07115-3">https://doi.org/10.1038/s42003-024-07115-3</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small>  </p> 
 
 <p> Nudel R, Chrsitensen RV, Kalnak N, Lundberg M, Schwinn M, Sørensen E, Mikkelsen C, Nissen J, Christoffersen LAN, Kjerulff BD, Hansen TF, Burgdorf KS, DBDS Genomic Consortium<sup>*</sup>, Pedersen OBV, Erikstrup C, Gísladóttir R, Walters B, Stefánsson H, Ostrowski SR, Werge T (2024). <b>Developmental language disorder - heritability and genetic correlations with other disorders affecting language </b>. <em>Psychiatry Research</em>, 342:116212, <a href="https://doi.org/10.1016/j.psychres.2024.116212">https://doi.org/10.1016/j.psychres.2024.116212</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small> </p>
@@ -87,9 +88,11 @@ permalink: /publications/
  <p> Thorolfsdottir JB, Jonsdottir AB, Sveinbjornsson G, Aegisdottir HM, Oddsson A, Stefansson OA, Halldorsson GH, Saevarsdottir S, Thorleifsson G, Stefansdottir L, Pedersen OB, Sørensen E, Ghouse J, Raja AA, Zheng C, Silajdzija E, Rand SA, Erikstrup C, Ullum H, Mikkelsen C, Banasik K, Brunak S, Ivarsdottir EV, Sigurdsson A, Beyter D, Sturluson A, Einarsson H, Tragante V, Helgason H, Lund SH, Halldorsson BV, Sigurpalsdottir BD, Olafsson I, Arnar DO, Thorgeirsson G, Knowlton KU, Nadauld LD, Gretarsdottir S, Helgadottir A, Ostrowski SO, Gudbjartssson DF, Jonsdottir I, Bundgaard H, Holm H,  Sulem P,  Stefansson K, DBDS Genomic Consortium<sup>*</sup> (2024). Variants at the Interleukin 1 Gene Locus and Pericarditis. <em>JAMA Cardiology</em>, 9(2):165-172, <a href="https://doi.org/10.1001/jamacardio.2023.4820">https://doi.org/10.1001/jamacardio.2023.4820</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small> </p>
 
 <p> Westergaard D, Steinthorsdottir V, Stefansdottir L, <b><span class="my-name">Rohde PD</span></b>, Wu X, Geller F, Tyrmi J, Havulinna AS, Navais PS, Flatley C, Ostrowski SR, Pedersen OB, Erikstrup C, Sørensen E, Mikkelsen C, Brun MT, Jensen, BA, Brodersen T, Ullum H, Magnus P, Andreassen OA, Njolstad PR, Kolte AM, Krebs L, Nyegaard M, Hansen TF, Fenstra B, Daly M, Lindgren CM, Thorleifsson G, Stefansson OA, Sveinbjornsson G, Gudbjartsson DF, Thorsteinsdottir U, Banasik K, Jacobsson B, Laisk T, Laivuori H, Stefansson K, Brunak S, Nielsen HS (2024).  Genome-wide association meta-analysis identifies five loci associated with postpartum hemorrhage. <em>Nature Genetics</em>, 56:1597–1603, <a href="https://doi.org/10.1038/s41588-024-01839-y">https://doi.org/10.1038/s41588-024-01839-y</a> </p>
+</div>
 
 <!-- 2023 -->
 <font color="#E97132"> <b>2023</b> </font>
+<div style="text-indent: -36px; padding-left: 36px;">
 <p> Brix GS, Rasmussen LD, <b><span class="my-name">Rohde PD</span></b>, Schmidt SE, Nyegaard M, Douglas PS, Newby DE, Williams MC, Foldyna B, Knuuti J, Bøttcher M, Winther Suthor (2023). <b>Calcium scoring improves clinical management in patients with low clinical likelihood of coronary artery disease</b>. <em>JACC: Cardiovascular Imaging</em>,  17(6):625–639, <a href="https://doi.org10.1016/j.jcmg.2023.11.008">https://doi.org/10.1016/j.jcmg.2023.11.008</a> </p>
  
 <p> 
@@ -110,15 +113,19 @@ Bjornsdottir G, Chalmer MA, Stefansdottir L, Skuladottir ATh, Einarsson G, Andre
 <p> Jensen HH, Frantzen MT, Wesseltoft JL, Busuioc A,  Møller KV, Brohus M, b><span class="my-name">Rohde PD</span></b>, Nyegaard M, Overgaard MT, Olsen A (2023). <b>Human calmodulin mutations cause arrhythmia and affect neuronal function in <i>C. elegans</i></b>. <em>Human Molecular Genetics</em>, 32(12)2068–2083, <a href="https://doi.org/10.1093/hmg/ddad042">https://doi.org/10.1093/hmg/ddad042</a> </p> 
 
 <p> Baisgaard AE, Koldby KM, Kristensen TN, Nyegaard M, <b><span class="my-name">Rohde PD</span></b> (2023). <b>Functionally validating evolutionary conserved risk genes for Parkinsons disease in <i>Drosophila melanogaster</i></b>. <em>Insects</em>, 14(2):168, <a href="https://doi.org/10.3390/insects14020168">https://doi.org/10.3390/insects14020168</a> </p>
+</div>
 
 <!-- 2022 -->
 <font color="#E97132"> <b>2022</b> </font>
+<div style="text-indent: -36px; padding-left: 36px;">
 <p> Brohus M, <b><span class="my-name">Rohde PD</span></b>, Gregersen S, Westphal KR, Ern R, Jensen HH (2022). Exploring approaches for blended learning in life sciences. <em>Journal of Problem Based Learning in Higher Education</em>, 10(1):88-100, <a href="https://doi.org/10.54337/ojs.jpblhe.v10i1.7304">https://doi.org/10.54337/ojs.jpblhe.v10i1.7304</a> </p> 
 
 <p> Staehr C, <b><span class="my-name">Rohde PD</span></b>, Krarup NT, Ringgaard S, Laustsen C, Johnsen J, Beck HC, Morth JP, Lykke-Hartmann K, Jespersen NR, Abramochkin DV, Nyegaard M, Bøtker HE, Aalkjaer C, Matchkov, VV (2022). <b>Migraine-associated mutation in the Na,K-ATPase leads to disturbances in cardiac metabolism associated with reduced cardiac function</b>. <em>Journal of the American Heart Association</em>, 7(11):e021814, <a href="https://doi.org/10.1161/jaha.121.021814">https://doi.org/10.1161/jaha.121.021814</a> </p>
+</div>
 
 <!-- 2021 -->
 <font color="#E97132"> <b>2021</b> </font>
+ <div style="text-indent: -36px; padding-left: 36px;">
  <p> Kløve-Mogensen K<sup>*</sup>, <b><span class="my-name">Rohde PD</span></b><sup>*</sup>, Twisttmann S, Nygaard M, Koldby MA, Steffensen R, Dahl CM, Rytter D, Overgaard MT, Forman A, Christiansen L, Nyegaard M (2021). <b>Polygenic risk score prediction for endometriosis</b>. <em>Frontiers in Reproductive Health</em>, 3:793226, <a href="https://doi.org/10.3389/frph.2021.793226">https://doi.org/10.3389/frph.2021.793226</a> <small><br><sup>*</sup>These authors contributed equally to this work.</small> </p>
 
 <p> Christensen, MW, Keefe DL, Fang W, Hansen CS. Chamani I, Sommer C, Nyegaard M, <b><span class="my-name">Rohde PD</span></b>, Nielsen AL, Bybjerg-Grauholm J, Kesmodel US, Knudsen UB, Kirkegaard K, Ingerslev HJ (2021). <b>Idiopathic early ovarian aging: Is there a relation with premenopausal accelerated biological aging in young women with diminished response to ART?</b>. <em>Journal of Assisted Reproduction and Genetics</em>, 38:3027–3038, <a href="https://doi.org/10.1007/s10815-021-02326-7">https://doi.org/10.1007/s10815-021-02326-7</a> </p> 
@@ -130,36 +137,45 @@ Bjornsdottir G, Chalmer MA, Stefansdottir L, Skuladottir ATh, Einarsson G, Andre
 <p> Møller PL, <b><span class="my-name">Rohde PD</span></b>, Winther S, Breining P, Nissen L, Nykjaer A, Bøttcher M, Nyegaard M, Kjolby M (2021). <b>Sortilin as a biomarker for cardiovascular disease revisited</b>. <em>Frontiers in Cardiovascular Medicine</em>, 8:652584, <a href="https://doi.org/10.3389/fcvm.2021.652584">https://doi.org/10.3389/fcvm.2021.652584</a> </p> 
 
 <p> <b><span class="my-name">Rohde PD</span></b>, Kristensen TN, Sarup P, Munoz J, Malmendal A (2021). <b>Prediction of complex phenotypes using the <i>Drosophila melanogaster</i> metabolome</b>. <em>Heredity</em>, 126:717–732, <a href="https://doi.org/10.1038/s41437-021-00404-1">https://doi.org/10.1038/s41437-021-00404-1</a> </p>
+</div>
 
 <!-- 2020 -->
 <font color="#E97132"> <b>2020</b> </font>
+<div style="text-indent: -36px; padding-left: 36px;">
 <p> <b><span class="my-name">Rohde PD</span></b>, Kristensen TN (2020). <b>Untangling the genetic basis of drug response</b>. <em>Pharmacogenomics</em>, 21(2):87-89, <a href="https://doi.org/10.2217/pgs-2019-0155">https://doi.org/10.2217/pgs-2019-0155</a> </p>
 
 <p> Hansen BK, Staehr C, <b><span class="my-name">Rohde PD</span></b>, Homilius C, Kim S, Nyegaard M, Matchkov V, Boedtkjer E (2020).  <b><i>PTPRG</i> is an ischemia risk locus essential for HCO33--dependent regulation of endothelial function and tissue perfusion</b>. <em>eLife</em>, 9:e57553, <a href="https://doi.org/10.7554/elife.57553">https://doi.org/10.7554/elife.57553</a> </p>
 
 <p> <b><span class="my-name">Rohde PD</span></b>, Sørensen IF, Sørensen P (2020). <b>qgg: an R package for large-scale quantitative genetic analyses</b>. <em>Bioinformatics</em>, 36(8):2614-2615, <a href="https://doi.org/10.1093/bioinformatics/btz955">https://doi.org/10.1093/bioinformatics/btz955</a> </p>
-
+</div>
 
 <!-- 2019 -->
 <font color="#E97132"> <b>2019</b> </font>
+<div style="text-indent: -36px; padding-left: 36px;">
 <p> <b><span class="my-name">Rohde PD</span></b>, Jensen I, Sarup P, Ørsted M, Demontis D, Sørensen P, Kristensen TN (2019). <b>Genetic signatures of drug response variability in <i>Drosophila melanogaster</i></b>. <em>Genetics</em>, 213(2):633-650, <a href="https://doi.org/10.1534/genetics.119.302381">https://doi.org/10.1534/genetics.119.302381</a> </p> 
 
 <p> Ørsted M, Hoffmann AA, <b><span class="my-name">Rohde PD</span></b>, Sørensen P, Kristensen TN (2019). <b>Strong impact of thermal environment on the quantitative genetic basis of a key stress tolerance trait</b>. <em>Heredity</em>, 122:315-325, <a href="https://doi.org/10.1038/s41437-018-0117-7">https://doi.org/10.1038/s41437-018-0117-7</a> </p>
+</div>
 
 <!-- 2018 -->
 <font color="#E97132"> <b>2018</b> </font>
+<div style="text-indent: -36px; padding-left: 36px;">
 <p> <b><span class="my-name">Rohde PD</span></b>, Østergaard S, Kristensen TN, Sørensen P, Loeschcke V, Mackay TFC, Sarup P. (2018). <b>Functional validation of candidate genes detected by genomic feature models</b>. <em>G3: Genes, Genomes, Genetics</em>, 8(5):1659-1668, <a href="https://doi.org/10.1534/g3.118.200082">https://doi.org/10.1534/g3.118.200082</a> </p>
+</div>
 
 <!-- 2017 -->
 <font color="#E97132"> <b>2017</b> </font>
+<div style="text-indent: -36px; padding-left: 36px;">
 <p> Ørsted M<sup>*</sup>, <b><span class="my-name">Rohde PD</span></b><sup>*</sup>, Hoffmann AA, Sørensen P, Kristensen TN (2017). <b>Environmental variation partitioned into separate heritable components</b>. <em>Evolution</em>, 72(1):136-152, <a href="https://doi.org/10.1111/evo.13391">https://doi.org/10.1111/evo.13391</a> <small><br><sup>*</sup>These authors contributed equally to this work.</small> </p> 
 
 <p> <b><span class="my-name">Rohde PD</span></b>, Gaertner B, Ward K, Sørensen P, Mackay TFC (2017). <b>Genomic analysis of genotype by social environment interaction for <i>Drosophila melanogaster</i> aggressive behaviour</b>. <em>Genetics</em>, 206(4):1969-1984, <a href="https://doi.org/10.1534/genetics.117.200642">https://doi.org/10.1534/genetics.117.200642</a> </p>
 
 <p> Sørensen, IF, Edwards SM, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2017). <b>Multiple trait covariance association test identifies gene ontology categories associated with chill coma recovery time in <i>Drosophila melanogaster</i></b>. <em>Scientific Reports</em>, 7(1):2413, <a href="https://doi.org/10.1038/s41598-017-02281-3">https://doi.org/10.1038/s41598-017-02281-3</a> </p>
+</div>
 
 <!-- 2016 -->
 <font color="#E97132"> <b>2016</b> </font>
+<div style="text-indent: -36px; padding-left: 36px;">
 <p> Pertoldi C, Bahrndorff S, Novicic ZK, <b><span class="my-name">Rohde PD</span></b> (2016). <b>The novel concept of behavioural instability and its potential applications</b>. <em>Symmetry</em>, 8(135):1-13, <a href="https://doi.org/10.3390/sym8110135">https://doi.org/10.3390/sym8110135</a> </p>
 
 <p> <b><span class="my-name">Rohde PD</span></b>, Demontis D, Cuyabano BCD, The GEMS Group, Børglum AD, Sørensen P (2016). <b>Covariance Association Test (CVAT) identifies genetic markers associated with schizophrenia in functionally associated biological processes</b>. <em>Genetics</em>, 203(4):1901-1913, <a href="https://doi.org/10.1534/genetics.116.189498">https://doi.org/10.1534/genetics.116.189498</a> </p>
@@ -167,11 +183,12 @@ Bjornsdottir G, Chalmer MA, Stefansdottir L, Skuladottir ATh, Einarsson G, Andre
 <p>  <b><span class="my-name">Rohde PD</span></b>, Madsen LS, Arvidson SMN, Loeschcke V, Demontis D, Kristensen T N (2016). <b>Testing candidate genes for attention-deficit/hyperactivity disorder in fruit flies using a high throughput assay for complex behavior</b>. <em>Fly</em>, 10(1):25-34, <a href="https://doi.org/10.1080/19336934.2016.1158365">https://doi.org/10.1080/19336934.2016.1158365</a> </p>
 
 <p> <b><span class="my-name">Rohde PD</span></b>, Krag K, Loeschcke V, Overgaard J, Sørensen P, Kristensen TN (2016). <b>A quantitative genomic approach for analysis of fitness and stress related traits in a <i>Drosophila melanogaster</i> model population</b>. <em>International Journal of Genomics</em>, 2157494:1-11, <a href="https://doi.org/10.1155/2016/2157494">https://doi.org/10.1155/2016/2157494</a> </p>
+</div>
 
 <!-- 2014 -->
 <font color="#E97132"> <b>2014</b> </font>
+<div style="text-indent: -36px; padding-left: 36px;">
 <p> <b><span class="my-name">Rohde PD</span></b>, Overgaard J, Loeschcke V, Schou MF, Malte H, Kristensen TN (2014). <b>Inbreeding effects on standard metabolic rate investigated at cold, benign and hot temperatures in <i>Drosophila melanogaster</i></b>. <em>Journal of Insect Physiology</em>, 62:11-20, <a href="https://doi.org/10.1016/j.jinsphys.2014.01.003">https://doi.org/10.1016/j.jinsphys.2014.01.003</a> </p>
-
 </div>
 <hr>
 <p style="font-size: 14px;">
