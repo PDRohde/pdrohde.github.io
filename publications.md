@@ -19,6 +19,7 @@ permalink: /publications/
 <p> Thielemann R, Stinson SE, Huang Y, Holm LA, Gräf JF, <b><span class="my-name">Rohde PD</span></b>, Møller PLR, Poggi AI, Anderson LV, Fonvig CE, Thiele M, Krag A, Rasmussen S, Holm JC, Hansen T (2025). <b>Obesity- and age-dependent genetic regulation of the plasma proteome in children and adolescents</b>.  <em>medRxiv</em>  <a href="https://doi.org/10.1101/2025.03.18.25324169">https://doi.org/10.1101/2025.03.18.25324169</a> </p>
 
 <p> Jensen HH, Brohus M, Hussey JH, Busuioc AO, Iversen ED, Darki F, Nikolova GD, Baisgaard AE, <b><span class="my-name">Rohde PD</span></b>, Holm IEG, McQuillin A, Moos T, Dick IE, Overgaard MT, Nyegaard M (2024). <b><i>Calmodulin</i> variants in schizophrenia patients display gain-of-function or loss-of-function effects</b>. <em>medRxiv</em> <a href="https://doi.org/10.1101/2024.05.22.24307674">https://doi.org/10.1101/2024.05.22.24307674</a> </p>
+</div>
 
 ## Peer-reviewed publications
 <!-- <p> author (year). title. <em>journal</em>, no, pages, <a href="https://doi.org/">https://doi.org/</a> </p> -->
@@ -27,6 +28,7 @@ permalink: /publications/
 <!-- 2025 -->
 <font color="#E97132"> <b>2025</b> </font>
 
+<div style="text-indent: -36px; padding-left: 36px;">
 <p>Shrestha M, Bai Z, Gholipourshahraki T, Hjelholt AJ, Hu S, Kjølby M, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2025). <b>Enhanced genetic fine mapping accuracy with Bayesian Linear Regression models in diverse genetic architectures</b>. <em>PLOS Genetics</em> <a href="https://doi.org/10.1371/journal.pgen.1011783">https://doi.org/10.1371/journal.pgen.1011783</a> </p>
 
 
@@ -46,6 +48,7 @@ permalink: /publications/
 <p> Staehr C, Nyegaard M, Bach FW, <b><span class="my-name">Rohde PD</span></b>, Matchkov V (2025). <b>Exploring the association between familial hemiplegic migraine genes (<i>CACNA1A</i>, <i>ATP1A2</i>, and <i>SCN1A</i>) with migraine and epilepsy: A UK Biobank exome-wide association study</b>. <em>Cephalalgia</em>, 45(1):1-12, <a href="https://doi.org/10.1177/03331024241306103">https://doi.org/10.1177/03331024241306103</a> </p>
 
 <p> Sun B, Ni M, Li Y, Song Z, Wang H, Zhu H-L, Wei J, Belke D, Cai S, Guo W, Yao J, Tian S, Estillore JP, Wang R, Sondergaard MT, Brohus M, <b><span class="my-name">Rohde PD</span></b>, Mu Y, Vallmitjana A, Benitez R, Hove-Madse L, Overgaard MT, Fishman G, Chen J, Sanatani S, Wilde A, Fill M, Ramos-Franco J, Nyegaard M, Chen WSR (2024). <b>Inositol 1,4,5-Trisphosphate Receptor 1 gain-of-function increases the risk for cardiac arrhythmias in mice and humans</b>. <em>Circulation</em>, 151(12):847-862, <a href="https://doi.org10.1161/circulationaha.124.070563">https://doi.org/10.1161/circulationaha.124.070563</a> </p> 
+</div>
 
 <!-- 2024 -->
 <font color="#E97132"> <b>2024</b> </font>
