@@ -14,7 +14,7 @@ permalink: /publications/
 
 <p> Kogelman LJA, Rytter R, Hummelshoj L, Hansen KE, Kirk UB, Beauchamp JL, Bay JT, Bruun MT, Brøns N, Erikstrup C, Aagaard B, Kjerulff BD, Mikkelsen C,  Mikkelsen S, Ostrowski SR, Pedersen OB, Sørensen E, Ullum H, Grosen AK, Hvas CL, Steinthorsdottir V, Stefansson K, Banasik K, <b><span class="my-name">Rohde PD</span></b>, Nielsen HS, Nyegaard M (2025). <b>The burden of endometriosis on quality of life in Danish blood donors</b>. <em>ResearchSquare</em>, <a href="https://doi.org/10.21203/rs.3.rs-6620337/v1">https://doi.org/10.21203/rs.3.rs-6620337/v1</a> </p>
 
-<p>Bak NK, Mackay TFC, Morgante F, Nielsen KL, Nielsen JL, Kristensen TN, <b><span class="my-name">Rohde PD</span></b> (2025). <b>The Role of genetic variation in shaping phenotypic responses to diet in aging <i>Drosophila melanogaster</i></b>. <em>bioRxiv</em> <a href="https://doi.org/10.1101/2025.01.09.632132">https://doi.org/10.1101/2025.01.09.632132</a> </p>
+<p> Bak NK, Mackay TFC, Morgante F, Nielsen KL, Nielsen JL, Kristensen TN, <b><span class="my-name">Rohde PD</span></b> (2025). <b>The Role of genetic variation in shaping phenotypic responses to diet in aging <i>Drosophila melanogaster</i></b>. <em>bioRxiv</em> <a href="https://doi.org/10.1101/2025.01.09.632132">https://doi.org/10.1101/2025.01.09.632132</a> </p>
 
 <p> Thielemann R, Stinson SE, Huang Y, Holm LA, Gräf JF, <b><span class="my-name">Rohde PD</span></b>, Møller PLR, Poggi AI, Anderson LV, Fonvig CE, Thiele M, Krag A, Rasmussen S, Holm JC, Hansen T (2025). <b>Obesity- and age-dependent genetic regulation of the plasma proteome in children and adolescents</b>.  <em>medRxiv</em>  <a href="https://doi.org/10.1101/2025.03.18.25324169">https://doi.org/10.1101/2025.03.18.25324169</a> </p>
 
@@ -28,7 +28,7 @@ permalink: /publications/
 <font color="#E97132"> <b>2025</b> </font>
 
 <p>Shrestha M, Bai Z, Gholipourshahraki T, Hjelholt AJ, Hu S, Kjølby M, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2025). <b>Enhanced genetic fine mapping accuracy with Bayesian Linear Regression models in diverse genetic architectures</b>. <em>PLOS Genetics</em> <a href="https://doi.org/10.1371/journal.pgen.1011783">https://doi.org/10.1371/journal.pgen.1011783</a> </p>
-</div>
+
 
 <p> Darbani B, Brodersen T, Liljensøe A, Sørensen SB, Olsson-Svendsen JB, Buil A, Kamal A, Schork AJ, Poulsen A, Kjerulff BD, Aagaard B, Lund BØ, Rittig CS, Mikkelsen C, Larsen DM, Westergaard D, Rudbeck-Resdal D, Mikkelsen DH, Randers E, Schiødt FV, Hoffmann HJ, Jørgensen IF, Brandslund I, Brodersen JB, von Stemann JH, Bay JT, Nissen J, Sørensen J, Boldsen JK, Dowsett J, Gladov J, Banasik K, Kaspersen KA, Carlsen K, Dinh KM, Kellermann L, Christoffersen LAN, Quinn LJE, Thørner LW, Larsen L, Aamann L, Andersen MR, Didriksen M, Alexandraki MJ, Thomsen MK, Julsgaard M, Nyegaard M, Schwinn M, Topholm-Bruun M, Leite MN, Halling ML, Pedersen N, Bonderup OK, <b><span class="my-name">Rohde PD</span></b>, Ovesen PD, Dessau RB, Saboori S, Holm-Christensen S, Bank S, Mikkelsen S, Hansen TF, Werge T, Qvist N, Sørensen E, Burisch J, Hetland ML, Glintborg B, Erikstrup C, Brunak S, Ullum H, Ostrowski SR, Pedersen OBV, Andersen V (2025). <b>Cohort profile: Copenhagen Hospital Biobank-chronic inflammatory disease—inflammatory bowel disease (CHB-CID:IBD) genetic cohort</b>. <em>European Journal of Epidemiology</em>, <a href="https://doi.org/10.1007/s10654-025-01239-4">https://doi.org/10.1007/s10654-025-01239-4</a> </p>
 
@@ -169,7 +169,7 @@ Bjornsdottir G, Chalmer MA, Stefansdottir L, Skuladottir ATh, Einarsson G, Andre
 <font color="#E97132"> <b>2014</b> </font>
 <p> <b><span class="my-name">Rohde PD</span></b>, Overgaard J, Loeschcke V, Schou MF, Malte H, Kristensen TN (2014). <b>Inbreeding effects on standard metabolic rate investigated at cold, benign and hot temperatures in <i>Drosophila melanogaster</i></b>. <em>Journal of Insect Physiology</em>, 62:11-20, <a href="https://doi.org/10.1016/j.jinsphys.2014.01.003">https://doi.org/10.1016/j.jinsphys.2014.01.003</a> </p>
 
-
+</div>
 <hr>
 <p style="font-size: 14px;">
   Unless otherwise stated, all content on this site is licensed under a 
