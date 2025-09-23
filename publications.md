@@ -25,7 +25,7 @@ permalink: /publications/
 <font color="#E97132"> <b>2025</b> </font>
 <div style="text-indent: -36px; padding-left: 36px;">
 
-<p> Mikkelsen C, Sørensen BS, Aagaard B, Hasslund S, Bruun MT, Larsen R, Drechsler LØ, Didriksen M, Schwinn M, Dowsett J, DBDS Genomic Consortium‡, Sørensen E, Erikstrup C, Pedersen OB, Grarup N, Stefansson K, Hansen MB, Hansen T, Ostrowski SR (2025). Onsite vasovagal reactions with and without loss of consciousness are distinct outcomes with different risk factors. <em>Vox Sanguinis<\em>, 120(9), 866-873.  <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small>  </p>
+<p> Mikkelsen C, Sørensen BS, Aagaard B, Hasslund S, Bruun MT, Larsen R, Drechsler LØ, Didriksen M, Schwinn M, Dowsett J, DBDS Genomic Consortium<sup>*</sup>, Sørensen E, Erikstrup C, Pedersen OB, Grarup N, Stefansson K, Hansen MB, Hansen T, Ostrowski SR (2025). Onsite vasovagal reactions with and without loss of consciousness are distinct outcomes with different risk factors. <em>Vox Sanguinis</em>, 120(9), 866-873.  <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small>  </p>
 
 <p> Kogelman LJA, Rytter R, Hummelshoj L, Hansen KE, Kirk UB, Beauchamp JL, Bay JT, Bruun MT, Brøns N, Erikstrup C, Aagaard B, Kjerulff BD, Mikkelsen C,  Mikkelsen S, Ostrowski SR, Pedersen OB, Sørensen E, Ullum H, Grosen AK, Hvas CL, Steinthorsdottir V, Stefansson K, Banasik K, <b><span class="my-name">Rohde PD</span></b>, Nielsen HS, Nyegaard M (2025). <b>The burden of endometriosis on quality of life in Danish blood donors</b>. <em>BMC Medicine, in press</em>, <a href="https://doi.org/10.21203/rs.3.rs-6620337/v1">https://doi.org/10.21203/rs.3.rs-6620337/v1</a> </p>
 
