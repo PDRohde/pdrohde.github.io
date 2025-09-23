@@ -12,10 +12,6 @@ permalink: /publications/
 
 <p> Hjelholt AJ, Gholipourshahraki T, Bai Z, Shrestha M, Kjoelby M, Sørensen P, <b><span class="my-name">Rohde PD</span></b> (2025). Leveraging genetic correlations to prioritize drug groups for repurposing in type 2 diabetes. <em>medRxiv</em> <a href="https://doi.org/10.1101/2025.06.13.25329590">https://doi.org/10.1101/2025.06.13.25329590</a> </p>
 
-<p> Kogelman LJA, Rytter R, Hummelshoj L, Hansen KE, Kirk UB, Beauchamp JL, Bay JT, Bruun MT, Brøns N, Erikstrup C, Aagaard B, Kjerulff BD, Mikkelsen C,  Mikkelsen S, Ostrowski SR, Pedersen OB, Sørensen E, Ullum H, Grosen AK, Hvas CL, Steinthorsdottir V, Stefansson K, Banasik K, <b><span class="my-name">Rohde PD</span></b>, Nielsen HS, Nyegaard M (2025). <b>The burden of endometriosis on quality of life in Danish blood donors</b>. <em>ResearchSquare</em>, <a href="https://doi.org/10.21203/rs.3.rs-6620337/v1">https://doi.org/10.21203/rs.3.rs-6620337/v1</a> </p>
-
-<p> Bak NK, Mackay TFC, Morgante F, Nielsen KL, Nielsen JL, Kristensen TN, <b><span class="my-name">Rohde PD</span></b> (2025). <b>The Role of genetic variation in shaping phenotypic responses to diet in aging <i>Drosophila melanogaster</i></b>. <em>bioRxiv</em> <a href="https://doi.org/10.1101/2025.01.09.632132">https://doi.org/10.1101/2025.01.09.632132</a> </p>
-
 <p> Thielemann R, Stinson SE, Huang Y, Holm LA, Gräf JF, <b><span class="my-name">Rohde PD</span></b>, Møller PLR, Poggi AI, Anderson LV, Fonvig CE, Thiele M, Krag A, Rasmussen S, Holm JC, Hansen T (2025). <b>Obesity- and age-dependent genetic regulation of the plasma proteome in children and adolescents</b>.  <em>medRxiv</em>  <a href="https://doi.org/10.1101/2025.03.18.25324169">https://doi.org/10.1101/2025.03.18.25324169</a> </p>
 
 <p> Jensen HH, Brohus M, Hussey JH, Busuioc AO, Iversen ED, Darki F, Nikolova GD, Baisgaard AE, <b><span class="my-name">Rohde PD</span></b>, Holm IEG, McQuillin A, Moos T, Dick IE, Overgaard MT, Nyegaard M (2024). <b><i>Calmodulin</i> variants in schizophrenia patients display gain-of-function or loss-of-function effects</b>. <em>medRxiv</em> <a href="https://doi.org/10.1101/2024.05.22.24307674">https://doi.org/10.1101/2024.05.22.24307674</a> </p>
@@ -27,8 +23,14 @@ permalink: /publications/
 
 <!-- 2025 -->
 <font color="#E97132"> <b>2025</b> </font>
-
 <div style="text-indent: -36px; padding-left: 36px;">
+
+<p> Mikkelsen C, Sørensen BS, Aagaard B, Hasslund S, Bruun MT, Larsen R, Drechsler LØ, Didriksen M, Schwinn M, Dowsett J, DBDS Genomic Consortium‡, Sørensen E, Erikstrup C, Pedersen OB, Grarup N, Stefansson K, Hansen MB, Hansen T, Ostrowski SR (2025). Onsite vasovagal reactions with and without loss of consciousness are distinct outcomes with different risk factors. <em>Vox Sanguinis<\em>, 120(9), 866-873.  <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small>  </p>
+
+<p> Kogelman LJA, Rytter R, Hummelshoj L, Hansen KE, Kirk UB, Beauchamp JL, Bay JT, Bruun MT, Brøns N, Erikstrup C, Aagaard B, Kjerulff BD, Mikkelsen C,  Mikkelsen S, Ostrowski SR, Pedersen OB, Sørensen E, Ullum H, Grosen AK, Hvas CL, Steinthorsdottir V, Stefansson K, Banasik K, <b><span class="my-name">Rohde PD</span></b>, Nielsen HS, Nyegaard M (2025). <b>The burden of endometriosis on quality of life in Danish blood donors</b>. <em>BMC Medicine, in press</em>, <a href="https://doi.org/10.21203/rs.3.rs-6620337/v1">https://doi.org/10.21203/rs.3.rs-6620337/v1</a> </p>
+
+<p> Bak NK, Mackay TFC, Morgante F, Nielsen KL, Nielsen JL, Kristensen TN, <b><span class="my-name">Rohde PD</span></b> (2025). <b>The Role of genetic variation in shaping phenotypic responses to diet in aging <i>Drosophila melanogaster</i></b>. <em>Heredity, in press</em> <a href="https://doi.org/10.1101/2025.01.09.632132">https://doi.org/10.1101/2025.01.09.632132</a> </p>
+
 <p>Shrestha M, Bai Z, Gholipourshahraki T, Hjelholt AJ, Hu S, Kjølby M, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2025). <b>Enhanced genetic fine mapping accuracy with Bayesian Linear Regression models in diverse genetic architectures</b>. <em>PLOS Genetics</em> <a href="https://doi.org/10.1371/journal.pgen.1011783">https://doi.org/10.1371/journal.pgen.1011783</a> </p>
 
 
