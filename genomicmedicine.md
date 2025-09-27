@@ -14,6 +14,17 @@ My research group focuses on understanding the genetic architecture of common co
 - **Genomic medicine**: Translating genetic insights into clinically useful tools, with a special focus on cardiovascular disease, metabolic disorders, and cancer.  
 - **Population-based research**: Leveraging large-scale biobank data (e.g., UK Biobank, iPSYCH, and national health registries) to study gene–environment interactions and the societal implications of genomics.  
 
+## Strategic Focus: Statistical Genomics & AI
+A central research priority for the group is advancing **statistical genomics through AI-driven methods**.  
+
+We aim to:
+- Develop machine learning and Bayesian modelling approaches for **risk prediction and fine-mapping of causal variants**.  
+- Create robust pipelines that integrate **genomics, registries, and clinical data** to enable personalised screening and precision medicine.  
+- Explore the **ethical and societal aspects** of applying AI to genomic data, ensuring that innovation is implemented responsibly in healthcare.  
+
+This strategic direction positions the group at the interface of **genomic medicine, AI, and public health**.  
+
+
 ## Teaching
 We are actively engaged in teaching and supervision at Aalborg University, covering topics such as:
 - Statistical genetics and computational genomics  
