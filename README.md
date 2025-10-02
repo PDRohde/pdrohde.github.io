@@ -52,7 +52,7 @@ With <a href="https://psoerensen.github.io/gact/index.html">gact</a> you create 
 
 <b><i>Please cite</i></b> <br>
 <div style="text-indent: -30px; padding-left: 30px;">
-<p>Sørensen P and <b><span class="my-name">Rohde PD</span></b> (2025). <b>A versatile data repository for GWAS summary statistics-based downstream genomic analysis of human complex traits </b>. <em>doi comming soon</em> </p>
+<p> Sorensen P,  <b><span class="my-name">Rohde PD</span></b> (2025) . A versatile data repository for GWAS summary statistics-based downstream genomic analysis of human complex traits. <em>medRxiv</em> <a href="https://doi.org/10.1101/2025.10.01.25337099 ">https://doi.org/10.1101/2025.10.01.25337099 </a> </p>
 </div>
 
 ## Selected method development publications

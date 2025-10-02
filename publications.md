@@ -10,6 +10,8 @@ permalink: /publications/
 <div style="text-indent: -36px; padding-left: 36px;">
 <!-- <p> author (year). title. <em>journal</em> no, pages <a href="https://">[link]</a> </p> -->
 
+<p> Sorensen P,  <b><span class="my-name">Rohde PD</span></b> (2025) . A versatile data repository for GWAS summary statistics-based downstream genomic analysis of human complex traits. <em>medRxiv</em> <a href="https://doi.org/10.1101/2025.10.01.25337099 ">https://doi.org/10.1101/2025.10.01.25337099 </a> </p>
+
 <p> Hjelholt AJ, Gholipourshahraki T, Bai Z, Shrestha M, Kjoelby M, Sørensen P, <b><span class="my-name">Rohde PD</span></b> (2025). Leveraging genetic correlations to prioritize drug groups for repurposing in type 2 diabetes. <em>medRxiv</em> <a href="https://doi.org/10.1101/2025.06.13.25329590">https://doi.org/10.1101/2025.06.13.25329590</a> </p>
 
 <p> Thielemann R, Stinson SE, Huang Y, Holm LA, Gräf JF, <b><span class="my-name">Rohde PD</span></b>, Møller PLR, Poggi AI, Anderson LV, Fonvig CE, Thiele M, Krag A, Rasmussen S, Holm JC, Hansen T (2025). <b>Obesity- and age-dependent genetic regulation of the plasma proteome in children and adolescents</b>.  <em>medRxiv</em>  <a href="https://doi.org/10.1101/2025.03.18.25324169">https://doi.org/10.1101/2025.03.18.25324169</a> </p>
