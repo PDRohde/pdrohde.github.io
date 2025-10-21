@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Palle Duun Rohde">
+<meta name="dcterms.date" content="2025-10-21">
+
+<title>Mendelian Randomization — A gentle, practical introduction</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="MR_new_files/libs/clipboard/clipboard.min.js"></script>
+<script src="MR_new_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="MR_new_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="MR_new_files/libs/quarto-html/popper.min.js"></script>
+<script src="MR_new_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="MR_new_files/libs/quarto-html/anchor.min.js"></script>
+<link href="MR_new_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="MR_new_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="MR_new_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="MR_new_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="MR_new_files/libs/bootstrap/bootstrap-8a894fcc3cb5e37eb5bf30def131be2f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="MR_new_files/libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="MR_new_files/libs/viz-1.8.2/viz.js"></script>
+<link href="MR_new_files/libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
+<script src="MR_new_files/libs/grViz-binding-1.0.11/grViz.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#what-is-mendelian-randomization" id="toc-what-is-mendelian-randomization" class="nav-link active" data-scroll-target="#what-is-mendelian-randomization"><span class="header-section-number">1</span> What is Mendelian Randomization?</a>
+  <ul class="collapse">
+  <li><a href="#the-fundamental-problem-in-observational-studies" id="toc-the-fundamental-problem-in-observational-studies" class="nav-link" data-scroll-target="#the-fundamental-problem-in-observational-studies"><span class="header-section-number">1.1</span> The Fundamental Problem in Observational Studies</a></li>
+  <li><a href="#the-mr-solution-using-genetics-as-instrumental-variables" id="toc-the-mr-solution-using-genetics-as-instrumental-variables" class="nav-link" data-scroll-target="#the-mr-solution-using-genetics-as-instrumental-variables"><span class="header-section-number">1.2</span> The MR Solution: Using Genetics as Instrumental Variables</a></li>
+  </ul></li>
+  <li><a href="#core-assumptions-of-mr" id="toc-core-assumptions-of-mr" class="nav-link" data-scroll-target="#core-assumptions-of-mr"><span class="header-section-number">2</span> Core Assumptions of MR</a>
+  <ul class="collapse">
+  <li><a href="#assumption-1-relevance" id="toc-assumption-1-relevance" class="nav-link" data-scroll-target="#assumption-1-relevance"><span class="header-section-number">2.1</span> Assumption 1: Relevance</a></li>
+  <li><a href="#assumption-2-independence" id="toc-assumption-2-independence" class="nav-link" data-scroll-target="#assumption-2-independence"><span class="header-section-number">2.2</span> Assumption 2: Independence</a></li>
+  <li><a href="#assumption-3-exclusion-restriction" id="toc-assumption-3-exclusion-restriction" class="nav-link" data-scroll-target="#assumption-3-exclusion-restriction"><span class="header-section-number">2.3</span> Assumption 3: Exclusion Restriction</a></li>
+  </ul></li>
+  <li><a href="#types-of-mr-studies" id="toc-types-of-mr-studies" class="nav-link" data-scroll-target="#types-of-mr-studies"><span class="header-section-number">3</span> Types of MR Studies</a>
+  <ul class="collapse">
+  <li><a href="#one-sample-mr" id="toc-one-sample-mr" class="nav-link" data-scroll-target="#one-sample-mr"><span class="header-section-number">3.1</span> 1. One-Sample MR</a></li>
+  <li><a href="#two-sample-mr" id="toc-two-sample-mr" class="nav-link" data-scroll-target="#two-sample-mr"><span class="header-section-number">3.2</span> 2. Two-Sample MR</a></li>
+  </ul></li>
+  <li><a href="#step-by-step-mr-analysis" id="toc-step-by-step-mr-analysis" class="nav-link" data-scroll-target="#step-by-step-mr-analysis"><span class="header-section-number">4</span> Step-by-Step MR Analysis</a>
+  <ul class="collapse">
+  <li><a href="#step-1-select-genetic-instruments" id="toc-step-1-select-genetic-instruments" class="nav-link" data-scroll-target="#step-1-select-genetic-instruments"><span class="header-section-number">4.1</span> Step 1: Select Genetic Instruments</a></li>
+  <li><a href="#step-2-extract-outcome-data" id="toc-step-2-extract-outcome-data" class="nav-link" data-scroll-target="#step-2-extract-outcome-data"><span class="header-section-number">4.2</span> Step 2: Extract Outcome Data</a></li>
+  <li><a href="#step-3-harmonize-data" id="toc-step-3-harmonize-data" class="nav-link" data-scroll-target="#step-3-harmonize-data"><span class="header-section-number">4.3</span> Step 3: Harmonize Data</a></li>
+  <li><a href="#step-4-perform-mr-analysis" id="toc-step-4-perform-mr-analysis" class="nav-link" data-scroll-target="#step-4-perform-mr-analysis"><span class="header-section-number">4.4</span> Step 4: Perform MR Analysis</a></li>
+  <li><a href="#step-5-sensitivity-analyses" id="toc-step-5-sensitivity-analyses" class="nav-link" data-scroll-target="#step-5-sensitivity-analyses"><span class="header-section-number">4.5</span> Step 5: Sensitivity Analyses</a></li>
+  <li><a href="#step-6-visualization" id="toc-step-6-visualization" class="nav-link" data-scroll-target="#step-6-visualization"><span class="header-section-number">4.6</span> Step 6: Visualization</a></li>
+  </ul></li>
+  <li><a href="#practical-example-with-simulated-data" id="toc-practical-example-with-simulated-data" class="nav-link" data-scroll-target="#practical-example-with-simulated-data"><span class="header-section-number">5</span> Practical Example with Simulated Data</a>
+  <ul class="collapse">
+  <li><a href="#simulate-data" id="toc-simulate-data" class="nav-link" data-scroll-target="#simulate-data"><span class="header-section-number">5.1</span> Simulate Data</a></li>
+  <li><a href="#perform-ivw-analysis" id="toc-perform-ivw-analysis" class="nav-link" data-scroll-target="#perform-ivw-analysis"><span class="header-section-number">5.2</span> Perform IVW Analysis</a></li>
+  <li><a href="#visualize-snp-effects" id="toc-visualize-snp-effects" class="nav-link" data-scroll-target="#visualize-snp-effects"><span class="header-section-number">5.3</span> Visualize SNP Effects</a></li>
+  <li><a href="#check-for-pleiotropy" id="toc-check-for-pleiotropy" class="nav-link" data-scroll-target="#check-for-pleiotropy"><span class="header-section-number">5.4</span> Check for Pleiotropy</a></li>
+  </ul></li>
+  <li><a href="#common-pitfalls-and-how-to-avoid-them" id="toc-common-pitfalls-and-how-to-avoid-them" class="nav-link" data-scroll-target="#common-pitfalls-and-how-to-avoid-them"><span class="header-section-number">6</span> Common Pitfalls and How to Avoid Them</a>
+  <ul class="collapse">
+  <li><a href="#weak-instrument-bias" id="toc-weak-instrument-bias" class="nav-link" data-scroll-target="#weak-instrument-bias"><span class="header-section-number">6.1</span> 1. Weak Instrument Bias</a></li>
+  <li><a href="#horizontal-pleiotropy" id="toc-horizontal-pleiotropy" class="nav-link" data-scroll-target="#horizontal-pleiotropy"><span class="header-section-number">6.2</span> 2. Horizontal Pleiotropy</a></li>
+  <li><a href="#population-stratification" id="toc-population-stratification" class="nav-link" data-scroll-target="#population-stratification"><span class="header-section-number">6.3</span> 3. Population Stratification</a></li>
+  <li><a href="#sample-overlap" id="toc-sample-overlap" class="nav-link" data-scroll-target="#sample-overlap"><span class="header-section-number">6.4</span> 4. Sample Overlap</a></li>
+  </ul></li>
+  <li><a href="#advanced-topics" id="toc-advanced-topics" class="nav-link" data-scroll-target="#advanced-topics"><span class="header-section-number">7</span> Advanced Topics</a>
+  <ul class="collapse">
+  <li><a href="#multivariable-mr-mvmr" id="toc-multivariable-mr-mvmr" class="nav-link" data-scroll-target="#multivariable-mr-mvmr"><span class="header-section-number">7.1</span> Multivariable MR (MVMR)</a></li>
+  <li><a href="#bidirectional-mr" id="toc-bidirectional-mr" class="nav-link" data-scroll-target="#bidirectional-mr"><span class="header-section-number">7.2</span> Bidirectional MR</a></li>
+  <li><a href="#non-linear-mr" id="toc-non-linear-mr" class="nav-link" data-scroll-target="#non-linear-mr"><span class="header-section-number">7.3</span> Non-linear MR</a></li>
+  </ul></li>
+  <li><a href="#reporting-mr-results" id="toc-reporting-mr-results" class="nav-link" data-scroll-target="#reporting-mr-results"><span class="header-section-number">8</span> Reporting MR Results</a>
+  <ul class="collapse">
+  <li><a href="#essential-elements" id="toc-essential-elements" class="nav-link" data-scroll-target="#essential-elements"><span class="header-section-number">8.1</span> Essential Elements</a></li>
+  </ul></li>
+  <li><a href="#resources-and-further-reading" id="toc-resources-and-further-reading" class="nav-link" data-scroll-target="#resources-and-further-reading"><span class="header-section-number">9</span> Resources and Further Reading</a>
+  <ul class="collapse">
+  <li><a href="#software-packages" id="toc-software-packages" class="nav-link" data-scroll-target="#software-packages"><span class="header-section-number">9.1</span> Software Packages</a></li>
+  <li><a href="#key-publications" id="toc-key-publications" class="nav-link" data-scroll-target="#key-publications"><span class="header-section-number">9.2</span> Key Publications</a></li>
+  <li><a href="#online-resources" id="toc-online-resources" class="nav-link" data-scroll-target="#online-resources"><span class="header-section-number">9.3</span> Online Resources</a></li>
+  <li><a href="#tutorials-and-courses" id="toc-tutorials-and-courses" class="nav-link" data-scroll-target="#tutorials-and-courses"><span class="header-section-number">9.4</span> Tutorials and Courses</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mendelian Randomization — A gentle, practical introduction</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Palle Duun Rohde </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 21, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="what-is-mendelian-randomization" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> What is Mendelian Randomization?</h1>
+<section id="the-fundamental-problem-in-observational-studies" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="the-fundamental-problem-in-observational-studies"><span class="header-section-number">1.1</span> The Fundamental Problem in Observational Studies</h2>
+<p>In traditional observational epidemiology, we often observe associations between risk factors (exposures) and disease outcomes. However, <strong>correlation does not imply causation</strong> due to:</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Challenges in Observational Studies
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><strong>Confounding</strong>: Unmeasured factors affect both exposure and outcome</li>
+<li><strong>Reverse causation</strong>: Disease may influence the exposure</li>
+<li><strong>Measurement error</strong>: Imprecise measurement of exposures</li>
+</ol>
+</div>
+</div>
+<section id="example-coffee-and-heart-disease" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="example-coffee-and-heart-disease"><span class="header-section-number">1.1.1</span> Example: Coffee and Heart Disease</h3>
+<p>Observational studies show coffee drinkers have different heart disease rates. But is this causal?</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MR_new_files/figure-html/coffee-example-1.png" class="img-fluid figure-img" width="960"></p>
+<figcaption>Confounding in observational studies</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Problem</strong>: Smoking affects both coffee consumption AND heart disease risk!</p>
+</section>
+</section>
+<section id="the-mr-solution-using-genetics-as-instrumental-variables" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="the-mr-solution-using-genetics-as-instrumental-variables"><span class="header-section-number">1.2</span> The MR Solution: Using Genetics as Instrumental Variables</h2>
+<p>Mendelian Randomization uses <strong>genetic variants</strong> as instrumental variables (IVs) to estimate causal effects.</p>
+<section id="why-genetics" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="why-genetics"><span class="header-section-number">1.2.1</span> Why Genetics?</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Advantages of Genetic Instruments
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><strong>Fixed at conception</strong>: Cannot be affected by disease (no reverse causation)</li>
+<li><strong>Randomly allocated</strong>: Follow Mendel’s laws (natural randomization)</li>
+<li><strong>Not confounded</strong>: By most environmental/behavioral factors</li>
+<li><strong>Measurable</strong>: With high precision using modern genotyping</li>
+</ol>
+</div>
+</div>
+</section>
+<section id="the-mr-framework" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="the-mr-framework"><span class="header-section-number">1.2.2</span> The MR Framework</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-b4bb1d5fe3832831cde1" style="width:100%;height:203px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b4bb1d5fe3832831cde1">{"x":{"diagram":"\ndigraph MR {\n  graph [rankdir = LR, bgcolor = transparent]\n  \n  node [shape = box, style = filled, fillcolor = lightblue]\n  G [label = \"Genetic\nVariant (IV)\", fillcolor = \"lightgreen\"]\n  X [label = \"Exposure\n(e.g., BMI)\"]\n  Y [label = \"Outcome\n(e.g., T2D)\"]\n  U [label = \"Confounders\", fillcolor = \"pink\"]\n  \n  G -> X [label = \"βGX\", color = \"blue\", penwidth = 2]\n  X -> Y [label = \"βXY = ?\", color = \"red\", penwidth = 2]\n  U -> X [style = dashed, color = \"gray\"]\n  U -> Y [style = dashed, color = \"gray\"]\n  G -> Y [label = \"βGY\", color = \"darkgreen\", penwidth = 2]\n  \n  {rank = same; G; U}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<p>Directed Acyclic Graph (DAG) for Mendelian Randomization</p>
+</div>
+</div>
+<p><strong>Key Idea</strong>: Estimate causal effect of X on Y by using genetic variant G:</p>
+<p><span class="math display">\[\hat{\beta}_{XY} = \frac{\beta_{GY}}{\beta_{GX}}\]</span></p>
+</section>
+</section>
+</section>
+<section id="core-assumptions-of-mr" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Core Assumptions of MR</h1>
+<p>For a genetic variant to be a valid instrumental variable, it must satisfy three assumptions:</p>
+<section id="assumption-1-relevance" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="assumption-1-relevance"><span class="header-section-number">2.1</span> Assumption 1: Relevance</h2>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+The genetic variant must be associated with the exposure
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[G \rightarrow X\]</span></p>
+<ul>
+<li>Strong association (F-statistic &gt; 10)</li>
+<li>Genome-wide significant (p &lt; 5×10⁻⁸)</li>
+</ul>
+</div>
+</div>
+<p><strong>How to check</strong>: Look at exposure GWAS results, calculate F-statistics.</p>
+</section>
+<section id="assumption-2-independence" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="assumption-2-independence"><span class="header-section-number">2.2</span> Assumption 2: Independence</h2>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+The genetic variant must not be associated with confounders
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[G \perp\!\!\!\perp U\]</span></p>
+<ul>
+<li>No confounding of G-Y relationship</li>
+<li>Relies on random allocation at conception</li>
+</ul>
+</div>
+</div>
+<p><strong>How to check</strong>: Test for associations with potential confounders.</p>
+</section>
+<section id="assumption-3-exclusion-restriction" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="assumption-3-exclusion-restriction"><span class="header-section-number">2.3</span> Assumption 3: Exclusion Restriction</h2>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+The genetic variant affects the outcome only through the exposure
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[G \rightarrow X \rightarrow Y\]</span></p>
+<ul>
+<li>No direct effect of G on Y</li>
+<li>No horizontal pleiotropy</li>
+</ul>
+</div>
+</div>
+<p><strong>How to check</strong>: Sensitivity analyses, look for biological plausibility.</p>
+<section id="violations-and-solutions" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="violations-and-solutions"><span class="header-section-number">2.3.1</span> Violations and Solutions</h3>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>MR Assumptions: Violations and Solutions</caption>
+<colgroup>
+<col style="width: 22%">
+<col style="width: 26%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Assumption</th>
+<th style="text-align: left;">Violation</th>
+<th style="text-align: left;">Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Relevance</td>
+<td style="text-align: left;">Weak instruments</td>
+<td style="text-align: left;">Use stronger SNPs, F-stat &gt; 10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Independence</td>
+<td style="text-align: left;">Population stratification</td>
+<td style="text-align: left;">Adjust for PCs, use within-family</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Exclusion Restriction</td>
+<td style="text-align: left;">Horizontal pleiotropy</td>
+<td style="text-align: left;">Sensitivity analyses (MR-Egger, Weighted median)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="types-of-mr-studies" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Types of MR Studies</h1>
+<section id="one-sample-mr" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="one-sample-mr"><span class="header-section-number">3.1</span> 1. One-Sample MR</h2>
+<p><strong>Definition</strong>: Exposure and outcome measured in the <strong>same individuals</strong>.</p>
+<section id="advantages" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="advantages"><span class="header-section-number">3.1.1</span> Advantages:</h3>
+<ul>
+<li>More statistical power</li>
+<li>Can use individual-level data</li>
+<li>Flexible covariate adjustment</li>
+</ul>
+</section>
+<section id="disadvantages" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="disadvantages"><span class="header-section-number">3.1.2</span> Disadvantages:</h3>
+<ul>
+<li>Susceptible to weak instrument bias</li>
+<li>Winner’s curse</li>
+<li>Requires access to individual-level data</li>
+</ul>
+</section>
+</section>
+<section id="two-sample-mr" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="two-sample-mr"><span class="header-section-number">3.2</span> 2. Two-Sample MR</h2>
+<p><strong>Definition</strong>: Use summary statistics from <strong>separate GWAS</strong> for exposure and outcome.</p>
+<section id="advantages-1" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="advantages-1"><span class="header-section-number">3.2.1</span> Advantages:</h3>
+<ul>
+<li>Can leverage large GWAS consortia</li>
+<li>No participant overlap needed</li>
+<li>Publicly available summary statistics</li>
+</ul>
+</section>
+<section id="disadvantages-1" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="disadvantages-1"><span class="header-section-number">3.2.2</span> Disadvantages:</h3>
+<ul>
+<li>Requires careful harmonization</li>
+<li>Sample overlap can bias results</li>
+<li>Limited to SNPs in both studies</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-2e06cbfc429ba05a9e2b" style="width:100%;height:270px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2e06cbfc429ba05a9e2b">{"x":{"diagram":"\ndigraph workflow {\n  graph [rankdir = TB, bgcolor = transparent]\n  \n  node [shape = box, style = filled, fillcolor = lightblue]\n  \n  GWAS1 [label = \"Exposure GWAS\n(e.g., BMI, n=700K)\", fillcolor = \"lightyellow\"]\n  GWAS2 [label = \"Outcome GWAS\n(e.g., T2D, n=900K)\", fillcolor = \"lightyellow\"]\n  \n  Extract [label = \"Extract SNPs\nassociated with exposure\n(p < 5e-8)\"]\n  Harmonize [label = \"Harmonize\neffect alleles\"]\n  MR [label = \"MR Analysis\nIVW, MR-Egger, etc.\"]\n  Sensitivity [label = \"Sensitivity Analyses\nHeterogeneity, Pleiotropy\"]\n  Results [label = \"Causal Estimate\nβXY ± SE\", fillcolor = \"lightgreen\"]\n  \n  GWAS1 -> Extract\n  Extract -> Harmonize\n  GWAS2 -> Harmonize\n  Harmonize -> MR\n  MR -> Sensitivity\n  Sensitivity -> Results\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<p>Two-Sample MR Workflow</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="step-by-step-mr-analysis" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Step-by-Step MR Analysis</h1>
+<section id="step-1-select-genetic-instruments" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="step-1-select-genetic-instruments"><span class="header-section-number">4.1</span> Step 1: Select Genetic Instruments</h2>
+<section id="criteria-for-instrument-selection" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="criteria-for-instrument-selection"><span class="header-section-number">4.1.1</span> Criteria for Instrument Selection</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Instrument selection criteria</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>selection_criteria <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">significance =</span> <span class="st">"p &lt; 5e-8"</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">clumping =</span> <span class="st">"r² &lt; 0.001, distance &gt; 10,000 kb"</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">f_statistic =</span> <span class="st">"F &gt; 10"</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">maf =</span> <span class="st">"MAF &gt; 0.01"</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="st">"Instrument Selection Criteria:"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Instrument Selection Criteria:"</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(selection_criteria)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>List of 4
+ $ significance: chr "p &lt; 5e-8"
+ $ clumping    : chr "r² &lt; 0.001, distance &gt; 10,000 kb"
+ $ f_statistic : chr "F &gt; 10"
+ $ maf         : chr "MAF &gt; 0.01"</code></pre>
+</div>
+</div>
+</section>
+<section id="example-selecting-bmi-instruments" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="example-selecting-bmi-instruments"><span class="header-section-number">4.1.2</span> Example: Selecting BMI Instruments</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using TwoSampleMR package</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(TwoSampleMR)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Get instruments for BMI from IEU GWAS database</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>bmi_instruments <span class="ot">&lt;-</span> <span class="fu">extract_instruments</span>(</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">outcomes =</span> <span class="st">"ieu-a-2"</span>,  <span class="co"># BMI GWAS</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">p1 =</span> <span class="fl">5e-8</span>,             <span class="co"># Genome-wide significance</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">r2 =</span> <span class="fl">0.001</span>,            <span class="co"># LD threshold</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">kb =</span> <span class="dv">10000</span>             <span class="co"># Distance for clumping</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate F-statistic for each SNP</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>bmi_instruments<span class="sc">$</span>F_stat <span class="ot">&lt;-</span> (bmi_instruments<span class="sc">$</span>beta.exposure<span class="sc">^</span><span class="dv">2</span>) <span class="sc">/</span> </span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>                          (bmi_instruments<span class="sc">$</span>se.exposure<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Keep only strong instruments</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>bmi_instruments_strong <span class="ot">&lt;-</span> <span class="fu">subset</span>(bmi_instruments, F_stat <span class="sc">&gt;</span> <span class="dv">10</span>)</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">sprintf</span>(<span class="st">"Number of instruments: %d</span><span class="sc">\n</span><span class="st">"</span>, <span class="fu">nrow</span>(bmi_instruments_strong)))</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">sprintf</span>(<span class="st">"Mean F-statistic: %.2f</span><span class="sc">\n</span><span class="st">"</span>, <span class="fu">mean</span>(bmi_instruments_strong<span class="sc">$</span>F_stat)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+</section>
+<section id="step-2-extract-outcome-data" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="step-2-extract-outcome-data"><span class="header-section-number">4.2</span> Step 2: Extract Outcome Data</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract outcome data (Type 2 Diabetes)</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>t2d_outcome <span class="ot">&lt;-</span> <span class="fu">extract_outcome_data</span>(</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">snps =</span> bmi_instruments_strong<span class="sc">$</span>SNP,</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">outcomes =</span> <span class="st">"ieu-a-26"</span>  <span class="co"># T2D GWAS</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Check how many SNPs are available in outcome</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">sprintf</span>(<span class="st">"SNPs available in outcome: %d/%d</span><span class="sc">\n</span><span class="st">"</span>, </span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>            <span class="fu">nrow</span>(t2d_outcome), </span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>            <span class="fu">nrow</span>(bmi_instruments_strong)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="step-3-harmonize-data" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="step-3-harmonize-data"><span class="header-section-number">4.3</span> Step 3: Harmonize Data</h2>
+<p><strong>Critical step</strong>: Ensure effect alleles are aligned between exposure and outcome.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Harmonize exposure and outcome data</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>harmonized_data <span class="ot">&lt;-</span> <span class="fu">harmonise_data</span>(</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">exposure_dat =</span> bmi_instruments_strong,</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">outcome_dat =</span> t2d_outcome,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">action =</span> <span class="dv">2</span>  <span class="co"># Remove palindromic SNPs with intermediate allele frequencies</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for palindromic SNPs removed</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(harmonized_data<span class="sc">$</span>mr_keep)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(harmonized_data<span class="sc">$</span>palindromic)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<section id="understanding-harmonization" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="understanding-harmonization"><span class="header-section-number">4.3.1</span> Understanding Harmonization</h3>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Effect Allele Harmonization
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Forward strand</strong>: A/G → same direction</li>
+<li><strong>Flipped strand</strong>: A/G → flipped to T/C</li>
+<li><strong>Palindromic</strong>: A/T or G/C → ambiguous when MAF ≈ 0.5</li>
+</ul>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Example of Effect Allele Harmonization</caption>
+<colgroup>
+<col style="width: 5%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 23%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">SNP</th>
+<th style="text-align: left;">Exposure_A1</th>
+<th style="text-align: left;">Exposure_A2</th>
+<th style="text-align: left;">Outcome_A1</th>
+<th style="text-align: left;">Outcome_A2</th>
+<th style="text-align: left;">Action</th>
+<th style="text-align: left;">Keep</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">rs1</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">G</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">G</td>
+<td style="text-align: left;">Align</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rs2</td>
+<td style="text-align: left;">G</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">G</td>
+<td style="text-align: left;">Flip outcome</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rs3</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">T</td>
+<td style="text-align: left;">T</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">Palindromic - OK</td>
+<td style="text-align: left;">Yes (MAF)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rs4</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">C</td>
+<td style="text-align: left;">G</td>
+<td style="text-align: left;">C</td>
+<td style="text-align: left;">Flip + complement</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</section>
+<section id="step-4-perform-mr-analysis" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="step-4-perform-mr-analysis"><span class="header-section-number">4.4</span> Step 4: Perform MR Analysis</h2>
+<section id="primary-method-inverse-variance-weighted-ivw" class="level3" data-number="4.4.1">
+<h3 data-number="4.4.1" class="anchored" data-anchor-id="primary-method-inverse-variance-weighted-ivw"><span class="header-section-number">4.4.1</span> Primary Method: Inverse Variance Weighted (IVW)</h3>
+<p>The <strong>IVW</strong> method is the main MR estimator:</p>
+<p><span class="math display">\[\hat{\beta}_{IVW} = \frac{\sum_j w_j \beta_{GY,j} \beta_{GX,j}}{\sum_j w_j \beta_{GX,j}^2}\]</span></p>
+<p>where <span class="math inline">\(w_j = 1 / \text{SE}(\beta_{GY,j})^2\)</span></p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Perform MR analysis</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>mr_results <span class="ot">&lt;-</span> <span class="fu">mr</span>(harmonized_data, <span class="at">method_list =</span> <span class="fu">c</span>(</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">"mr_ivw"</span>,              <span class="co"># Inverse variance weighted</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">"mr_egger_regression"</span>, <span class="co"># MR-Egger</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">"mr_weighted_median"</span>,  <span class="co"># Weighted median</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="st">"mr_weighted_mode"</span>     <span class="co"># Weighted mode</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>))</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="co"># View results</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>mr_results <span class="sc">%&gt;%</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(method, nsnp, b, se, pval) <span class="sc">%&gt;%</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">OR =</span> <span class="fu">exp</span>(b),</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">OR_lci =</span> <span class="fu">exp</span>(b <span class="sc">-</span> <span class="fl">1.96</span><span class="sc">*</span>se),</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">OR_uci =</span> <span class="fu">exp</span>(b <span class="sc">+</span> <span class="fl">1.96</span><span class="sc">*</span>se)</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">digits =</span> <span class="dv">3</span>, <span class="at">caption =</span> <span class="st">"MR Results: Effect of BMI on Type 2 Diabetes"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="understanding-different-mr-methods" class="level3" data-number="4.4.2">
+<h3 data-number="4.4.2" class="anchored" data-anchor-id="understanding-different-mr-methods"><span class="header-section-number">4.4.2</span> Understanding Different MR Methods</h3>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Comparison of MR Methods</caption>
+<colgroup>
+<col style="width: 18%">
+<col style="width: 44%">
+<col style="width: 25%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Method</th>
+<th style="text-align: left;">Assumptions</th>
+<th style="text-align: left;">Pleiotropy</th>
+<th style="text-align: left;">Power</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">IVW</td>
+<td style="text-align: left;">All SNPs valid OR balanced pleiotropy</td>
+<td style="text-align: left;">Assumes none/balanced</td>
+<td style="text-align: left;">Highest</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MR-Egger</td>
+<td style="text-align: left;">InSIDE assumption</td>
+<td style="text-align: left;">Detects directional</td>
+<td style="text-align: left;">Lower</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Weighted Median</td>
+<td style="text-align: left;">≥50% valid instruments</td>
+<td style="text-align: left;">Robust to 50% invalid</td>
+<td style="text-align: left;">Moderate</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Weighted Mode</td>
+<td style="text-align: left;">Plurality of valid instruments</td>
+<td style="text-align: left;">Robust to outliers</td>
+<td style="text-align: left;">Lower</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</section>
+<section id="step-5-sensitivity-analyses" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="step-5-sensitivity-analyses"><span class="header-section-number">4.5</span> Step 5: Sensitivity Analyses</h2>
+<section id="a.-heterogeneity-tests" class="level3" data-number="4.5.1">
+<h3 data-number="4.5.1" class="anchored" data-anchor-id="a.-heterogeneity-tests"><span class="header-section-number">4.5.1</span> A. Heterogeneity Tests</h3>
+<p>Test if SNP-specific causal estimates are consistent.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cochran's Q test for heterogeneity</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>heterogeneity_results <span class="ot">&lt;-</span> <span class="fu">mr_heterogeneity</span>(harmonized_data)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(heterogeneity_results)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Interpret:</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="co"># - High Q statistic → heterogeneity (pleiotropy?)</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="co"># - p &lt; 0.05 → significant heterogeneity</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="b.-horizontal-pleiotropy-tests" class="level3" data-number="4.5.2">
+<h3 data-number="4.5.2" class="anchored" data-anchor-id="b.-horizontal-pleiotropy-tests"><span class="header-section-number">4.5.2</span> B. Horizontal Pleiotropy Tests</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># MR-Egger intercept test</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>pleiotropy_results <span class="ot">&lt;-</span> <span class="fu">mr_pleiotropy_test</span>(harmonized_data)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(pleiotropy_results)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Interpret:</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co"># - Intercept ≠ 0 → directional pleiotropy</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co"># - p &lt; 0.05 → significant pleiotropy</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="c.-leave-one-out-analysis" class="level3" data-number="4.5.3">
+<h3 data-number="4.5.3" class="anchored" data-anchor-id="c.-leave-one-out-analysis"><span class="header-section-number">4.5.3</span> C. Leave-One-Out Analysis</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Leave-one-out analysis</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>loo_results <span class="ot">&lt;-</span> <span class="fu">mr_leaveoneout</span>(harmonized_data)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot results</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="fu">mr_leaveoneout_plot</span>(loo_results)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="d.-single-snp-analysis" class="level3" data-number="4.5.4">
+<h3 data-number="4.5.4" class="anchored" data-anchor-id="d.-single-snp-analysis"><span class="header-section-number">4.5.4</span> D. Single SNP Analysis</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Estimate effect of each SNP individually</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>single_snp_results <span class="ot">&lt;-</span> <span class="fu">mr_singlesnp</span>(harmonized_data)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Forest plot</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="fu">mr_forest_plot</span>(single_snp_results)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+</section>
+<section id="step-6-visualization" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="step-6-visualization"><span class="header-section-number">4.6</span> Step 6: Visualization</h2>
+<section id="scatter-plot" class="level3" data-number="4.6.1">
+<h3 data-number="4.6.1" class="anchored" data-anchor-id="scatter-plot"><span class="header-section-number">4.6.1</span> Scatter Plot</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Scatter plot of SNP effects</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>scatter_plot <span class="ot">&lt;-</span> <span class="fu">mr_scatter_plot</span>(mr_results, harmonized_data)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(scatter_plot[[<span class="dv">1</span>]])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="funnel-plot" class="level3" data-number="4.6.2">
+<h3 data-number="4.6.2" class="anchored" data-anchor-id="funnel-plot"><span class="header-section-number">4.6.2</span> Funnel Plot</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Funnel plot to assess asymmetry (pleiotropy)</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>funnel_plot <span class="ot">&lt;-</span> <span class="fu">mr_funnel_plot</span>(single_snp_results)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(funnel_plot[[<span class="dv">1</span>]])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+</section>
+</section>
+<section id="practical-example-with-simulated-data" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Practical Example with Simulated Data</h1>
+<p>Let’s walk through a complete example with simulated data to understand each step.</p>
+<section id="simulate-data" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="simulate-data"><span class="header-section-number">5.1</span> Simulate Data</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate genetic instruments</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>n_snps <span class="ot">&lt;-</span> <span class="dv">50</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>n_samples <span class="ot">&lt;-</span> <span class="dv">100000</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="co"># True causal effect of X on Y</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>true_causal_effect <span class="ot">&lt;-</span> <span class="fl">0.3</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate SNP effects on exposure (βGX)</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>beta_gx <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n_snps, <span class="at">mean =</span> <span class="fl">0.05</span>, <span class="at">sd =</span> <span class="fl">0.02</span>)</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>se_gx <span class="ot">&lt;-</span> <span class="fu">abs</span>(<span class="fu">rnorm</span>(n_snps, <span class="at">mean =</span> <span class="fl">0.01</span>, <span class="at">sd =</span> <span class="fl">0.002</span>))</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate SNP effects on outcome (βGY)</span></span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a><span class="co"># βGY = βGX * βXY + pleiotropic effect</span></span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>pleiotropy <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n_snps, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="fl">0.01</span>)</span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>beta_gy <span class="ot">&lt;-</span> beta_gx <span class="sc">*</span> true_causal_effect <span class="sc">+</span> pleiotropy</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>se_gy <span class="ot">&lt;-</span> <span class="fu">abs</span>(<span class="fu">rnorm</span>(n_snps, <span class="at">mean =</span> <span class="fl">0.015</span>, <span class="at">sd =</span> <span class="fl">0.003</span>))</span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Create data frame</span></span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>sim_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>  <span class="at">SNP =</span> <span class="fu">paste0</span>(<span class="st">"rs"</span>, <span class="dv">1</span><span class="sc">:</span>n_snps),</span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>  <span class="at">beta_gx =</span> beta_gx,</span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>  <span class="at">se_gx =</span> se_gx,</span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a>  <span class="at">beta_gy =</span> beta_gy,</span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a>  <span class="at">se_gy =</span> se_gy,</span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a>  <span class="at">pleiotropy =</span> pleiotropy</span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate Wald ratios for each SNP</span></span>
+<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a>sim_data<span class="sc">$</span>wald_ratio <span class="ot">&lt;-</span> sim_data<span class="sc">$</span>beta_gy <span class="sc">/</span> sim_data<span class="sc">$</span>beta_gx</span>
+<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(sim_data) <span class="sc">%&gt;%</span> <span class="fu">kable</span>(<span class="at">digits =</span> <span class="dv">4</span>, <span class="at">caption =</span> <span class="st">"Simulated MR Data (first 6 SNPs)"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Simulated MR Data (first 6 SNPs)</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">SNP</th>
+<th style="text-align: right;">beta_gx</th>
+<th style="text-align: right;">se_gx</th>
+<th style="text-align: right;">beta_gy</th>
+<th style="text-align: right;">se_gy</th>
+<th style="text-align: right;">pleiotropy</th>
+<th style="text-align: right;">wald_ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">rs1</td>
+<td style="text-align: right;">0.0774</td>
+<td style="text-align: right;">0.0106</td>
+<td style="text-align: right;">0.0352</td>
+<td style="text-align: right;">0.0149</td>
+<td style="text-align: right;">0.0120</td>
+<td style="text-align: right;">0.4551</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rs2</td>
+<td style="text-align: right;">0.0387</td>
+<td style="text-align: right;">0.0084</td>
+<td style="text-align: right;">0.0221</td>
+<td style="text-align: right;">0.0103</td>
+<td style="text-align: right;">0.0104</td>
+<td style="text-align: right;">0.5699</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rs3</td>
+<td style="text-align: right;">0.0573</td>
+<td style="text-align: right;">0.0132</td>
+<td style="text-align: right;">0.0071</td>
+<td style="text-align: right;">0.0185</td>
+<td style="text-align: right;">-0.0100</td>
+<td style="text-align: right;">0.1248</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rs4</td>
+<td style="text-align: right;">0.0627</td>
+<td style="text-align: right;">0.0113</td>
+<td style="text-align: right;">0.0373</td>
+<td style="text-align: right;">0.0142</td>
+<td style="text-align: right;">0.0185</td>
+<td style="text-align: right;">0.5950</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rs5</td>
+<td style="text-align: right;">0.0581</td>
+<td style="text-align: right;">0.0102</td>
+<td style="text-align: right;">0.0108</td>
+<td style="text-align: right;">0.0136</td>
+<td style="text-align: right;">-0.0067</td>
+<td style="text-align: right;">0.1852</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rs6</td>
+<td style="text-align: right;">0.0479</td>
+<td style="text-align: right;">0.0106</td>
+<td style="text-align: right;">0.0154</td>
+<td style="text-align: right;">0.0113</td>
+<td style="text-align: right;">0.0011</td>
+<td style="text-align: right;">0.3220</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="perform-ivw-analysis" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="perform-ivw-analysis"><span class="header-section-number">5.2</span> Perform IVW Analysis</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Manual IVW calculation</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>weights <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="sc">/</span> (sim_data<span class="sc">$</span>se_gy<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>beta_ivw <span class="ot">&lt;-</span> <span class="fu">sum</span>(weights <span class="sc">*</span> sim_data<span class="sc">$</span>beta_gy <span class="sc">*</span> sim_data<span class="sc">$</span>beta_gx) <span class="sc">/</span> </span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>            <span class="fu">sum</span>(weights <span class="sc">*</span> sim_data<span class="sc">$</span>beta_gx<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>se_ivw <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(<span class="dv">1</span> <span class="sc">/</span> <span class="fu">sum</span>(weights <span class="sc">*</span> sim_data<span class="sc">$</span>beta_gx<span class="sc">^</span><span class="dv">2</span>))</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">sprintf</span>(<span class="st">"True causal effect: %.3f</span><span class="sc">\n</span><span class="st">"</span>, true_causal_effect))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>True causal effect: 0.300</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">sprintf</span>(<span class="st">"IVW estimate: %.3f (SE: %.3f)</span><span class="sc">\n</span><span class="st">"</span>, beta_ivw, se_ivw))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>IVW estimate: 0.287 (SE: 0.038)</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">sprintf</span>(<span class="st">"95%% CI: [%.3f, %.3f]</span><span class="sc">\n</span><span class="st">"</span>, </span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>            beta_ivw <span class="sc">-</span> <span class="fl">1.96</span><span class="sc">*</span>se_ivw, </span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>            beta_ivw <span class="sc">+</span> <span class="fl">1.96</span><span class="sc">*</span>se_ivw))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>95% CI: [0.213, 0.361]</code></pre>
+</div>
+</div>
+</section>
+<section id="visualize-snp-effects" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="visualize-snp-effects"><span class="header-section-number">5.3</span> Visualize SNP Effects</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(sim_data, <span class="fu">aes</span>(<span class="at">x =</span> beta_gx, <span class="at">y =</span> beta_gy)) <span class="sc">+</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">size =</span> <span class="dv">1</span><span class="sc">/</span>se_gy), <span class="at">alpha =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">ymin =</span> beta_gy <span class="sc">-</span> <span class="fl">1.96</span><span class="sc">*</span>se_gy, </span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>                    <span class="at">ymax =</span> beta_gy <span class="sc">+</span> <span class="fl">1.96</span><span class="sc">*</span>se_gy), <span class="at">alpha =</span> <span class="fl">0.3</span>) <span class="sc">+</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbarh</span>(<span class="fu">aes</span>(<span class="at">xmin =</span> beta_gx <span class="sc">-</span> <span class="fl">1.96</span><span class="sc">*</span>se_gx, </span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>                     <span class="at">xmax =</span> beta_gx <span class="sc">+</span> <span class="fl">1.96</span><span class="sc">*</span>se_gx), <span class="at">alpha =</span> <span class="fl">0.3</span>) <span class="sc">+</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_abline</span>(<span class="at">intercept =</span> <span class="dv">0</span>, <span class="at">slope =</span> beta_ivw, </span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>              <span class="at">color =</span> <span class="st">"blue"</span>, <span class="at">size =</span> <span class="fl">1.5</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>) <span class="sc">+</span></span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_abline</span>(<span class="at">intercept =</span> <span class="dv">0</span>, <span class="at">slope =</span> true_causal_effect, </span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>              <span class="at">color =</span> <span class="st">"red"</span>, <span class="at">size =</span> <span class="dv">1</span>, <span class="at">linetype =</span> <span class="st">"solid"</span>) <span class="sc">+</span></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"SNP effect on exposure (βGX)"</span>,</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"SNP effect on outcome (βGY)"</span>,</span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"MR Scatter Plot"</span>,</span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="fu">sprintf</span>(<span class="st">"IVW estimate: %.3f (blue dashed), True effect: %.3f (red solid)"</span>, </span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a>                         beta_ivw, true_causal_effect),</span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a>       <span class="at">size =</span> <span class="st">"Weight"</span>) <span class="sc">+</span></span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">14</span>) <span class="sc">+</span></span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MR_new_files/figure-html/plot-sim-effects-1.png" class="img-fluid figure-img" width="960"></p>
+<figcaption>Scatter plot of SNP effects on exposure vs outcome</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="check-for-pleiotropy" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="check-for-pleiotropy"><span class="header-section-number">5.4</span> Check for Pleiotropy</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># MR-Egger regression (manual)</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>egger_fit <span class="ot">&lt;-</span> <span class="fu">lm</span>(beta_gy <span class="sc">~</span> beta_gx, <span class="at">weights =</span> weights, <span class="at">data =</span> sim_data)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>egger_intercept <span class="ot">&lt;-</span> <span class="fu">coef</span>(egger_fit)[<span class="dv">1</span>]</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>egger_slope <span class="ot">&lt;-</span> <span class="fu">coef</span>(egger_fit)[<span class="dv">2</span>]</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">sprintf</span>(<span class="st">"MR-Egger intercept: %.4f (p = %.3f)</span><span class="sc">\n</span><span class="st">"</span>, </span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>            egger_intercept,</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>            <span class="fu">summary</span>(egger_fit)<span class="sc">$</span>coefficients[<span class="dv">1</span>, <span class="dv">4</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>MR-Egger intercept: -0.0042 (p = 0.157)</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">sprintf</span>(<span class="st">"MR-Egger slope: %.3f</span><span class="sc">\n</span><span class="st">"</span>, egger_slope))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>MR-Egger slope: 0.358</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Interpret</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">summary</span>(egger_fit)<span class="sc">$</span>coefficients[<span class="dv">1</span>, <span class="dv">4</span>] <span class="sc">&lt;</span> <span class="fl">0.05</span>) {</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">⚠️ Warning: Significant intercept suggests directional pleiotropy!</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">✓ No evidence of directional pleiotropy</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+✓ No evidence of directional pleiotropy</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="common-pitfalls-and-how-to-avoid-them" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Common Pitfalls and How to Avoid Them</h1>
+<section id="weak-instrument-bias" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="weak-instrument-bias"><span class="header-section-number">6.1</span> 1. Weak Instrument Bias</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Problem
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Using weak instruments (F &lt; 10) biases estimates toward the confounded observational association.</p>
+</div>
+</div>
+<p><strong>Solution</strong>: - Calculate F-statistics for all instruments - Remove SNPs with F &lt; 10 - Report mean F-statistic</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate F-statistic</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>sim_data<span class="sc">$</span>F_stat <span class="ot">&lt;-</span> (sim_data<span class="sc">$</span>beta_gx <span class="sc">/</span> sim_data<span class="sc">$</span>se_gx)<span class="sc">^</span><span class="dv">2</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">sprintf</span>(<span class="st">"Mean F-statistic: %.2f</span><span class="sc">\n</span><span class="st">"</span>, <span class="fu">mean</span>(sim_data<span class="sc">$</span>F_stat)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Mean F-statistic: 39.19</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">sprintf</span>(<span class="st">"Proportion with F &gt; 10: %.1f%%</span><span class="sc">\n</span><span class="st">"</span>, </span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>            <span class="dv">100</span> <span class="sc">*</span> <span class="fu">mean</span>(sim_data<span class="sc">$</span>F_stat <span class="sc">&gt;</span> <span class="dv">10</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Proportion with F &gt; 10: 82.0%</code></pre>
+</div>
+</div>
+</section>
+<section id="horizontal-pleiotropy" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="horizontal-pleiotropy"><span class="header-section-number">6.2</span> 2. Horizontal Pleiotropy</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Problem
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>SNPs affect outcome through pathways other than the exposure.</p>
+</div>
+</div>
+<p><strong>Solutions</strong>: - Use multiple MR methods (MR-Egger, Weighted median) - Perform pleiotropy tests - Remove outlier SNPs - Use more specific instruments</p>
+</section>
+<section id="population-stratification" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="population-stratification"><span class="header-section-number">6.3</span> 3. Population Stratification</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Problem
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Systematic ancestry differences confound SNP-outcome associations.</p>
+</div>
+</div>
+<p><strong>Solutions</strong>: - Use GWAS with proper ancestry adjustment - Perform within-family MR - Check for genomic inflation</p>
+</section>
+<section id="sample-overlap" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="sample-overlap"><span class="header-section-number">6.4</span> 4. Sample Overlap</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Problem
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Overlapping samples between exposure and outcome GWAS can bias two-sample MR.</p>
+</div>
+</div>
+<p><strong>Solutions</strong>: - Use non-overlapping cohorts when possible - Apply corrections for sample overlap - Be conservative with p-value interpretation</p>
+</section>
+</section>
+<section id="advanced-topics" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Advanced Topics</h1>
+<section id="multivariable-mr-mvmr" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="multivariable-mr-mvmr"><span class="header-section-number">7.1</span> Multivariable MR (MVMR)</h2>
+<p>When you want to estimate the <strong>direct effect</strong> of exposure while adjusting for other risk factors:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-e863a8c031b0c8baf222" style="width:100%;height:135px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e863a8c031b0c8baf222">{"x":{"diagram":"\ndigraph MVMR {\n  graph [rankdir = LR, bgcolor = transparent]\n  \n  node [shape = box, style = filled, fillcolor = lightblue]\n  \n  G [label = \"Genetic\nVariants\", fillcolor = \"lightgreen\"]\n  X1 [label = \"Exposure 1\n(e.g., BMI)\"]\n  X2 [label = \"Exposure 2\n(e.g., T2D)\"]\n  Y [label = \"Outcome\n(e.g., CHD)\"]\n  \n  G -> X1 [color = \"blue\"]\n  G -> X2 [color = \"blue\"]\n  X1 -> Y [label = \"β1 = ?\", color = \"red\"]\n  X2 -> Y [label = \"β2 = ?\", color = \"red\"]\n  X1 -> X2 [style = dashed, color = \"gray\"]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p><strong>Example</strong>: Effect of BMI on CHD, adjusting for T2D.</p>
+</section>
+<section id="bidirectional-mr" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="bidirectional-mr"><span class="header-section-number">7.2</span> Bidirectional MR</h2>
+<p>Test for reverse causation by performing MR in both directions:</p>
+<pre><code>X → Y  (forward MR)
+Y → X  (reverse MR)</code></pre>
+</section>
+<section id="non-linear-mr" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="non-linear-mr"><span class="header-section-number">7.3</span> Non-linear MR</h2>
+<p>Test for non-linear dose-response relationships using: - Stratified MR (by exposure levels) - Fractional polynomial MR - Piecewise linear MR</p>
+</section>
+</section>
+<section id="reporting-mr-results" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Reporting MR Results</h1>
+<section id="essential-elements" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="essential-elements"><span class="header-section-number">8.1</span> Essential Elements</h2>
+<p>A complete MR analysis report should include:</p>
+<section id="methods-section" class="level3" data-number="8.1.1">
+<h3 data-number="8.1.1" class="anchored" data-anchor-id="methods-section"><span class="header-section-number">8.1.1</span> 1. Methods Section</h3>
+<div class="sourceCode" id="cb34"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>We performed two-sample Mendelian randomization using summary </span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>statistics from <span class="co">[</span><span class="ot">EXPOSURE_GWAS</span><span class="co">]</span> and <span class="co">[</span><span class="ot">OUTCOME_GWAS</span><span class="co">]</span>. We selected </span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>genetic instruments significantly associated with <span class="co">[</span><span class="ot">EXPOSURE</span><span class="co">]</span> </span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>(p &lt; 5×10⁻⁸), independent (r² &lt; 0.001 within 10,000 kb), and </span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>with F-statistic &gt; 10.</span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>We harmonized effect alleles and performed inverse variance </span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>weighted (IVW) analysis as the primary method. Sensitivity </span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>analyses included MR-Egger regression, weighted median, and </span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a>weighted mode. We assessed heterogeneity using Cochran's Q test </span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a>and horizontal pleiotropy using the MR-Egger intercept test.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="results-section" class="level3" data-number="8.1.2">
+<h3 data-number="8.1.2" class="anchored" data-anchor-id="results-section"><span class="header-section-number">8.1.2</span> 2. Results Section</h3>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Example MR Results Table</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Method</th>
+<th style="text-align: right;">N_SNPs</th>
+<th style="text-align: right;">OR</th>
+<th style="text-align: left;">95% CI</th>
+<th style="text-align: right;">P_value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">IVW</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">1.32</td>
+<td style="text-align: left;">1.22-1.43</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MR-Egger</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">1.28</td>
+<td style="text-align: left;">1.14-1.44</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Weighted Median</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">1.35</td>
+<td style="text-align: left;">1.22-1.49</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Weighted Mode</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">1.34</td>
+<td style="text-align: left;">1.17-1.53</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="sensitivity-analyses" class="level3" data-number="8.1.3">
+<h3 data-number="8.1.3" class="anchored" data-anchor-id="sensitivity-analyses"><span class="header-section-number">8.1.3</span> 3. Sensitivity Analyses</h3>
+<ul>
+<li>Report heterogeneity (Q statistic, I², p-value)</li>
+<li>Report pleiotropy test (MR-Egger intercept, p-value)</li>
+<li>Show leave-one-out analysis</li>
+<li>Include funnel plot and scatter plot</li>
+</ul>
+</section>
+<section id="interpretation" class="level3" data-number="8.1.4">
+<h3 data-number="8.1.4" class="anchored" data-anchor-id="interpretation"><span class="header-section-number">8.1.4</span> 4. Interpretation</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Good Interpretation Example
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Using [N] genetic instruments explaining [X%] of variance in [EXPOSURE], we found evidence for a causal effect on [OUTCOME] (IVW: OR = [X], 95% CI [X-Y], p = [Z]). Sensitivity analyses using MR-Egger, weighted median, and weighted mode yielded consistent results. We found no evidence of horizontal pleiotropy (MR-Egger intercept p = [X]) or heterogeneity (Cochran’s Q p = [Y]), supporting the validity of our findings.”</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="resources-and-further-reading" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Resources and Further Reading</h1>
+<section id="software-packages" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="software-packages"><span class="header-section-number">9.1</span> Software Packages</h2>
+<section id="r-packages" class="level3" data-number="9.1.1">
+<h3 data-number="9.1.1" class="anchored" data-anchor-id="r-packages"><span class="header-section-number">9.1.1</span> R Packages</h3>
+<ul>
+<li><strong>TwoSampleMR</strong>: Comprehensive MR analysis pipeline</li>
+<li><strong>MendelianRandomization</strong>: Multiple MR methods</li>
+<li><strong>MRInstruments</strong>: Pre-extracted instruments</li>
+<li><strong>MRPRESSO</strong>: Outlier detection</li>
+<li><strong>MRMix</strong>: Robust to pleiotropy</li>
+</ul>
+</section>
+<section id="installation" class="level3" data-number="9.1.2">
+<h3 data-number="9.1.2" class="anchored" data-anchor-id="installation"><span class="header-section-number">9.1.2</span> Installation</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install from CRAN</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"MendelianRandomization"</span>)</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Install TwoSampleMR from GitHub</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("remotes")</span></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"MRCIEU/TwoSampleMR"</span>)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Install MRPRESSO</span></span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"rondolab/MR-PRESSO"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+</section>
+<section id="key-publications" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="key-publications"><span class="header-section-number">9.2</span> Key Publications</h2>
+<ol type="1">
+<li><strong>Foundational Papers</strong>:
+<ul>
+<li>Davey Smith &amp; Ebrahim (2003). “‘Mendelian randomization’: can genetic epidemiology contribute to understanding environmental determinants of disease?” <em>Int J Epidemiol</em></li>
+<li>Lawlor et al.&nbsp;(2008). “Mendelian randomization: using genes as instruments for making causal inferences in epidemiology.” <em>Stat Med</em></li>
+</ul></li>
+<li><strong>Two-Sample MR</strong>:
+<ul>
+<li>Pierce &amp; Burgess (2013). “Efficient design for Mendelian randomization studies: subsample and 2-sample instrumental variable estimators.” <em>Am J Epidemiol</em></li>
+</ul></li>
+<li><strong>Sensitivity Methods</strong>:
+<ul>
+<li>Bowden et al.&nbsp;(2015). “Mendelian randomization with invalid instruments: effect estimation and bias detection through Egger regression.” <em>Int J Epidemiol</em></li>
+<li>Bowden et al.&nbsp;(2016). “Consistent estimation in Mendelian randomization with some invalid instruments using a weighted median estimator.” <em>Genet Epidemiol</em></li>
+</ul></li>
+<li><strong>Guidelines</strong>:
+<ul>
+<li>Burgess et al.&nbsp;(2019). “Guidelines for performing Mendelian randomization investigations.” <em>Wellcome Open Res</em></li>
+<li>Skrivankova et al.&nbsp;(2021). “Strengthening the Reporting of Observational Studies in Epidemiology Using Mendelian Randomization: The STROBE-MR Statement.” <em>JAMA</em></li>
+</ul></li>
+</ol>
+</section>
+<section id="online-resources" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="online-resources"><span class="header-section-number">9.3</span> Online Resources</h2>
+<ul>
+<li><strong>MR-Base Platform</strong>: <a href="http://www.mrbase.org/">http://www.mrbase.org/</a></li>
+<li><strong>IEU GWAS Database</strong>: <a href="https://gwas.mrcieu.ac.uk/">https://gwas.mrcieu.ac.uk/</a></li>
+<li><strong>NHGRI-EBI GWAS Catalog</strong>: <a href="https://www.ebi.ac.uk/gwas/">https://www.ebi.ac.uk/gwas/</a></li>
+<li><strong>TwoSampleMR Documentation</strong>: <a href="https://mrcieu.github.io/TwoSampleMR/">https://mrcieu.github.io/TwoSampleMR/</a></li>
+</ul>
+</section>
+<section id="tutorials-and-courses" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="tutorials-and-courses"><span class="header-section-number">9.4</span> Tutorials and Courses</h2>
+<ul>
+<li><strong>MR-Base Online Course</strong>: Free online tutorial</li>
+<li><strong>Burgess Lab Resources</strong>: <a href="https://sb452.github.io/">https://sb452.github.io/</a></li>
+<li><strong>YouTube</strong>: Search for “Mendelian Randomization tutorial”</li>
+</ul>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
