@@ -22,6 +22,7 @@ Welcome to my collection of teaching resources and statistical genetics notes. A
 
 - [Human Genomics](https://pdrohde.github.io/AAU-human-genomics/)  
 - [PGS Workshop](sites/SDU_PGS-workshop_print.pdf)  
+- [Master in personalised Medicine - PGS](sites/gwas_pgs_upload.pdf)  
 
 <hr>
 <p style="font-size: 14px;">
