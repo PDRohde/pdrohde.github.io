@@ -21,8 +21,11 @@ Welcome to my collection of teaching resources and statistical genetics notes. A
 ## Course Work
 
 - [Human Genomics](https://pdrohde.github.io/AAU-human-genomics/)  
-- [PGS Workshop](sites/SDU_PGS-workshop_print.pdf)  
 - [Master in Personalised Medicine - PGS (2025)](sites/gwas_pgs_upload.pdf)  
+
+## Workshops
+- [9th Annual Danish Bioinformatics Conference | Workshop on integrative genomics and polygenic scores](sites/gact-workshop.pdf)  
+- [PGS Workshop](sites/SDU_PGS-workshop_print.pdf)  
 
 <hr>
 <p style="font-size: 14px;">
