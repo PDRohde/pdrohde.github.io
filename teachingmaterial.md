@@ -24,7 +24,7 @@ Welcome to my collection of teaching resources and statistical genetics notes. A
 - [Master in Personalised Medicine - PGS (2025)](sites/gwas_pgs_upload.pdf)  
 
 ## Workshops
-- [9th Annual Danish Bioinformatics Conference | Workshop on integrative genomics and polygenic scores](sites/gact-workshop.pdf)  
+- [Workshop on integrative genomics and polygenic scores (9th Annual Danish Bioinformatics Conference)](sites/gact-workshop.pdf)  
 - [PGS Workshop](sites/SDU_PGS-workshop_print.pdf)  
 
 <hr>
