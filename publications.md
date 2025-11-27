@@ -13,17 +13,14 @@ permalink: /publications/
 <p> Sorensen P,  <b><span class="my-name">Rohde PD</span></b> (2025) . A versatile data repository for GWAS summary statistics-based downstream genomic analysis of human complex traits. <em>medRxiv</em> <a href="https://doi.org/10.1101/2025.10.01.25337099 ">https://doi.org/10.1101/2025.10.01.25337099 </a> </p>
 
 <p> Thielemann R, Stinson SE, Huang Y, Holm LA, Gräf JF, <b><span class="my-name">Rohde PD</span></b>, Møller PLR, Poggi AI, Anderson LV, Fonvig CE, Thiele M, Krag A, Rasmussen S, Holm JC, Hansen T (2025). <b>Obesity- and age-dependent genetic regulation of the plasma proteome in children and adolescents</b>.  <em>medRxiv</em>  <a href="https://doi.org/10.1101/2025.03.18.25324169">https://doi.org/10.1101/2025.03.18.25324169</a> </p>
+</div>
 
 ## Peer-reviewed publications
 <!-- <p> author (year). title. <em>journal</em>, no, pages, <a href="https://doi.org/">https://doi.org/</a> </p> -->
-
-
 <!-- 2025 -->
 <font color="#E97132"> <b>2025</b> </font>
 <div style="text-indent: -36px; padding-left: 36px;">
-
 <p> Jensen HH, Brohus M, Hussey JH, Busuioc AO, Iversen ED, Darki F, Nikolova GD, Baisgaard AE, <b><span class="my-name">Rohde PD</span></b>, Holm IEG, McQuillin A, Moos T, Dick IE, Overgaard MT, Nyegaard M (2025). <b>Functional consequences of calmodulin variants identified among schizophrenia patients and controls</b>. <em>Transl Psychiatry</em> <a href="https://doi.org/10.1038/s41398-025-03735-3">https://doi.org/10.1038/s41398-025-03735-3</a> </p>
-</div>
 
 <p> Rand SA, Ahlberg G, Tragante V, Monfort LM, Zheng C, Feldt-Rasmussen U, Klose MC, Teder-Laving M, Metspalu A, Poulsen HE, Ellervik C, Nygaard B, Erikstrup C, Bruun MT, Jensen BA, Ullum H, Brunak S, DBDS Genomic Consortium<sup>*</sup>, Estonian Biobank Research Team, 23andMe Research Team, Schwinn M, Ostrowski SR, Pedersen OB, Sørensen E, Jonsdottir I, Gudbjartsson DF, Thorleifsson G, Holm H, Saevarsdottir S, Stefansson K, Olesen MS, Bundgaard H, Ghouse J (2025). Genome-wide association study and polygenic risk prediction of hypothyroidism. <em>Nat Gen</em>, <a href="; https://doi.org/10.1038/s41588-025-02410-z">;  https://doi.org/10.1038/s41588-025-02410-z</a>. <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small> </p>
 
