@@ -61,7 +61,7 @@ With <a href="https://psoerensen.github.io/gact/index.html">gact</a> you create 
 <div style="text-indent: -30px; padding-left: 30px;">
 <!-- <p> author (year). title. <em>journal</em> no, pages <a href="https://">[link]</a> </p> -->
 
-<p> Hjelholt AJ, Gholipourshahraki T, Bai Z, Shrestha M, Kjoelby M, Sørensen P, <b><span class="my-name">Rohde PD</span></b> (2025). Leveraging genetic correlations to prioritize drug groups for repurposing in type 2 diabetes. <em>The Pharmacogenomics Journal</em>, 25(33), 1-11. <a href="; https://doi.org/10.1038/s41397-025-00392-z">; https://doi.org/10.1038/s41397-025-00392-z</a> </p>
+<p> Hjelholt AJ, Gholipourshahraki T, Bai Z, Shrestha M, Kjoelby M, Sørensen P, <b><span class="my-name">Rohde PD</span></b> (2025). <b>Leveraging genetic correlations to prioritize drug groups for repurposing in type 2 diabetes</b>. <em>The Pharmacogenomics Journal</em>, 25(33), 1-11. <a href="; https://doi.org/10.1038/s41397-025-00392-z">; https://doi.org/10.1038/s41397-025-00392-z</a> </p>
 
 <p>Shrestha M, Bai Z, Gholipourshahraki T, Hjelholt AJ, Hu S, Kjølby M, <b><span class="my-name">Rohde PD</span></b>, Sørensen P (2025). <b>Enhanced genetic fine mapping accuracy with Bayesian Linear Regression models in diverse genetic architectures</b>. <em>PLOS Genetics</em> <a href="https://doi.org/10.1371/journal.pgen.1011783">[link]</a> </p>
 

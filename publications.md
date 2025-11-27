@@ -21,6 +21,7 @@ permalink: /publications/
 <!-- 2025 -->
 <font color="#E97132"> <b>2025</b> </font>
 <div style="text-indent: -36px; padding-left: 36px;">
+
 <p> Jensen HH, Brohus M, Hussey JH, Busuioc AO, Iversen ED, Darki F, Nikolova GD, Baisgaard AE, <b><span class="my-name">Rohde PD</span></b>, Holm IEG, McQuillin A, Moos T, Dick IE, Overgaard MT, Nyegaard M (2025). <b>Functional consequences of calmodulin variants identified among schizophrenia patients and controls</b>. <em>Transl Psychiatry</em> <a href="https://doi.org/10.1038/s41398-025-03735-3">https://doi.org/10.1038/s41398-025-03735-3</a> </p>
 </div>
 
