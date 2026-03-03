@@ -10,13 +10,26 @@ permalink: /publications/
 <div style="text-indent: -36px; padding-left: 36px;">
 <!-- <p> author (year). title. <em>journal</em> no, pages <a href="https://">[link]</a> </p> -->
 
-<p> Sorensen P,  <b><span class="my-name">Rohde PD</span></b> (2025) . A versatile data repository for GWAS summary statistics-based downstream genomic analysis of human complex traits. <em>medRxiv</em> <a href="https://doi.org/10.1101/2025.10.01.25337099 ">https://doi.org/10.1101/2025.10.01.25337099 </a> </p>
+<p>Andersen AK, Mehdizavareh H, Khan A, Becher T, Britsch S, Britsch M, Bøttcher M, Winther S, <b><span class="my-name">Rohde PD</span></b>, Jensen MH, Cichosz SL (2026). Tipping the balance: Impact of class imbalance correction on the performance of clinical risk prediction models. <em>arxiv</em> <a href="https://doi.org/10.48550/arXiv.2603.00208">https://doi.org/10.48550/arXiv.2603.00208</a></p>
+
+<p> Orkild MR, Dybdahl KL, <b><span class="my-name">Rohde PD</span></b> (2026). <b>Genetic evidence for opposing associations of psoriasis and type 2 diabetes with inflammatory bowel disease: A Mendelian Randomization study</b>. <em>medRxiv</em> <a href="https://doi.org/10.64898/2026.02.25.26346967">https://doi.org/10.64898/2026.02.25.26346967</a>  </p>
+
+<p> Authier F, Attianese B, Sevillano-Quispe OG, Coquelin KS, Bartual SG, Yuan H, Vazquez MP, Esperon-Abril I, Ferenbach AT, Scavenius C, Doummar D, Charles P, Mignot C, Keren B, Krygier M, Mazurkiewicz-Bełdzińska M, <b><span class="my-name">Rohde PD</span></b>, Qvist P, van Aalten DMF (2026).<b>O-GlcNAcase dosage variants are associated with neuronal deficits and intellectual disability.</b><em>medRxiv</em> <a href="https://doi.org/10.1101/2023.11.23.23298195 ">https://doi.org/10.1101/2023.11.23.23298195</a> </p>
+
+<p> Sorensen P,  <b><span class="my-name">Rohde PD</span></b> (2025). <b>A versatile data repository for GWAS summary statistics-based downstream genomic analysis of human complex traits</b>. <em>medRxiv</em> <a href="https://doi.org/10.1101/2025.10.01.25337099 ">https://doi.org/10.1101/2025.10.01.25337099 </a> </p>
 
 <p> Thielemann R, Stinson SE, Huang Y, Holm LA, Gräf JF, <b><span class="my-name">Rohde PD</span></b>, Møller PLR, Poggi AI, Anderson LV, Fonvig CE, Thiele M, Krag A, Rasmussen S, Holm JC, Hansen T (2025). <b>Obesity- and age-dependent genetic regulation of the plasma proteome in children and adolescents</b>.  <em>medRxiv</em>  <a href="https://doi.org/10.1101/2025.03.18.25324169">https://doi.org/10.1101/2025.03.18.25324169</a> </p>
 </div>
 
 ## Peer-reviewed publications
 <!-- <p> author (year). title. <em>journal</em>, no, pages, <a href="https://doi.org/">https://doi.org/</a> </p> -->
+<!-- 2026 -->
+<font color="#E97132"> <b>2026</b> </font>
+<div style="text-indent: -36px; padding-left: 36px;">
+
+<p> Brix GS, Rasmussen LD, <b><span class="my-name">Rohde PD</span></b>, Pagidipati NJ, Shah SH, Møller PL, Schmidt SE, Kwee LC, Douglas PS, Foldyna B, Nyegaard  M, Bøttcher M, Winther S. (2026). <b>Incorporation of lipoprotein(a) levels improves calibration of pre-test likelihood estimates of obstructive coronary artery disease</b>. <em>Eur. Heart J. Cardiovasc. Imaging</em> 00, 1–11, <a href="https://doi.org/10.1093/ehjci/jeag021">;  https://doi.org/10.1093/ehjci/jeag021</a> </p>
+</div>
+
 <!-- 2025 -->
 <font color="#E97132"> <b>2025</b> </font>
 <div style="text-indent: -36px; padding-left: 36px;">
