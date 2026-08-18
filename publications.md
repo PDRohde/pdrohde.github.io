@@ -10,6 +10,9 @@ permalink: /publications/
 <div style="text-indent: -36px; padding-left: 36px;">
 <!-- <p> author (year). title. <em>journal</em> no, pages <a href="https://">[link]</a> </p> -->
 
+<p> Jacobsen JT, Møller PLR, <b><span class="my-name">Rohde PD</span></b> (2026). <b>GFunctionality-Informed Fine-Mapping Dissects Common Variant Contributions to Coronary Artery Disease and Identifies Causal Variants and Pathways</b>. <em>medRxiv</em> <a href="https://doi.org/10.64898/2026.04.01.26349823">https://doi.org/10.64898/2026.04.01.26349823</a>  </p>
+
+
 <p>Andersen AK, Mehdizavareh H, Khan A, Becher T, Britsch S, Britsch M, Bøttcher M, Winther S, <b><span class="my-name">Rohde PD</span></b>, Jensen MH, Cichosz SL (2026). Tipping the balance: Impact of class imbalance correction on the performance of clinical risk prediction models. <em>arxiv</em> <a href="https://doi.org/10.48550/arXiv.2603.00208">https://doi.org/10.48550/arXiv.2603.00208</a></p>
 
 <p> Orkild MR, Dybdahl KL, <b><span class="my-name">Rohde PD</span></b> (2026). <b>Genetic evidence for opposing associations of psoriasis and type 2 diabetes with inflammatory bowel disease: A Mendelian Randomization study</b>. <em>medRxiv</em> <a href="https://doi.org/10.64898/2026.02.25.26346967">https://doi.org/10.64898/2026.02.25.26346967</a>  </p>
@@ -21,11 +24,24 @@ permalink: /publications/
 <p> Thielemann R, Stinson SE, Huang Y, Holm LA, Gräf JF, <b><span class="my-name">Rohde PD</span></b>, Møller PLR, Poggi AI, Anderson LV, Fonvig CE, Thiele M, Krag A, Rasmussen S, Holm JC, Hansen T (2025). <b>Obesity- and age-dependent genetic regulation of the plasma proteome in children and adolescents</b>.  <em>medRxiv</em>  <a href="https://doi.org/10.1101/2025.03.18.25324169">https://doi.org/10.1101/2025.03.18.25324169</a> </p>
 </div>
 
+
+
 ## Peer-reviewed publications
 <!-- <p> author (year). title. <em>journal</em>, no, pages, <a href="https://doi.org/">https://doi.org/</a> </p> -->
 <!-- 2026 -->
 <font color="#E97132"> <b>2026</b> </font>
 <div style="text-indent: -36px; padding-left: 36px;">
+
+<p>
+Nøhr AK, Overby MG, Nielsen MM, Torp EA, Jensen RH, Poulsen LØ, Thorlacius-Ussing O, Rasmussen SL, Andersen B, Gögenur I, Sørensen E, Pedersen OBV, Erikstrup C, Brøns N, Schwinn M, Mikkelsen C, Bruun MT, Jørgensen MM, Bertelsen CA, Hillingsø JG, Høgdall E, Ostrowski SR, DBDS Genomics Consortium<sup>*</sup>, DCB Research Consortium, Bøgsted M, Brøndum RF. <b>Combining genome-wide polygenic scores with registry data for colorectal cancer risk-based screening</b>. <em>British Journal of Cancer</em> (2026), <a href="https://doi.org/10.1038/s41416-026-03532-9" >; https://doi.org/10.1038/s41416-026-03532-9</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small>
+</p>
+
+
+<p>
+Andersen AK, Mehdizavareh H, Khan A, Becher T, Britsch S, Britsch M, Bøttcher M, Winther S, <b><span class="my-name">Rohde PD</span></b>, Jensen MH, Cichosz SL. <b>Tipping the balance: impact of class imbalance correction on the performance of clinical risk prediction models</b>. <em>Journal of the American Medical Informatics Association</em> (2026), ocag127, <a href="https://doi.org/10.1093/jamia/ocag127">; https://doi.org/10.1093/jamia/ocag127</a></p>
+
+<p>
+Karpurapu A, Kwee LC, de Calvacamp C, Zhao E, Corey K, Nasir K, Ferencik M, Nyegaard M, Møller PL, <b><span class="my-name">Rohde PD</span></b>, Helgason H, Bøttcher M, Winther S, Foldyna B, Douglas PS, Shah SH. <b>Proteomic signatures of high-risk coronary plaque features and incident events</b>. <em>JACC Basic Transl Sci</em>.  (2026) 11(8):101640. <a href="https://doi.org/10.1016/j.jacbts.2026.101640">; https://doi.org/10.1016/j.jacbts.2026.101640</a></p>
 
 <p> 
 Bak NK, Østergaard SK, Schacksen PS, Nielsen JL, <b><span class="my-name">Rohde PD</span></b>, Kristensen TN. <b>Host genetics and diet jointly shape the microbiome of <i>Drosophila melanogaster</i> but do not predict lifespan or age-related traits</b>. <em>Biogerontology</em> (2026) 27:99. <a href="https://doi.org/10.1007/s10522-026-10431-2">; https://doi.org/10.1007/s10522-026-10431-2</a> </p>
