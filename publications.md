@@ -30,6 +30,10 @@ permalink: /publications/
 <div style="text-indent: -36px; padding-left: 36px;">
 
 <p>
+von Stemann JH, Dowsett J, Teglgaard RS, Didriksen M, Pedersen FB, Bentsen MS, Barghetti A, Laguarda MV, Larsen SLB, Glintborg B, Lassen U, Frikke-Schmidt R, Porsbjerg C, Jensen JS, Werge T, Schork AJ, Bundgaard JS, Bundgaard H, Hansen T, DBDS Genomic Consortium<sup>*</sup>, Bruun MT, Jensen BA, Mikkelsen C, Hartling J, Erikstrup C, Pedersen OB, Sørensen E, Hansen MB, Ostrowski SR. <b>Genetic architecture of cytokine autoantibodies and associated risk of common diseases</b>. <em>Nature Communications</em> (2026), 10053<a href="https://doi.org/10.1038/s41467-026-76394-7" >; https://doi.org/10.1038/s41467-026-76394-7</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small>
+</p>
+
+<p>
 Nøhr AK, Overby MG, Nielsen MM, Torp EA, Jensen RH, Poulsen LØ, Thorlacius-Ussing O, Rasmussen SL, Andersen B, Gögenur I, Sørensen E, Pedersen OBV, Erikstrup C, Brøns N, Schwinn M, Mikkelsen C, Bruun MT, Jørgensen MM, Bertelsen CA, Hillingsø JG, Høgdall E, Ostrowski SR, DBDS Genomics Consortium<sup>*</sup>, DCB Research Consortium, Bøgsted M, Brøndum RF. <b>Combining genome-wide polygenic scores with registry data for colorectal cancer risk-based screening</b>. <em>British Journal of Cancer</em> (2026), <a href="https://doi.org/10.1038/s41416-026-03532-9" >; https://doi.org/10.1038/s41416-026-03532-9</a> <small><br><sup>*</sup><b><span class="my-name">Rohde PD</span></b> part of banner author.</small>
 </p>
 
